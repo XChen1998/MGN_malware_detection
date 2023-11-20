@@ -1,0 +1,85 @@
+; Test Program for Mini Language Opcode. there are 14 opcodes
+; Simple test begin
+; opcode jump
+jump 2
+halt
+; opcode: puti, gets, puts
+puti r0, 0xff
+gets  r0
+puti r1, 0xff
+puts  r1
+; opcode: move
+move r2, r0
+puts r2
+; opcode: store
+puti r0, 0
+puti r1, 'P'
+store r0, r1
+puts r0
+; opcode: load
+puti r0, 0
+puti r1, 0xff
+puts r1
+load r2, r0
+store r1, r2
+puts r1
+; opcode: ite
+puti r1, 1
+ite r1, 20, 1
+puts r0
+; From now on, I can use jump, gets, puts, move, puti, store, load, ite
+; opcode: add
+puti r2, 0
+add r2, r2, r1
+ite r2, 24, 1
+puts r0
+; opcode: sub
+puti r2, 1
+sub r2, r2, r1
+ite r2, 1, 28
+puts r2
+; opcode gt
+puti r2, 2
+puti r3, 3
+puti r4, 0xff
+gt r4, r2, r3
+ite r4, 1, 34
+puti r4, 0xff
+gt r4, r3, r2
+ite r4, 37, 1
+puti r4, 0xff
+gt r4, r2, r2
+ite r4, 1, 40
+puts r0
+; opcode ge
+puti r2, 2
+puti r3, 3
+puti r4, 0xff
+ge r4, r2, r3
+ite r4, 1, 46
+puti r4, 0xff
+ge r4, r3, r2
+ite r4, 49, 1
+puti r4, 0xff
+ge r4, r2, r2
+ite r4, 52, 1
+puts r0
+; opcode eq
+puti r2, 2
+puti r3, 3
+puti r4, 0xff
+eq r4, r2, r3
+ite r4, 1, 58
+puti r4, 0xff
+eq r4, r3, r2
+ite r4, 1, 61
+puti r4, 0xff
+eq r4, r2, r2
+ite r4, 64, 1
+puts r0
+; opcode halt
+halt
+puti r0, 0
+puti r1, 'F'
+store r0, r1
+puts r0

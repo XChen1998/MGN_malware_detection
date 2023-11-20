@@ -1,0 +1,187 @@
+jump 30
+puti r1, 0
+puti r2, 70
+store r1, r2
+puti r1, 1
+puti r2, 97
+store r1, r2
+puti r1, 2
+puti r2, 105
+store r1, r2
+puti r1, 3
+puti r2, 108
+store r1, r2
+puti r1, 4
+puti r2, 117
+store r1, r2
+puti r1, 5
+puti r2, 114
+store r1, r2
+puti r1, 6
+puti r2, 101
+store r1, r2
+puti r1, 7
+puti r2, 10
+store r1, r2
+puti r1, 8
+puti r2, 0
+store r1, r2
+puts r4
+halt
+puti r1, 0
+puti r2, 85
+store r1, r2
+puti r1, 1
+puti r2, 115
+store r1, r2
+puti r1, 2
+puti r2, 101
+store r1, r2
+puti r1, 3
+puti r2, 114
+store r1, r2
+puti r1, 4
+puti r2, 58
+store r1, r2
+puti r1, 5
+puti r2, 32
+store r1, r2
+puti r1, 6
+puti r2, 0
+store r1, r2
+puts r4
+gets r4
+puti r0, 0
+puti r2, 117
+load r1, r0
+eq r3, r1, r2
+ite r3, 58, 1
+puti r0, 1
+puti r2, 115
+load r1, r0
+eq r3, r1, r2
+ite r3, 63, 1
+puti r0, 2
+puti r2, 101
+load r1, r0
+eq r3, r1, r2
+ite r3, 68, 1
+puti r0, 3
+puti r2, 114
+load r1, r0
+eq r3, r1, r2
+ite r3, 73, 1
+puti r0, 4
+puti r2, 0
+load r1, r0
+eq r3, r1, r2
+ite r3, 78, 1
+puti r1, 0
+puti r2, 80
+store r1, r2
+puti r1, 1
+puti r2, 97
+store r1, r2
+puti r1, 2
+puti r2, 115
+store r1, r2
+puti r1, 3
+puti r2, 115
+store r1, r2
+puti r1, 4
+puti r2, 119
+store r1, r2
+puti r1, 5
+puti r2, 111
+store r1, r2
+puti r1, 6
+puti r2, 114
+store r1, r2
+puti r1, 7
+puti r2, 100
+store r1, r2
+puti r1, 8
+puti r2, 58
+store r1, r2
+puti r1, 9
+puti r2, 32
+store r1, r2
+puti r1, 10
+puti r2, 0
+store r1, r2
+puts r4
+gets r4
+puti r0, 0
+puti r2, 112
+load r1, r0
+eq r3, r1, r2
+ite r3, 118, 1
+puti r0, 1
+puti r2, 97
+load r1, r0
+eq r3, r1, r2
+ite r3, 123, 1
+puti r0, 2
+puti r2, 115
+load r1, r0
+eq r3, r1, r2
+ite r3, 128, 1
+puti r0, 3
+puti r2, 115
+load r1, r0
+eq r3, r1, r2
+ite r3, 133, 1
+puti r0, 4
+puti r2, 119
+load r1, r0
+eq r3, r1, r2
+ite r3, 138, 1
+puti r0, 5
+puti r2, 111
+load r1, r0
+eq r3, r1, r2
+ite r3, 143, 1
+puti r0, 6
+puti r2, 114
+load r1, r0
+eq r3, r1, r2
+ite r3, 148, 1
+puti r0, 7
+puti r2, 100
+load r1, r0
+eq r3, r1, r2
+ite r3, 153, 1
+puti r0, 8
+puti r2, 0
+load r1, r0
+eq r3, r1, r2
+ite r3, 158, 1
+puti r1, 0
+puti r2, 83
+store r1, r2
+puti r1, 1
+puti r2, 117
+store r1, r2
+puti r1, 2
+puti r2, 99
+store r1, r2
+puti r1, 3
+puti r2, 99
+store r1, r2
+puti r1, 4
+puti r2, 101
+store r1, r2
+puti r1, 5
+puti r2, 115
+store r1, r2
+puti r1, 6
+puti r2, 115
+store r1, r2
+puti r1, 7
+puti r2, 10
+store r1, r2
+puti r1, 8
+puti r2, 0
+store r1, r2
+puts r4
+halt

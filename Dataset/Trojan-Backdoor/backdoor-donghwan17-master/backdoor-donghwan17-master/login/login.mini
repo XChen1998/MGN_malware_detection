@@ -1,0 +1,164 @@
+puti r0, 0
+puti r1, 1
+puti r2, 2
+puti r3, 3
+puti r4, 4
+puti r5, 5
+puti r6, 6
+puti r10, 'U'
+puti r11, 's'
+puti r12, 'e'
+puti r13, 'r'
+puti r14, ':'
+puti r15, 0x20
+puti r16, 0x00
+store r0, r10
+store r1, r11
+store r2, r12
+store r3, r13
+store r4, r14
+store r5, r15
+store r6, r16
+puts r0
+puti r7, 7
+gets r7
+puti r10, 'u'
+load r20, r7
+eq r30, r10, r20
+ite r30, 28, 138
+add r7, r7, r1
+load r20, r7
+eq r30, r11, r20
+ite r30, 32, 138
+add r7, r7, r1
+load r20, r7
+eq r30, r12, r20
+ite r30, 36, 138
+add r7, r7, r1
+load r20, r7
+eq r30, r13, r20
+ite r30, 40, 138
+add r7, r7, r1
+load r20, r7
+eq r30, r16, r20
+ite r30, 44, 138
+puti r40, 'P'
+puti r41, 'a'
+puti r42, 's'
+puti r43, 's'
+puti r44, 'w'
+puti r45, 'o'
+puti r46, 'r'
+puti r47, 'd'
+puti r50, 50
+puti r51, 51
+puti r52, 52
+puti r53, 53
+puti r54, 54
+puti r55, 55
+puti r56, 56
+puti r57, 57
+puti r58, 58
+puti r59, 59
+puti r60, 60
+store r50, r40
+store r51, r41
+store r52, r42
+store r53, r43
+store r54, r44
+store r55, r45
+store r56, r46
+store r57, r47
+store r58, r14
+store r59, r15
+store r60, r16
+puts r50
+gets r60
+puti r40, 'p'
+load r70, r60
+eq r80, r40, r70
+ite r80, 80, 138
+add r60, r60, r1
+load r70, r60
+eq r80, r41, r70
+ite r80, 84, 138
+add r60, r60, r1
+load r70, r60
+eq r80, r42, r70
+ite r80, 88, 138
+add r60, r60, r1
+load r70, r60
+eq r80, r43, r70
+ite r80, 92, 138
+add r60, r60, r1
+load r70, r60
+eq r80, r44, r70
+ite r80, 96, 138
+add r60, r60, r1
+load r70, r60
+eq r80, r45, r70
+ite r80, 100, 138
+add r60, r60, r1
+load r70, r60
+eq r80, r46, r70
+ite r80, 104, 138
+add r60, r60, r1
+load r70, r60
+eq r80, r47, r70
+ite r80, 108, 138
+add r60, r60, r1
+load r70, r60
+eq r80, r16, r70
+ite r80, 112, 138
+puti r80, 'S'
+puti r81, 'u'
+puti r82, 'c'
+puti r83, 'c'
+puti r84, 'e'
+puti r85, 's'
+puti r86, 's'
+puti r87, 0x00
+puti r90, 90
+puti r91, 91
+puti r92, 92
+puti r93, 93
+puti r94, 94
+puti r95, 95
+puti r96, 96
+puti r97, 97
+store r90, r80
+store r91, r81
+store r92, r82
+store r93, r83
+store r94, r84
+store r95, r85
+store r96, r86
+store r97, r87
+puts r90
+halt
+puti r80, 'F'
+puti r81, 'a'
+puti r82, 'i'
+puti r83, 'l'
+puti r84, 'u'
+puti r85, 'r'
+puti r86, 'e'
+puti r87, 0x00
+puti r90, 90
+puti r91, 91
+puti r92, 92
+puti r93, 93
+puti r94, 94
+puti r95, 95
+puti r96, 96
+puti r97, 97
+store r90, r80
+store r91, r81
+store r92, r82
+store r93, r83
+store r94, r84
+store r95, r85
+store r96, r86
+store r97, r87
+puts r90
+halt

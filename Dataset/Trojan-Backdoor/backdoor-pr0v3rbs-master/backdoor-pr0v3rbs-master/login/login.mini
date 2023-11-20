@@ -1,0 +1,177 @@
+; initialize hard-coded string
+; r10 = "User: ";
+; r11 = "user";
+; r12 = "Password: ";
+; r13 = "password";
+; r14 = "Success\n";
+; r15 = "Failure\n";
+puti r1, 1
+puti r255, 0
+puti r10, 0
+puti r100, 85
+store r10, r100
+add r10, r10, r1
+puti r101, 115
+store r10, r101
+add r10, r10, r1
+puti r102, 101
+store r10, r102
+add r10, r10, r1
+puti r103, 114
+store r10, r103
+add r10, r10, r1
+puti r104, 58
+store r10, r104
+add r10, r10, r1
+puti r105, 32
+store r10, r105
+add r10, r10, r1
+store r10, r255
+puti r10, 0
+puti r11, 7
+puti r106, 117
+store r11, r106
+add r11, r11, r1
+store r11, r101
+add r11, r11, r1
+store r11, r102
+add r11, r11, r1
+store r11, r103
+add r11, r11, r1
+store r11, r255
+puti r11, 7
+puti r12, 12
+puti r107, 80
+store r12, r107
+add r12, r12, r1
+puti r108, 97
+store r12, r108
+add r12, r12, r1
+store r12, r101
+add r12, r12, r1
+store r12, r101
+add r12, r12, r1
+puti r109, 119
+store r12, r109
+add r12, r12, r1
+puti r110, 111
+store r12, r110
+add r12, r12, r1
+store r12, r103
+add r12, r12, r1
+puti r111, 100
+store r12, r111
+add r12, r12, r1
+store r12, r104
+add r12, r12, r1
+store r12, r105
+add r12, r12, r1
+store r12, r255
+puti r12, 12
+puti r13, 23
+puti r112, 112
+store r13, r112
+add r13, r13, r1
+store r13, r108
+add r13, r13, r1
+store r13, r101
+add r13, r13, r1
+store r13, r101
+add r13, r13, r1
+store r13, r109
+add r13, r13, r1
+store r13, r110
+add r13, r13, r1
+store r13, r103
+add r13, r13, r1
+store r13, r111
+add r13, r13, r1
+store r13, r255
+puti r13, 23
+puti r14, 32
+puti r113, 83
+store r14, r113
+add r14, r14, r1
+store r14, r106
+add r14, r14, r1
+puti r114, 99
+store r14, r114
+add r14, r14, r1
+store r14, r114
+add r14, r14, r1
+store r14, r102
+add r14, r14, r1
+store r14, r101
+add r14, r14, r1
+store r14, r101
+add r14, r14, r1
+puti r115, 10
+store r14, r115
+add r14, r14, r1
+store r14, r255
+puti r14, 32
+puti r15, 41
+puti r116, 70
+store r15, r116
+add r15, r15, r1
+store r15, r108
+add r15, r15, r1
+puti r117, 105
+store r15, r117
+add r15, r15, r1
+puti r118, 108
+store r15, r118
+add r15, r15, r1
+store r15, r106
+add r15, r15, r1
+store r15, r103
+add r15, r15, r1
+store r15, r102
+add r15, r15, r1
+store r15, r115
+add r15, r15, r1
+store r15, r255
+puti r15, 41
+; initialize string end
+
+; printf(r10); //r10 = "User: "
+puts r10
+
+; gets(r0);
+gets r0
+move r1, r11
+puti r5, 1
+jump 134
+; strcmp(r0, r1); //r1 = r11 = "user"; label 132
+add r0, r0, r5
+add r1, r1, r5
+load r2, r0
+load r3, r1
+eq r4, r2, r3
+ite r4, 138, 154
+eq r4, r2, r255
+ite r4, 140, 132
+
+; printf(r10); //r10 = "Password: "
+puts r12
+
+; gets(r0);
+gets r0
+move r1, r13
+jump 146
+; strcmp(r0, r1); //r1 = r13 = "password"; label 144
+add r0, r0, r5
+add r1, r1, r5
+load r2, r0
+load r3, r1
+eq r4, r2, r3
+ite r4, 150, 154
+eq r4, r2, r255
+ite r4, 152, 144
+
+; printf("Success\n"); // label 152
+puts r14
+halt
+; printf("Failure\n"); // label 154
+puts r15
+halt

@@ -1,0 +1,145 @@
+puti  r0, 0
+puti  r1, 1
+jump  63
+puti  r3, 83
+store  r2, r3
+puti  r2, 0
+store  r2, r3
+puti  r3, 99
+store  r2, r3
+puti  r3, 99
+store  r2, r3
+puti  r3, 101
+store  r2, r3
+puti  r3, 115
+store  r2, r3
+puti  r3, 115
+store  r2, r3
+puti  r3, 10
+store  r2, r3
+puti  r3, 0
+store  r2, r3
+puti r2, 0
+puts r2
+halt
+puti  r3, 70
+store  r2, r3
+puti  r2, 0
+store  r2, r3
+puti  r3, 105
+store  r2, r3
+puti  r3, 108
+store  r2, r3
+puti  r3, 117
+store  r2, r3
+puti  r3, 114
+store  r2, r3
+puti  r3, 101
+store  r2, r3
+puti  r3, 10
+store  r2, r3
+puti  r3, 0
+store  r2, r3
+puti r2, 0
+puts r2
+halt
+; Start of the main routine
+puti  r3, 85
+store  r2, r3
+puti  r2, 0
+store  r2, r3
+puti  r3, 101
+store  r2, r3
+puti  r3, 114
+store  r2, r3
+puti  r3, 58
+store  r2, r3
+puti  r3, 32
+store  r2, r3
+puti  r3, 0
+store  r2, r3
+puti r2, 0
+puts r2
+gets r0
+puti  r3, 117
+load  r4, r2
+eq r5, r3, r4
+ite   r5, 66, 24
+puti  r2, 0
+load  r4, r2
+eq r5, r3, r4
+ite   r5, 70, 24
+puti  r3, 101
+load  r4, r2
+eq r5, r3, r4
+ite   r5, 74, 24
+puti  r3, 114
+load  r4, r2
+eq r5, r3, r4
+ite   r5, 78, 24
+puti  r3, 0
+load  r4, r2
+eq r5, r3, r4
+ite   r5, 82, 24
+puti  r3, 80
+store  r2, r3
+puti  r2, 0
+store  r2, r3
+puti  r3, 115
+store  r2, r3
+puti  r3, 115
+store  r2, r3
+puti  r3, 119
+store  r2, r3
+puti  r3, 111
+store  r2, r3
+puti  r3, 114
+store  r2, r3
+puti  r3, 100
+store  r2, r3
+puti  r3, 58
+store  r2, r3
+puti  r3, 32
+store  r2, r3
+puti  r3, 0
+store  r2, r3
+puti r2, 0
+puts r2
+gets r0
+puti  r3, 112
+load  r4, r2
+eq r5, r3, r4
+ite   r5, 111, 24
+puti  r2, 0
+load  r4, r2
+eq r5, r3, r4
+ite   r5, 115, 24
+puti  r3, 115
+load  r4, r2
+eq r5, r3, r4
+ite   r5, 119, 24
+puti  r3, 115
+load  r4, r2
+eq r5, r3, r4
+ite   r5, 123, 24
+puti  r3, 119
+load  r4, r2
+eq r5, r3, r4
+ite   r5, 127, 24
+puti  r3, 111
+load  r4, r2
+eq r5, r3, r4
+ite   r5, 131, 24
+puti  r3, 114
+load  r4, r2
+eq r5, r3, r4
+ite   r5, 135, 24
+puti  r3, 100
+load  r4, r2
+eq r5, r3, r4
+ite   r5, 139, 24
+puti  r3, 0
+load  r4, r2
+eq r5, r3, r4
+ite   r5, 143, 24
+

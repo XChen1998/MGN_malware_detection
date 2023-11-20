@@ -1,0 +1,13 @@
+puti r0, 0xFF
+puti r1, 0x1
+add r0, r0, r1
+add r1, r0, r0
+add r2, r1, r1
+add r3, r2, r2
+add r4, r3, r3
+add r5, r4, r4
+puti r6, 0xC
+sub r7, r5, r6
+gets r7
+puts r7
+halt

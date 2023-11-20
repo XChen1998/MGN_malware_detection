@@ -1,0 +1,166 @@
+puti r0, 0
+puti r1, 1
+puti r2, 85
+store r0, r2
+puti r2, 115
+store r1, r2
+add r3, r1, r1
+puti r2, 101
+store r3, r2
+puti r2, 114
+add r4, r3, r1
+store r4, r2
+puti r2, 58
+add r4, r3, r3
+store r4, r2
+add r4, r4, r1
+store r4, r0 
+puts r0
+add r4, r4, r1
+gets r4
+puti r2, 117
+store r0, r2
+load r5, r4
+eq r6, r2, r5
+ite r6, 26, 144
+add r4, r4, r1
+load r2, r1
+load r5, r4
+eq r6, r2, r5
+ite r6, 31, 144
+add r4, r4, r1
+load r2, r3
+load r5, r4
+eq r6, r2, r5
+ite r6, 36, 144
+add r4, r4, r1
+add r3, r3, r1
+load r2, r3
+load r5, r4
+eq r6, r2, r5
+ite r6, 42, 144
+add r4, r4, r1
+load r5, r4
+eq r6, r5, r0
+ite r6, 46, 144
+puti r2, 80
+puti r4, 40
+store r4, r2
+puti r2, 97
+add r4, r4, r1
+store r4, r2
+puti r2, 115
+add r4, r4, r1
+store r4, r2
+add r4, r4, r1
+store r4, r2
+puti r2, 119
+add r4, r4, r1
+store r4, r2
+puti r2, 111
+add r4, r4, r1
+store r4, r2
+puti r2, 114
+add r4, r4, r1
+store r4, r2
+puti r2, 100
+add r4, r4, r1
+store r4, r2
+puti r2, 58
+add r4, r4, r1
+store r4, r2
+add r4, r4, r1
+store r4, r0
+puti r4, 40
+puts r4
+puti r4, 6
+gets r4
+load r5, r4
+puti r2, 112
+eq r6, r5, r2
+ite r6, 82, 144
+add r4, r4, r1
+load r5, r4
+puti r2, 97
+eq r6, r5, r2
+ite r6, 87, 144
+add r4, r4, r1
+load r5, r4
+puti r2, 115
+eq r6, r5, r2
+ite r6, 92, 144
+add r4, r4, r1
+load r5, r4
+eq r6, r5, r2
+ite r6, 96, 144
+add r4, r4, r1
+load r5, r4
+puti r2, 119
+eq r6, r5, r2
+ite r6, 101, 144
+add r4, r4, r1
+load r5, r4
+puti r2, 111
+eq r6, r5, r2
+ite r6, 106, 144
+add r4, r4, r1
+load r5, r4
+puti r2, 114
+eq r6, r5, r2
+ite r6, 111, 144
+add r4, r4, r1
+load r5, r4
+puti r2, 100
+eq r6, r5, r2
+ite r6, 116, 144
+add r4, r4, r1
+load r5, r4
+eq r6, r5, r0
+ite r6, 120, 144
+puti r2, 83
+puti r4, 50
+store r4, r2
+puti r2, 117
+add r4, r4, r1
+store r4, r2
+puti r2, 99
+add r4, r4, r1
+store r4, r2
+add r4, r4, r1
+store r4, r2
+puti r2, 101
+add r4, r4, r1
+store r4, r2
+puti r2, 115
+add r4, r4, r1
+store r4, r2
+add r4, r4, r1
+store r4, r2
+add r4, r4, r1
+store r4, r0
+puti r4, 50
+puts r4
+halt
+puti r4, 60
+puti r2, 70
+store r4, r2
+add r4, r4, r1
+puti r2, 97
+store r4, r2
+add r4, r4, r1
+puti r2, 105
+store r4, r2
+add r4, r4, r1
+puti r2, 108
+store r4, r2
+add r4, r4, r1
+puti r2, 117
+store r4, r2
+add r4, r4, r1
+puti r2, 114
+store r4, r2
+add r4, r4, r1
+puti r2, 101
+store r4, r2
+puti r4, 60
+puts r4
