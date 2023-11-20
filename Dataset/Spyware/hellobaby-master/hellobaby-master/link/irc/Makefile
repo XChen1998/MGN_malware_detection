@@ -1,0 +1,3 @@
+
+build:
+	@echo "Build irc"

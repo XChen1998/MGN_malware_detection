@@ -1,0 +1,4 @@
+KMOD= scexample	#Name of KLD to build
+SRCS= sc_example.c	#List of SRC Files
+
+.include <bsd.kmod.mk>

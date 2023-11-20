@@ -1,0 +1,39 @@
+CC = bcc32.exe
+SRCFILES =  acsemsg.c c1222al.c c1222al_commmodule.c c1222al_device.c c1222al_messagereceiver.c \
+			c1222al_messagesender.c c1222al_receiveHistory.c c1222al_relay.c c1222al_segmenter.c \
+			c1222al_tlinterface.c c1222aptitle.c c1222dl.c c1222dl_crc.c c1222dl_packet.c \
+			c1222encrypt.c c1222localPortRouter.c c1222misc.c c1222pl_testLink.c \
+			c1222server.c c1222_client.c c1222stack.c c1222test_client.c c1222tl.c cbitarray.c epsem.c simulatehost.c \
+			tcpiptaskinterface_client.c teststacklogroutines.c testtableserver.c network.cpp tcpiptask_client.cpp policyengine.c \
+			uart.cpp
+HDR_FILES = acsemsg.h c1219table.h c1222.h c1222al.h  \
+			c1222al_receiveHistory.h c1222al_segmenter.h\
+			c1222aptitle.h c1222dl.h c1222dl_crc.h \
+			c1222encrypt.h c1222environment.h c1222event.h c1222misc.h c1222pl.h c1222response.h \
+			c1222server.h c1222_client.h c1222stack.h c1222statistic.h c1222tl.h cbitarray.h comevent_id.h epsem.h policyengine.h\
+			network.hpp \
+			uart.h
+OBJ_FILES = acsemsg.obj c1222al.obj c1222al_commmodule.obj c1222al_device.obj c1222al_messagereceiver.obj \
+			c1222al_messagesender.obj c1222al_receiveHistory.obj c1222al_relay.obj c1222al_segmenter.obj \
+			c1222al_tlinterface.obj c1222aptitle.obj c1222dl.obj c1222dl_crc.obj c1222dl_packet.obj \
+			c1222encrypt.obj c1222localPortRouter.obj c1222misc.obj c1222pl_testLink.obj \
+			c1222server.obj c1222_client.obj c1222stack.obj c1222test_client.obj c1222tl.obj cbitarray.obj epsem.obj simulatehost.obj \
+			tcpiptaskinterface_client.obj teststacklogroutines.obj testtableserver.obj network.obj tcpiptask_client.obj policyengine.obj\
+			uart.obj
+
+STDLIBS = cw32mti.lib
+		
+APP = C1222test_client.exe
+
+CFLAGS =  -e$(APP) -nBin 
+		 
+#DEL = DELETE
+
+
+$(APP) : $(OBJ_FILES)
+	$(CC) $(CFLAGS) $(STDLIBS) $(OBJ_FILES) 
+	
+clean :
+		-DEL *.obj
+		-DEL *.tds
+		

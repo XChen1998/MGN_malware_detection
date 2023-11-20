@@ -1,0 +1,4 @@
+KMOD= hello	#Name of KLD to build
+SRCS= lkm.c	#List of SRC Files
+
+.include <bsd.kmod.mk>

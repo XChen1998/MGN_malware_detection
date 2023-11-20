@@ -1,0 +1,183 @@
+############################################################################################################################
+No of misclassifications : 0
+No of false positive     : 0
+No of false negatives    : 0
+Total no of test samples : 2896
+Weighted Avg of feature extraction time : 0.240497692505
+Avg feature extraction time : 0.000771405615008
+Accuracy level           : 100.0
+
+############################################################################################################################
+No of misclassifications : 0
+No of false positive     : 0
+No of false negatives    : 0
+Total no of test samples : 2872
+Weighted Avg of feature extraction time : 0.240532433365
+Avg feature extraction time : 0.000770591956181
+Accuracy level           : 100.0
+
+############################################################################################################################
+No of misclassifications : 0
+No of false positive     : 0
+No of false negatives    : 0
+Total no of test samples : 2896
+Weighted Avg of feature extraction time : 0.24045383461
+Avg feature extraction time : 0.000768877491248
+Accuracy level           : 100.0
+
+############################################################################################################################
+No of misclassifications : 0
+No of false positive     : 0
+No of false negatives    : 0
+Total no of test samples : 2921
+Weighted Avg of feature extraction time : 0.240673533005
+Avg feature extraction time : 0.000769426467934
+Accuracy level           : 100.0
+
+############################################################################################################################
+No of misclassifications : 0
+No of false positive     : 0
+No of false negatives    : 0
+Total no of test samples : 2911
+Weighted Avg of feature extraction time : 0.280849891778
+Avg feature extraction time : 0.000844184080078
+Accuracy level           : 100.0
+
+############################################################################################################################
+No of misclassifications : 0
+No of false positive     : 0
+No of false negatives    : 0
+Total no of test samples : 2927
+Weighted Avg of feature extraction time : 0.37662464349
+Avg feature extraction time : 0.00117926305967
+Accuracy level           : 100.0
+
+############################################################################################################################
+No of misclassifications : 0
+No of false positive     : 0
+No of false negatives    : 0
+Total no of test samples : 2898
+Weighted Avg of feature extraction time : 0.365989009674
+Avg feature extraction time : 0.0011209443915
+Accuracy level           : 100.0
+
+############################################################################################################################
+No of misclassifications : 0
+No of false positive     : 0
+No of false negatives    : 0
+Total no of test samples : 2873
+Weighted Avg of feature extraction time : 0.355682327658
+Avg feature extraction time : 0.00109918127756
+Accuracy level           : 100.0
+
+############################################################################################################################
+No of misclassifications : 0
+No of false positive     : 0
+No of false negatives    : 0
+Total no of test samples : 2905
+Weighted Avg of feature extraction time : 0.366431243278
+Avg feature extraction time : 0.00113413535133
+Accuracy level           : 100.0
+
+############################################################################################################################
+No of misclassifications : 0
+No of false positive     : 0
+No of false negatives    : 0
+Total no of test samples : 2884
+Weighted Avg of feature extraction time : 0.365205327119
+Avg feature extraction time : 0.00113332723514
+Accuracy level           : 100.0
+
+############################################################################################################################
+No of misclassifications : 0
+No of false positive     : 0
+No of false negatives    : 0
+Total no of test samples : 2821
+Weighted Avg of feature extraction time : 0.363535482797
+Avg feature extraction time : 0.00111624577185
+Accuracy level           : 100.0
+
+############################################################################################################################
+No of misclassifications : 0
+No of false positive     : 0
+No of false negatives    : 0
+Total no of test samples : 2884
+Weighted Avg of feature extraction time : 0.376391995938
+Avg feature extraction time : 0.00117199052557
+Accuracy level           : 100.0
+
+############################################################################################################################
+No of misclassifications : 0
+No of false positive     : 0
+No of false negatives    : 0
+Total no of test samples : 2911
+Weighted Avg of feature extraction time : 0.362383881505
+Avg feature extraction time : 0.0011213441434
+Accuracy level           : 100.0
+
+############################################################################################################################
+No of misclassifications : 0
+No of false positive     : 0
+No of false negatives    : 0
+Total no of test samples : 2909
+Weighted Avg of feature extraction time : 0.36313177086
+Avg feature extraction time : 0.00111721496555
+Accuracy level           : 100.0
+
+############################################################################################################################
+No of misclassifications : 0
+No of false positive     : 0
+No of false negatives    : 0
+Total no of test samples : 2869
+Weighted Avg of feature extraction time : 0.364685021649
+Avg feature extraction time : 0.00115093379914
+Accuracy level           : 100.0
+
+############################################################################################################################
+No of misclassifications : 0
+No of false positive     : 0
+No of false negatives    : 0
+Total no of test samples : 2914
+Weighted Avg of feature extraction time : 0.36739686964
+Avg feature extraction time : 0.00113502473108
+Accuracy level           : 100.0
+
+############################################################################################################################
+No of misclassifications : 0
+No of false positive     : 0
+No of false negatives    : 0
+Total no of test samples : 2896
+Weighted Avg of feature extraction time : 0.36091880895
+Avg feature extraction time : 0.00111152523748
+Accuracy level           : 100.0
+
+############################################################################################################################
+No of misclassifications : 3
+No of false positive     : 0
+No of false negatives    : 3
+Total no of test samples : 2924
+Weighted Avg of feature extraction time : 0.364241977197
+Avg feature extraction time : 0.00110506261026
+Accuracy level           : 99.8974008208
+
+File info : [-1.0, 1, 168960, array([ 9.21495073,  0.25333393,  0.47072072])]
+File info : [-1.0, 1, 159744, array([ 9.21480158,  0.24185376,  0.46621622])]
+File info : [-1.0, 1, 105472, array([ 9.51451168,  0.8944255 ,  0.14880952])]
+############################################################################################################################
+No of misclassifications : 0
+No of false positive     : 0
+No of false negatives    : 0
+Total no of test samples : 2856
+Weighted Avg of feature extraction time : 0.372741579026
+Avg feature extraction time : 0.00114250293958
+Accuracy level           : 100.0
+
+############################################################################################################################
+No of misclassifications : 0
+No of false positive     : 0
+No of false negatives    : 0
+Total no of test samples : 2839
+Weighted Avg of feature extraction time : 0.37677078324
+Avg feature extraction time : 0.00117006126221
+Accuracy level           : 100.0
+

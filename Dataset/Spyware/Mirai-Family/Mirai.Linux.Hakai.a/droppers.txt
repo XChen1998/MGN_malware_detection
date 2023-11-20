@@ -1,0 +1,28 @@
+struct payload payloads[11] =
+
+{
+    // arm
+    BIT_32, ENDIAN_LITTLE, EM_ARM , "", 984,
+     // arm7
+    BIT_32, ENDIAN_LITTLE, EM_ARM + 1, "", 1348,
+    // i686
+    BIT_32, ENDIAN_LITTLE, EM_386, "", 1008,
+    // mips
+    BIT_32, ENDIAN_BIG, EM_MIPS, "", 1772,
+    // mipsel
+    BIT_32, ENDIAN_LITTLE, EM_MIPS, "", 1772, 
+    // x86_64
+    BIT_64, ENDIAN_LITTLE, EM_X86_64, "", 1008,
+    // powerpc  
+    BIT_32, ENDIAN_BIG, EM_PPC, "", 1268,
+    // m68k
+    BIT_32, ENDIAN_BIG, EM_68K, "", 1092,
+    // sparc
+    BIT_32, ENDIAN_BIG, EM_SPARC, "", 1128,
+    // superh
+    BIT_32, ENDIAN_LITTLE, EM_SH, "", 1036,
+
+    BIT_32, ENDIAN_LITTLE, EM_ARC, "\x7f\x45\x4c\x7f\x45\x4c", 12,
+};
+
+
