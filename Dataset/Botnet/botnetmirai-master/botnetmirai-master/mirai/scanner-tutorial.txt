@@ -1,0 +1,30 @@
+Scanner Tutorial
+
+(Início na linha 57)
+
+void scanner_init:
+    variável inteira i
+    variável int16 porta de origem
+    define a struct iphdr
+    define a struct tcphdr
+
+    // Criação de nova thread
+    variável scanner_pid recebe o PID do novo processo filho
+    verifica se criou com sucesso
+
+    seta um endereço IP local (cria um socket e origina um IP)
+
+    cria um tempo de conexão
+    cria uma tabela de conexão baseada no número de máximo de conexões permitidas
+
+    gera uma porta de origem aleatória
+    seta os parâmetros do pacote IP
+    seta os parâmetros do pacote TCP
+    seta as senhas padões a serem testadas
+
+    ----------- INÍCIO DO WHILE DE SCANNER ---------------
+
+    cria uma struct de conexões do scanner conn
+
+    dentro de um for chama a função para gerar IPs aleatórios e envia uma massiva quantidade de SYNs procurando por respostas
+    

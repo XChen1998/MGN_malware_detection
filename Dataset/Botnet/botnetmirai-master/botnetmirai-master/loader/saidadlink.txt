@@ -1,0 +1,85 @@
+(1/9) bins/dlr.arm is loading...
+(2/9) bins/dlr.arm7 is loading...
+(3/9) bins/dlr.m68k is loading...
+(4/9) bins/dlr.mips is loading...
+(5/9) bins/dlr.mpsl is loading...
+(6/9) bins/dlr.ppc is loading...
+(7/9) bins/dlr.sh4 is loading...
+(8/9) bins/dlr.spc is loading...
+(9/9) bins/dlr.x86 is loading...
+[FD13] Called connection_open
+[FD13] Established connection
+TELIN: ����!����
+Entrei no login
+Entrei no prompt=-1
+Não deu, retornando 0
+TELIN: Login: 
+Entrei no login
+Entrei no login
+Entrei no login
+matched login prompt at 5, ":", "Login: ���"
+TELOUT:
+  0000  61 64 6d 69 6e                                   admin
+matched password prompt at 0, ":", ": "
+TELIN: admin
+matched password prompt at 0, ":", ": admin���"
+Hit end of input.
+TELOUT:
+  0000  0d 0a                                            ..
+TELIN: 
+Password: 
+matched password prompt at 17, ":", ": admin
+Password: "
+TELOUT:
+  0000  61 64 6d 69 6e                                   admin
+matched any prompt at 0, ":", ": "
+TELOUT:
+  0000  0d 0a                                            ..
+TELIN: 
+> 
+matched any prompt at 4, ">", ": 
+> n
+Password: "
+TELOUT:
+  0000  65 6e 61 62 6c 65 0d 0a                          enable..
+TELOUT:
+  0000  73 68 65 6c 6c 0d 0a                             shell..
+TELOUT:
+  0000  73 68 0d 0a                                      sh..
+matched any prompt at 0, ">", "> "
+TELIN: enable
+enable: not found
+> 
+matched any prompt at 29, ">", "> enable
+enable: not found
+> "
+TELOUT:
+  0000  2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 45 43 43  /bin/busybox ECC
+  0010  48 49 0d 0a                                      HI..
+TELIN: shell
+
+TELIN: /bin/busybox ECCHI
+
+TELIN: shell
+TELIN: : not found
+
+TELIN: > sh
+
+TELIN: 
+
+BusyBox v1.00 (2009.08.10-02:17+0000) Built-in shell (msh)
+Enter 'help' for a list of built-in commands.
+
+# /bin/busybox EC
+TELIN: CHI
+
+TELIN: ECCHI
+TELIN: : 
+TELIN: applet not found
+[FD13] Succesfully logged in
+TELOUT:
+  0000  2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 70 73 3b  /bin/busybox ps;
+  0010  20 2f 62 69 6e 2f 62 75 73 79 62 6f 78 20 45 43   /bin/busybox EC
+  0020  43 48 49 0d 0a                                   CHI..
+TELIN: 
+
