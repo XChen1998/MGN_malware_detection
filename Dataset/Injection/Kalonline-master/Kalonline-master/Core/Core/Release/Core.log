@@ -1,0 +1,39 @@
+﻿Der Buildvorgang wurde am 14.10.2018 21:36:58 gestartet.
+     1>Projekt "F:\KALONLINE PRIVATE SERVER\Eigener Server mit source\Core 2017 Work File\Core\Core\Core\Core.vcxproj" auf Knoten "2", rebuild Ziel(e).
+     1>InitializeBuildStatus:
+         "Release\Core.unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D CORE_EXPORTS /D _WINDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt base64.cpp Core.cpp IChar.cpp IItem.cpp Interface.cpp IQuest.cpp ISkill.cpp Memory.cpp Tools.cpp
+         base64.cpp
+         Core.cpp
+         IChar.cpp
+         IItem.cpp
+         Interface.cpp
+         IQuest.cpp
+         ISkill.cpp
+         Memory.cpp
+         Tools.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\KALONLINE PRIVATE SERVER\Eigener Server mit source\Core 2017 Work File\Core\Core\Release\Core.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"Exports.def" /MANIFEST /ManifestFile:"Release\Core.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\KALONLINE PRIVATE SERVER\Eigener Server mit source\Core 2017 Work File\Core\Core\Release\Core.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\KALONLINE PRIVATE SERVER\Eigener Server mit source\Core 2017 Work File\Core\Core\Release\Core.lib" /MACHINE:X86 /DLL Release\base64.obj
+         Release\Core.obj
+         Release\IChar.obj
+         Release\IItem.obj
+         Release\Interface.obj
+         Release\IQuest.obj
+         Release\ISkill.obj
+         Release\Memory.obj
+         Release\Tools.obj
+            Bibliothek "F:\KALONLINE PRIVATE SERVER\Eigener Server mit source\Core 2017 Work File\Core\Core\Release\Core.lib" und Objekt "F:\KALONLINE PRIVATE SERVER\Eigener Server mit source\Core 2017 Work File\Core\Core\Release\Core.exp" werden erstellt.
+         Code wird generiert.
+         Codegenerierung ist abgeschlossen.
+         Core.vcxproj -> F:\KALONLINE PRIVATE SERVER\Eigener Server mit source\Core 2017 Work File\Core\Core\Release\Core.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\KALONLINE PRIVATE SERVER\Eigener Server mit source\Core 2017 Work File\Core\Core\Release\Core.dll;#2" /manifest Release\Core.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Die Datei "Release\Core.unsuccessfulbuild" wird gelöscht.
+         Aktualisieren des Timestamps von "Release\Core.lastbuildstate".
+     1>Die Erstellung des Projekts "F:\KALONLINE PRIVATE SERVER\Eigener Server mit source\Core 2017 Work File\Core\Core\Core\Core.vcxproj" ist abgeschlossen, rebuild Ziel(e).
+
+Das Erstellen war erfolgreich.
+
+Verstrichene Zeit 00:00:24.90

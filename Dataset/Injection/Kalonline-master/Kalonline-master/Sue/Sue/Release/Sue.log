@@ -1,0 +1,11 @@
+﻿  StdAfx.cpp
+  Core.cpp
+  Exports.cpp
+  Hooks.cpp
+  Interface.cpp
+  Process.cpp
+  Tools.cpp
+     Bibliothek "C:\Users\Matthias\Desktop\Core 2017\Sue\Sue\Release\Sue.lib" und Objekt "C:\Users\Matthias\Desktop\Core 2017\Sue\Sue\Release\Sue.exp" werden erstellt.
+  Code wird generiert.
+  Codegenerierung ist abgeschlossen.
+  Sue.vcxproj -> C:\Users\Matthias\Desktop\Core 2017\Sue\Sue\Release\Sue.dll

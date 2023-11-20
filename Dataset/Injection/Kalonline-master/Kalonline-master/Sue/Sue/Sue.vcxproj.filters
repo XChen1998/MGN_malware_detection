@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{17f2d566-fbbb-43b8-99dc-f405fae5c974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{4ed0c6e4-8cd4-4b6e-a0f8-2f4250da6b16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Headers">
+      <UniqueIdentifier>{45817fba-b14e-4781-af4a-34a018d1848e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Core\Sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Utilities\Sources">
+      <UniqueIdentifier>{1ea84959-243b-49ca-b035-650e59876db4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{1c0e21a3-1b80-4301-a3d4-12a2230fd931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\Headers">
+      <UniqueIdentifier>{89ec7a93-b763-46d1-b99e-99a434e74073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\Sources">
+      <UniqueIdentifier>{be93c324-ac9c-4645-a24a-83c5f74a9a0c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="gdi32.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Core\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Core\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Core\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>Utilities\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>Utilities\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Exports.h">
+      <Filter>Core\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Hooks\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Process.h">
+      <Filter>Hooks\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Utilities\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core.cpp">
+      <Filter>Core\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Core\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>Utilities\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Exports.cpp">
+      <Filter>Core\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface.cpp">
+      <Filter>Utilities\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Hooks\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Process.cpp">
+      <Filter>Hooks\Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

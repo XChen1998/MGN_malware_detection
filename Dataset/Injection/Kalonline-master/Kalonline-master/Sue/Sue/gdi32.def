@@ -1,0 +1,5 @@
+EXPORTS
+
+SetTextColor=__E__0__ @1
+TextOutA=__E__1__ @2
+GetTextMetricsA=__E__2__ @3

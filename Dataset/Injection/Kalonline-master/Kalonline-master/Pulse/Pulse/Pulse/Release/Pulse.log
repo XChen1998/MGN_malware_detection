@@ -1,0 +1,61 @@
+﻿Der Buildvorgang wurde am 02.10.2018 12:41:12 gestartet.
+     1>Projekt "F:\KALONLINE PRIVATE SERVER\Eigener Server mit source\Core 2017 Work File\Pulse\Pulse\Pulse\Pulse\Pulse.vcxproj" auf Knoten "2", build Ziel(e).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Das Output-Verzeichnis endet nicht mit einem nachstehenden Schrägstrich. Der Schrägstrich wird in dieser Buildinstanz hinzugefügt, da er für die ordnungsgemäße Auswertung des Output-Verzeichnisses erforderlich ist.
+     1>InitializeBuildStatus:
+         Aktualisieren des Timestamps von "Release\Pulse.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../SDK/ /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D PULSE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\Pulse.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../SDK/ /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D PULSE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\Pulse.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\SDK\Hooks.cpp ..\..\SDK\Interface.cpp ..\..\SDK\Memory.cpp ..\..\SDK\Tools.cpp CPlayerWrite.cpp CSocketProcess.cpp FriendList.cpp InitMods.cpp Inventory.cpp Item.cpp Monster.cpp MonsterBlob.cpp Npc.cpp Packets.cpp Player.cpp Plugin.cpp
+         Hooks.cpp
+         Interface.cpp
+         Memory.cpp
+         Tools.cpp
+         CPlayerWrite.cpp
+         CSocketProcess.cpp
+         FriendList.cpp
+         InitMods.cpp
+         Inventory.cpp
+         Item.cpp
+         Monster.cpp
+         MonsterBlob.cpp
+         Npc.cpp
+         Packets.cpp
+         Player.cpp
+         Plugin.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release\Pulse.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:../../SDK /LIBPATH:../../SDK/Detours kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Pulse.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\KALONLINE PRIVATE SERVER\Eigener Server mit source\Core 2017 Work File\Pulse\Pulse\Pulse\Pulse\Release\Pulse.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\Pulse.lib" /MACHINE:X86 /DLL Release\Hooks.obj
+         Release\Interface.obj
+         Release\Memory.obj
+         Release\Tools.obj
+         Release\CPlayerWrite.obj
+         Release\CSocketProcess.obj
+         Release\FriendList.obj
+         Release\InitMods.obj
+         Release\Inventory.obj
+         Release\Item.obj
+         Release\Monster.obj
+         Release\MonsterBlob.obj
+         Release\Npc.obj
+         Release\Packets.obj
+         Release\Player.obj
+         Release\Plugin.obj
+         Release\StdAfx.obj
+            Bibliothek ".\Release\Pulse.lib" und Objekt ".\Release\Pulse.exp" werden erstellt.
+         Code wird generiert.
+         Codegenerierung ist abgeschlossen.
+         Pulse.vcxproj -> F:\KALONLINE PRIVATE SERVER\Eigener Server mit source\Core 2017 Work File\Pulse\Pulse\Pulse\Pulse\.\Release\Pulse.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\Release\Pulse.dll;#2" /manifest Release\Pulse.dll.intermediate.manifest
+       PostBuildEvent:
+         copy ".\Release\Pulse.dll" "F:\KALONLINE PRIVATE SERVER\Eigener Server mit source\Core 2017 Work File\Pulse\Pulse\Pulse\../Build/Pulse.dll"
+         :VCEnd
+         Das System kann den angegebenen Pfad nicht finden.
+                 0 Datei(en) kopiert.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: Der Befehl "copy ".\Release\Pulse.dll" "F:\KALONLINE PRIVATE SERVER\Eigener Server mit source\Core 2017 Work File\Pulse\Pulse\Pulse\../Build/Pulse.dll"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: :VCEnd" wurde mit dem Code 1 beendet.
+     1>Die Erstellung des Projekts "F:\KALONLINE PRIVATE SERVER\Eigener Server mit source\Core 2017 Work File\Pulse\Pulse\Pulse\Pulse\Pulse.vcxproj" ist abgeschlossen, build Ziel(e) -- FEHLER.
+
+Fehler beim Erstellen
+
+Verstrichene Zeit 00:00:04.60

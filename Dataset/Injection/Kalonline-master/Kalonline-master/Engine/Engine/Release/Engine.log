@@ -1,0 +1,45 @@
+﻿Der Buildvorgang wurde am 11.10.2018 04:11:46 gestartet.
+     1>Projekt "F:\KALONLINE PRIVATE SERVER\Eigener Server mit source\Core 2017 Work File\Engine\Engine\Engine\Engine.vcxproj" auf Knoten "2", rebuild Ziel(e).
+     1>_PrepareForClean:
+         Die Datei "Release\Engine.lastbuildstate" wird gelöscht.
+       InitializeBuildStatus:
+         Aktualisieren des Timestamps von "Release\Engine.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D ENGINE_EXPORTS /D _WINDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt base64.cpp Buff.cpp Chatbox.cpp Engine.cpp Graphics.cpp Hooks.cpp Interface.cpp OnSend.cpp Packets.cpp Protect.cpp Tools.cpp
+         base64.cpp
+         Buff.cpp
+         Chatbox.cpp
+         Engine.cpp
+         Graphics.cpp
+         Hooks.cpp
+         Interface.cpp
+         OnSend.cpp
+         Packets.cpp
+         Protect.cpp
+         Tools.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\KALONLINE PRIVATE SERVER\Eigener Server mit source\Core 2017 Work File\Engine\Engine\Release\Engine.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"Exports.def" /MANIFEST /ManifestFile:"Release\Engine.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\KALONLINE PRIVATE SERVER\Eigener Server mit source\Core 2017 Work File\Engine\Engine\Release\Engine.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\KALONLINE PRIVATE SERVER\Eigener Server mit source\Core 2017 Work File\Engine\Engine\Release\Engine.lib" /MACHINE:X86 /DLL Release\base64.obj
+         Release\Buff.obj
+         Release\Chatbox.obj
+         Release\Engine.obj
+         Release\Graphics.obj
+         Release\Hooks.obj
+         Release\Interface.obj
+         Release\OnSend.obj
+         Release\Packets.obj
+         Release\Protect.obj
+         Release\Tools.obj
+            Bibliothek "F:\KALONLINE PRIVATE SERVER\Eigener Server mit source\Core 2017 Work File\Engine\Engine\Release\Engine.lib" und Objekt "F:\KALONLINE PRIVATE SERVER\Eigener Server mit source\Core 2017 Work File\Engine\Engine\Release\Engine.exp" werden erstellt.
+         Code wird generiert.
+         Codegenerierung ist abgeschlossen.
+         Engine.vcxproj -> F:\KALONLINE PRIVATE SERVER\Eigener Server mit source\Core 2017 Work File\Engine\Engine\Release\Engine.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\KALONLINE PRIVATE SERVER\Eigener Server mit source\Core 2017 Work File\Engine\Engine\Release\Engine.dll;#2" /manifest Release\Engine.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Die Datei "Release\Engine.unsuccessfulbuild" wird gelöscht.
+         Aktualisieren des Timestamps von "Release\Engine.lastbuildstate".
+     1>Die Erstellung des Projekts "F:\KALONLINE PRIVATE SERVER\Eigener Server mit source\Core 2017 Work File\Engine\Engine\Engine\Engine.vcxproj" ist abgeschlossen, rebuild Ziel(e).
+
+Das Erstellen war erfolgreich.
+
+Verstrichene Zeit 00:00:04.82
